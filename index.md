@@ -3,17 +3,26 @@ layout: default
 title: Primo Prototype Documentation
 ---
 
+<div id="edit"> <a href="http://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md">Edit this Document</a></div>
+
+<div id="notes">
+	This is the first draft of this documentation, published on the 28th of February. <br>
+	The Arduino code is still missing, we are working on it but it will be published next week. Keep an eye on this page as new content will be added daily.
+	<br><br>
+	<a href="http://github.com/primo-io/prototype-documentation">See it on GitHub</a>
+</div>
+
 ##0. What is this document
 
 ![primo play set](images/photo/maker-guide.jpg)
 This document gathers and organizes all the information necessary to build a Primo Prototype.
 You can find more info about the project on the [primo.io](http://primo.io) website.
 
-#IMPORTANT
+##IMPORTANT
 The documentation and instructions inclosed in this document will allow you to produce a Primo prototype as show in this video, which is different to the final product. However, we will also keep releasing the necessary documentation for updates and new versions of the Primo Play Set, including files for the final product, as and when we have them tried and tested.
 
 
-#MORE IMPORTANT
+##MORE IMPORTANT
 The license under we released the Primo Play Set gives you the freedom of building your own Prototype. However, **you are not entitled to sell it as Primo**, under any circumstances. Also, if you make a derivative of our product, you have to quote the original project (as we do with all our sources), and use our same license: [CC by-nc-sa 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). <br>
 This is not just to protect intellectual property, but also to keep a track of the flow of ideas. As we are spending a lot of time and resources to keep this documentation free and accessible, we also encourage you to "give back" and post your derivatives, results, suggestions, insults and praises. We are more than happy to hear and answer your feedbacks and blog cool stuff.
 
@@ -141,6 +150,8 @@ The whole product is made out of laser cut wood, mainly 4 mm thick, with only on
 Building Cubetto and the Interface Board is a laborious but very simple procedure, their shells are basically boxes. The real complexity lays in the Instruction Blocks. They are a double 4mm wood layer with magnets and resistors soldered inside.
 
 ##4. Prototype Making
+
+###[Download Source Files](files/primo-prototype-laser.zip)
 
 ###4.1 Interface Board
 
