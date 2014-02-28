@@ -5,29 +5,28 @@ title: Home
 
 ##0. What is this document
 
-In this document I gathered and organized all the information necessary to build a Primo Prototype.
+In this document we gathered and organized all the information necessary to build a Primo Play Set Prototype.
 You can find more info about the project on the [primo.io](http://primo.io) website.
 
 #IMPORTANT
-The product outcome that you can obtain from these documents, it won't be similar or representing the final Primo Product. 
-It's a prototype that will just imitate the functioning of the final project.
+The documentation and instructions inclosed in this document will allow you to produce a Primo prototype as show in this video, which is different to the final product. However, we will also keep releasing the necessary documentation for updates and new versions of the Primo Play Set, including files for the final product, as and when we have them tried and tested.
 
 
 #MORE IMPORTANT
-The license under we released the Primo Play Set gives you the freedom of building your own Prototype. However, you are not entitled to sell it as Primo, under any circumstances. Also, if you make a derivative of our product, you have to quote the original project (as we do with all our sources), and use our same license: [CC by-nc-sa 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
-This is not just to protect intellectual property, but also to keep a track of the flow of ideas. As we are spending a lot of time and resources to keep this documentation free and accessible, we also encourage you to "give back" and post your derivatives, results, suggestions, insults and praises on our forum. We are more than happy to hear and answer your feedbacks and blog cool stuff.
+The license under which we release the Primo Play Set gives you the freedom to build your own Prototype. However, under any circumstances, you are not entitled to sell it as Primo Play Set. If you wish to develop a derivative of our product, you have to quote the original project (as we do with all our sources), and use the same license we do: [CC by-nc-sa 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
+This is not just to protect intellectual property, but also to keep track of all the ideas spawned from the original project and create a community. We are spending a lot of time and resources to keep this documentation free and accessible, we encourage you to "give back" to our community by posting your derivatives, results, suggestions, insults and praises on our forum. We will listen to feedback and blog cool stuff directly on our website.
 
 ##1. What is Primo
 
 <primo picture>
 
-Primo is a tangible interface designed to introduce programming logic to little children (3 to 7), without the need for literacy. The goal of the game is to drive a little robot called Cubetto back to his house. To accomplish the goal, children have to program the little robot using just a limited set of instructions: forward, left, right and function. While the first three are rather intuitive, the last one calls a sub-routine, an extra line of instructions packed in a single command.
+Primo is a tangible interface designed to introduce programming logic to little children (3 to 7), without the need for literacy. The goal of the game is to drive a little robot called Cubetto back to his house. To accomplish the goal, children have to program the little robot using a limited set of instructions: forward, left, right and function. While the first three are rather intuitive, the last one calls a sub-routine, an extra line of instructions packed in a single command.
 
 <primo video>
 
 ##2. Research
 
-Teaching programming to children is a quite relevant topic at the moment and we know that there is already a moderate number of solutions that try to accomplish this. However, not many of them work without a screen. We see an increasing number of Apps for tablets and computers, also in combination with physical robots, but none of them is as free from the pixel domain as the Primo Play Set.
+Teaching programming to children is a widely debated topic. We are aware of a moderate number of solutions that try to accomplish this for children above the ages of 8. However, there aren't many of these solutions suitable for younger children, and there aren't any that work without a screen or without the need for literacy. We see an increasing number of Apps for tablets and computers, also in combination with physical robots, but none of them are free from the pixel domain as the Primo Play Set.
 
 I chose wood as main material, first of all because it's natural; the feeling you get is very warm and it makes a nice sound. The second reason is cultural. I went to observe the games used in traditional kindergartens in Switzerland (where the product was originally designed) to discover that the games loved by children are all made out of wood. These toys are very durable and you can see marks and scratches on them, signs of their past usage from other children. It's a material with memory. 
 In the  third place, I chose wood because of the contrast that it makes with technology. Inside of Primo there's a circuit board, but I wanted to keep everything as magical as possible, hiding the complexity.
