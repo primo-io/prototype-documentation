@@ -6,7 +6,7 @@ title: Primo Prototype Documentation
 ##0. What is this document
 
 ![primo play set](/images/photo/maker-guide.jpg)
-In this document I gathered and organized all the information necessary to build a Primo Prototype.
+This document gathers and organizes all the information necessary to build a Primo Prototype.
 You can find more info about the project on the [primo.io](http://primo.io) website.
 
 #IMPORTANT
@@ -14,8 +14,8 @@ The documentation and instructions inclosed in this document will allow you to p
 
 
 #MORE IMPORTANT
-The license under we released the Primo Play Set gives you the freedom of building your own Prototype. However, you are not entitled to sell it as Primo, under any circumstances. Also, if you make a derivative of our product, you have to quote the original project (as we do with all our sources), and use our same license: [CC by-nc-sa 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
-This is not just to protect intellectual property, but also to keep a track of the flow of ideas. As we are spending a lot of time and resources to keep this documentation free and accessible, we also encourage you to "give back" and post your derivatives, results, suggestions, insults and praises on our forum. We are more than happy to hear and answer your feedbacks and blog cool stuff.
+The license under we released the Primo Play Set gives you the freedom of building your own Prototype. However, **you are not entitled to sell it as Primo**, under any circumstances. Also, if you make a derivative of our product, you have to quote the original project (as we do with all our sources), and use our same license: [CC by-nc-sa 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). <br>
+This is not just to protect intellectual property, but also to keep a track of the flow of ideas. As we are spending a lot of time and resources to keep this documentation free and accessible, we also encourage you to "give back" and post your derivatives, results, suggestions, insults and praises. We are more than happy to hear and answer your feedbacks and blog cool stuff.
 
 ##1. What is Primo
 
@@ -37,7 +37,7 @@ Wood was chose as the main material, first of all because it's natural; you get 
 
 The concept behind Primo is heavily inspired by the work of Seymour Papert, a mathematician who co-founded the MIT Artificial Intelligence Laboratory with Marvin Minsky, in the sixties (if you are interested in the subject, we encourage you to read Mindstorms, his most famous book). He was directing the team who invented LOGO, probably the most used and long lasting resource to teach programming to children. The goal of Seymour Papert was not just to teach code, but also to help children discover their own personal way of solving problems. Primo can be considered an extreme simplification of LOGO and the physical turtle. We limited the instructions, to their purest form, avoiding any kind of textual or numerical language.
 
-The first prototype was realised in SUPSI Lugano by Matteo (Primo.io co-founder and interaction designer), during the [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). Matteo's background is in product design, and after learning the Arduino basics and a bit of code to create the prototype, began to look around for technical solutions that were approachable for a novice, so as to develop an application like Primo. The main issues were two: making a robot car from scratch and an interface board that could easily recognize different instructions.
+The first prototype was realised in SUPSI Lugano by Matteo Loglio (Primo.io co-founder and interaction designer), during the [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). Matteo's background is in product design, and after learning the Arduino basics and a bit of code to create the prototype, began to look around for technical solutions that were approachable for a novice, so as to develop an application like Primo. The main issues were two: making a robot car from scratch and an interface board that could easily recognize different instructions.
 
 The first issue was solved by using an [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) from David Cuartielles, one of the Arduino founders who was holding a lecture in SUPSI. The Oh_Oh robot is an open project, you can find the source files in the link above. It is basically a car shaped Arduino, only an XBee for radio communication was added.
 

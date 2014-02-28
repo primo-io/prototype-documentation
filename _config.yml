@@ -1,4 +1,4 @@
 name: Primo DIY Documentation
 markdown: redcarpet
 pygments: true
-baseurl: prototype-documentation
+baseurl: /prototype-documentation
