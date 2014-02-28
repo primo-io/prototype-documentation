@@ -147,7 +147,7 @@ Once the glue has dried, put the magnets in the little holes. Turn your top laye
 
 Now the electronics. Start by making rails for the 5V and the GND, all along the hole lines like in the picture. The first every prototype never had copper strips, it had wires (which you can also use), but in this prototype we used copper tape also for the rails. A real 100% time saver. It also makes things easier for creating connections.
 
-The next step is to wire one of the two connectors of every hole, to the ground rail. If you used copper tape, you can just use a tiny extra bit of it, just enough to touch both ends.
+The next step is to wire one of the two connectors of every hole, to the ground rail. If you used copper tape, you can just use a tiny extra sliver, just enough to touch both ends.
 
 Now we have to connect the other side of each connector to the 5V rail, but this time, with a 10KΩ resistor in-between. A cool thing of copper tape is that solder melts very well on top of it. This is the technique i used:
 
@@ -163,7 +163,7 @@ Now it's time to put the LEDs; stick one red LED in each one of the 16 holes, th
 
 The long leg of the LED, must be connected to a basic Arduino digital pin I/O pin On the Arduino Mega, these pins are numbered from 22 to 53. The LEDs must be connected in order, so that it will be much easier to access them later on in the code, in my prototype for example I started from pin number 30 up to 45 (there are 16 LEDs). The starting point is not important, as long as they are in the correct sequencial order. This means for example that if we start from pin 30, the first LED must be attached to pin 30, the second to pin 31, the third to pin 32 and so on until LED 16 to pin 45. 
 
-I soldered the cables to a rack of double male headers, as the digital pins on the Arduino Mega are layed out in a double line. In this way it's easy to plug and remove the Arduino from the board.
+In this prototype the cables are soldered to a rack of double male headers, as the digital pins on the Arduino Mega are layed out in a double line. This way it's easy to plug and remove the Arduino from the board.
 
 <rack headers>
 
@@ -171,9 +171,9 @@ Once all the LEDs are soldered, we have to solder our hand made connectors. Thes
 
 <illustration connessioni connectors>
 
-Here I used some single male headers, as the analog pins are all on a single line.
+We used some single male headers, as the analog pins are all on a single line.
 
-The last thing to connect is the button: take it and solder two cables to two opposite headers, then slip them trough the button hole, from the top, and push it all the way down, until it stops. Now flip the board, you should have the two wires coming out of the hole. Connect them as in the following illustration: one straight to 5V, the other one to GND using a 10k Resistor. Then connect it to an Arduino digital pin from the button-end of the resistor, I used pin number 50.
+The last thing to connect is the button: take it and solder two cables to two opposite headers, then slip them trough the button hole, from the top, and push it all the way down, until it stops. Now flip the board, you should have the two wires coming out of the hole. Connect them as in the following illustration: one straight to 5V, the other one to GND using a 10k Resistor. Then connect it to an Arduino digital pin from the button-end of the resistor, in this example we used pin number 50.
 
 <button-illustration>
 
@@ -189,7 +189,7 @@ This is one instruction block, exploded:
 
 To make the Instruction Blocks, the first thing you have to do is laser cut the files, there's one for 4mm thick wood and one for 1mm wood. They are four layers, numbered from 1 to 4 and the drawings provided can be used to make 16 blocks, four of each kind.
 
-Each one of the four types of the blocks has a different resistor. The way I used them in the prototype is the following:
+Each block has a different resistor. These are the resistors used in the prototype:
 
 FORWARD: 4.7K Ω
 LEFT: 100K Ω
@@ -198,7 +198,7 @@ FUNCTION: 10K Ω
 
 To make blocks, first you have to glue part 4 with part 3. 
 
-After the glue has dried, this is the moment to paint the product. See the illustration below to see what part should be colored:
+After the glue has dried, you can start painting. See the illustration below to see what part should be colored:
 
 <colors>
 
@@ -206,11 +206,11 @@ Now you have to cut two pieces of copper tape, 40mm long. Slip them in the holes
 
 <ikea-blocks>
 
-After that, you have to put the magnet in the hole. While doing this, BE SURE THAT IT IS CORRECTELY ORIENTED, so that the block 'sticks' into the hole. If you put it the other way, it's going to be repelled by the other magnet, a funny outcome but not what we want to achieve.
+After that, you have to put the magnet in the hole. While doing this, BE SURE THAT IT IS CORRECTELY ORIENTED, so that the block is atracted to its hole rather than being propelled from it. A funny outcome but not what we want to achieve.
 
-After putting the magnet, you can stop it with a little drop of hot glue and before the glue gets cold, put the right resistor on top, with the 'legs' laying on the copper tape. After that, the resistor must be soldered on the two pieces. After soldering, cut the extra leg and glue part 2 on top of the resistor.
+Fix the magnet with a drop of hot glue and before the glue gets cold, put the right resistor on top, with the 'legs' laying on the copper tape. After that, the resistor must be soldered on the two pieces. After soldering, cut the extra leg length and glue part 2 on top of the resistor.
 
-Finish your block by gluing the last layer, part number 1, on the top, then repeat the whole process for 16 blocks :)
+Finish your block by gluing the last layer, part number 1, on the top, then repeat the entire process for every single block :)
 
 ###CUBETTO
 
@@ -218,18 +218,18 @@ Electronics:
 
 The prototype for Cubetto can be built using an Arduino Uno or Leonardo, with a Proto Wireless Shield on top. The reason for the Proto Shield is because it has a small prototyping area, that is wide enough to put the motor driver, the connectors for the optical encoders, motors and power. 
 
-Cubetto has to spin 90 degrees left and right. A very inaccurate way is tgo use timing event, like "spin right for one second" and you can expect more or less the same result. More or less because it depends a lot from different factors, such as the floor, the battery power and so on. The way I solved this problem, is by detecting the amount of rotation from the wheel using two CNY70 optical encoders in combination with a sticker. The round sticker goes in the inner wheel and it's something like this:
+Cubetto has to spin 90 degrees left and right. A very inaccurate way is to use timing event, like "spin right for one second" and you can expect more or less the same result, but not very accurately. The result depends on different factors, such as the floor, the battery power and so on. The way we solve this problem, is by detecting the amount of rotation from the wheel using two CNY70 optical encoders in combination with a sticker. The round sticker goes in the inner wheel and looks a little something like this:
 
 <wheel sticker>
 
-The sticker is split into black and white slices, this is because the CNY70 is able to detect the variation between a white slice and a black one. Basically inside it has an infrared LED that is always on and a phototransistor that is reading the amount of infrared light. When a black material is facing the component, almost no light is relfected, as the black color tends to absorb it. On the contrary, if the material is white, it reflects all the light, so the value read from the sensor it's very high. The difference between readings is used to count the rotation steps.
+The sticker is split into black and white slices, this is because the CNY70 is able to detect the variation between a white slice and a black one. Basically inside it has an infrared LED that is always on and a phototransistor that is reading the amount of infrared light. When a black material is facing the component, almost no light is relfected, the black slice tends to absorb it. On the contrary, if the material is white, it reflects all the light, so the value read from the sensor is very high. The difference between readings is used to count the rotation steps.
 
-The prototyping area of the Wireless Proto Shield is where i soldered the motor driver and other connectors for the other parts. For these I used simple male headers as connector and female headers on the other part.
+The prototyping area of the Wireless Proto Shield is where the motor driver and other connectors for the other parts are soldered. For these, simply use male headers as connector and female headers on the other part.
 
 <illu shield>
 <male-female connectors>
 
-The SN754410 motor driver has 16 pins that must be connected like in the following scheme:
+The SN754410 motor driver has 16 pins that must be connected following this scheme:
 
 <SN754410 scheme>
 
@@ -244,17 +244,17 @@ Don't mount the motors for now, first you have to mount the ball casters.
 <ball casters illu>
 <ball casters picture>
 
-Now the CNY70. Solder the two opposite headers, that must be connected to 5V, together with a wire; then solder three wires to the remaining headers of the CNY70. At the end of these wires solder a row of three femal headers, that will be connected later on to the headers on the proto shield.
+Now the CNY70. Solder the two opposite headers, that must be connected to 5V, together with a wire; then solder three wires to the remaining headers of the CNY70. At the end of these wires solder a row of three femal headers. They will later be connected on to the headers of the proto shield.
 
-The two cny70 must be placed on the edge of the bottom layer, with the LED and the photoransistot horizontally aligned. To fix them you can use some hot glue (or other types of glue). 
+The two cny70 must be placed on the edge of the bottom layer, with the LED and the phototransistor horizontally aligned. To fix them you can use some hot glue (or other types of glue). 
 
 See the picture to understand the location.
 
 <CNY70 photo>
 
-Just like for the CNY70, solder two wires to the little flaps that come out of each motor. You can twist the two wires to make them more resistent, then at the end, solder them to a row of two female header, just like in the illustration.
+Just as for the CNY70, solder two wires to the little flaps that come out of each motor. You can twist the two wires to make them more resistent, then at the end, solder them to a row of two female headers, just like in the illustration.
 
-Now print the inner drawing with the black and white slices, then glue them on a piece of cardboard (or laser cut wood, that's up to you), cut the perimeter and make a hole in the middle, as they will be inserted between the motor and the wheel. The white and black slices must point towards the inner side of Cubetto and the distance between the print and the CNY70 must be between 1 and 3 millimeters for the CNY70 to work properly.
+Now print the inner drawing with the black and white slices, glue them on a piece of cardboard (or laser cut wood, that's up to you), cut the perimeter and make a hole in the middle, as they will be inserted between the motor and the wheel. The white and black slices must point towards the inner side of Cubetto and the distance between the print and the CNY70 must be between 1 and 3 millimeters for the CNY70 to work properly.
 
 <inner-cubetto-wheel>
 
