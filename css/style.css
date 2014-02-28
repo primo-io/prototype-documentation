@@ -1,0 +1,63 @@
+body {
+	font-family: 'Inconsolata', sans-serif;
+}
+
+h1 {
+	font-weight: normal;
+	border-bottom: 2px solid red;
+	padding-bottom: 0.5em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid red;
+}
+
+#container {
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+#container img {
+	max-width: 100%;
+	margin: 1em 0;
+}
+
+#container p {	
+	margin: 2em 0;
+	line-height: 1.4em;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#container img.float {
+	float: left;
+	margin: 0 1em;
+	max-width: 40%;
+}
+
+.cf:after,
+.cf:before {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	zoom: 1;
+}
