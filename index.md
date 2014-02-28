@@ -26,42 +26,41 @@ Primo is a tangible interface designed to introduce programming logic to little 
 
 ##2. Research
 
-Teaching programming to children is a widely debated topic. We are aware of a moderate number of solutions that try to accomplish this for children above the ages of 8. However, there aren't many of these solutions suitable for younger children, and there aren't any that work without a screen or without the need for literacy. We see an increasing number of Apps for tablets and computers, also in combination with physical robots, but none of them are free from the pixel domain as the Primo Play Set.
+Teaching programming to children is a widely debated topic. We are aware of a moderate number of solutions that try to accomplish this for children above the ages of 8. However, there aren't many of these solutions suitable for younger children, and there aren't any that work without a screen or without the need for literacy. We see an increasing number of Apps for tablets and computers that also work in combination with physical robots, but none of them are completely free from the pixel domain in the same way the Primo Play Set is.
 
-I chose wood as main material, first of all because it's natural; the feeling you get is very warm and it makes a nice sound. The second reason is cultural. I went to observe the games used in traditional kindergartens in Switzerland (where the product was originally designed) to discover that the games loved by children are all made out of wood. These toys are very durable and you can see marks and scratches on them, signs of their past usage from other children. It's a material with memory. 
-In the  third place, I chose wood because of the contrast that it makes with technology. Inside of Primo there's a circuit board, but I wanted to keep everything as magical as possible, hiding the complexity.
+Wood was chose as the main material, first of all because it's natural; you get a warm feeling from it and it makes a nice sound. The second reason is cultural. Observations were conducted on games used in traditional kindergartens in Switzerland (where the product was originally designed) to discover that the games loved by children were all made out of wood. Wooden toys are very durable and you can see marks and scratches on them, signs of their past usage from other children. It's a material with memory. Wood was also chosen as a material because of the stark contrast it creates with technology. Inside of Primo there's a circuit board, but we wanted to create a "magical" experience, hiding the complexity of the play set.
 
 <papert>
 
-The concept behind Primo is heavily inspired by the work of Seymour Papert, a mathematician who co-founded the MIT Artificial Intelligence Laboratory with Marvin Minsky, in the sixties (if you are interested in the subject, we encourage you to read Mindstorms, his most famous book). He was directing the team who invented LOGO, probably the most used and long lasting resource to teach programming to children. The goal of Seymour Papert was not just to teach code, but also to help children discover their own personal way of solving problems. Primo can be considered an extreme simplification of LOGO and the physical turtle. We limited the instructions, to their purest form, avoiding any kind of textual or numerical language.
+The concept behind Primo is heavily inspired by the work of Seymour Papert, a mathematician who co-founded the MIT Artificial Intelligence Laboratory with Marvin Minsky, in the sixties (if you are interested in the subject, we encourage you to read Mindstorms, his most famous book). He directed the team who invented LOGO, probably the most used and long lasting resource for teaching programming to children. The goal of Seymour Papert was not just to teach code, but also to help children discover their own personal way of solving problems. Primo can be considered an extreme simplification of LOGO and the physical turtle. We limited the instructions, to their purest form, avoiding any kind of textual or numerical language, translating the abstract nature of LOGO, making it accessible and tangible for a younger audience.
 
-I realized the first prototype in SUPSI Lugano, during the [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). My background is in product design, at the time I just learned the Arduino basics and a bit of code, so after the concept, I started to look around for technical solutions that were approachable for me at the time to develop this kind of application. The main issues were two: making a robot car from scratch and an interface board that could easily recognize different kinds of instructions.
+The first prototype was realised in SUPSI Lugano by Matteo (Primo.io co-founder and interaction designer), during the [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). Matteo's background is in product design, and after learning the Arduino basics and a bit of code to create the prototype, began to look around for technical solutions that were approachable for a novice, so as to develop an application like Primo. The main issues were two: making a robot car from scratch and an interface board that could easily recognize different instructions.
 
-For the first issue I was lucky enough to get a [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) from David Cuartielles, one of the Arduino founders who was holding a lecture in SUPSI. The Oh_Oh robot is an open project, you can find the source files in the link above. It is basically a car shaped Arduino, I just had to add an XBee for radio communication.
+The first issue was solved by using an [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) from David Cuartielles, one of the Arduino founders who was holding a lecture in SUPSI. The Oh_Oh robot is an open project, you can find the source files in the link above. It is basically a car shaped Arduino, only an XBee for radio communication was added.
 
-The second issue was how to design a reliable way to detect the blocks. I started to look around for solutions and the inspiration came from a [CIID](http://ciid.dk/) project called ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
+The second issue was designing a reliable way to detect the blocks. A solution was inspired by a [CIID](http://ciid.dk/) project called ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
 
 <embed-barcode piano>
 
-The idea is to use multiple blocks that can be recognized by a board using resistors. It's a basic voltage divider: with the analog pins of an Arduino I can read the resistor values. It's a very simple method, but rather effective for a prototype.
+The idea is to use multiple blocks that can be recognized by a board using resistors. It's a basic voltage divider: with the analog pins of an Arduino I reading the resistor values. It's a very simple method, but rather effective for a prototype.
 
-Design wise there are some features that required testing, for this reason I went trough some testing iterations before arriving at the actual design. 
+Design wise, some features required testing. The actual design is the result of several iterations. 
 
-The 'snake' or 'zig-zag' path of the instruction sequence is due to avoid literacy pre-conceptions.  
+The 'snake' or 'zig-zag' path of the instruction sequence is to avoid literacy pre-conceptions.  
 
 <literacy illustration>
 
-Then there's the 'D' shape of the blocks. The reason for this is because the blocks can be inserted just in one way, to be consistent with the path design and the direction of the car. Multiple designs can be used for this. The D shape was chosen as it is basically an 'oriented circle' and circle is the shape that I wanted to use from the beginning, to recall similar pin-board designs.
+The 'D' shape of the block connectors, was designed so that blocks could be inserted just one way, to be consistent with the path design and the direction of the car. Multiple designs can be used for this. The D shape was chosen as it is basically an 'oriented circle' and as a shape, also recalls similar pin-board designs.
 
 <instruction blocks>
 
-Instruction Blocks design is still in testing. The actual design works fine, children get the idea very quickly, they are just confused between left and right. We are currently testing more designs to see if this can be improved.
+The design for the shape of the instruction blocks is still being tested. The actual design works perfectly well, children grasp the difference between the left and right block very quickly, but we are currently working on improving this further.
 
 <primo vimeo concept video embed>
 
-At the beginning the design for the robot was a toy car. It was very complicated and time consuming to produce them, as it's all laser-cut layer by layer then glued together, then sanded for like one hour. The car had another major issue, it was very boy oriented. We are aware of the big discussion that involves 'brain toys' producer, claiming that the majority of them are all boy-oriented. Think about LEGO or Meccano. We totally agree that the way to go is gender neutral, we didn't want to create a toy specifically for boys or girls, so we opted for a very neutral geometry, a box.
+At the beginning the robot was a toy car. A very complicated and time consuming shape to produce, as it's a laser-cut shape glued together layer by layer, and subsequently sanded for over an hour. The car had another major issue, it was very boy oriented. We wanted to avoid entering in discussions about 'brain toy' producers being criticised of only producing boy-oriented toys. We wanted to stay neutral, we didn't want to create a toy specifically for boys or girls, and instead opted for a very neutral geometry, a box.
 
-We gave the little box a personality, to make it appealing for children, we drew a face on it and we called it Cubetto (little cube in Italian). The idea with Cubetto is also to create a basic module that can be expanded and customized.
+A name was given to the little box, along with a personality and a similey face, making it even more appealing for children. The robot is called Cubetto (little cube in Italian). The idea with Cubetto is also to create a basic module that can be expanded and customized easily in the future.
 
 <cubetto face>
 
@@ -69,13 +68,13 @@ We gave the little box a personality, to make it appealing for children, we drew
 
 ###3.1 The basics
 
-Primo is composed of three parts: Cubetto, Interface Board and Instruction Blocks ans children interact with Interface Board by placing Instruction Blocks into the holes, to create a sequence. 
+Primo is composed of three parts: An Interface Board, Cubetto and a set of Instruction Blocks. Children interact with the Interface Board by placing Instruction Blocks into the holes, to create a sequence (A program) that Cubetto executes. 
 
-There are four types of Instruction Blocks, this means that we will use resistors of 4 different values, possibly quite distant between each other.
+There are four types of Instruction Blocks, this means that resistors of 4 different values can be used, possibly quite distant between each other.
 
 The blocks are inserted into the holes of the Interface Board, where the resistor value is identified. After that, the values are processed into a string that is sent to Cubetto using two XBee modules. Cubetto then executes the instructions, one after the other.
 
-The brain of the prototype are two Arduino Boards, a UNO (or Leonardo, even Duemilanove maybe) for Cubetto, and a Mega for the Interface Board, where we need 16 analog inputs.
+The brain of the prototype is made of two Arduino Boards, a UNO (A Leonardo or a Duemilanove will also do) for Cubetto, and a Mega for the Interface Board, where 16 analog inputs are required.
 
 ###3.2 Electronics
 
@@ -124,30 +123,29 @@ Instruction Blocks
 
 ###3.3 Energy
 
-Cubetto and (optionally) Interface Board, are battery powered. For the prototype you can use LiPo battery or regular AA batteries, that's entirely up to you. We used both, LiPo batteries are good but you need some extra equipment, if you are starting from scratch we recommend AA batteries. Just mind that they disacharge very quickly, so the best would be to use rechargeable batteries, like NiMh.
+Cubetto and (optionally) the Interface Board, are battery powered. For the prototype you can use a LiPo battery or regular AA batteries, that's entirely up to you. We used both, LiPo batteries are good but you need extra equipment, if you are starting from scratch we recommend AA batteries. Just remember they run out very quickly, so the best would be to use rechargeable batteries, like NiMh.
 
 ###3.4 Prototype Design
 
-The whole product is made out of laser cut wood, mainly 4 mm thick, just one layer is 1mm. You can laser this using Ponoko or other local services, like a FabLab. The first prototype was laser cut inside FabLab Lugano, while the product development advanced in FabLab Torino, where part of Primo development team still resides.
+The whole product is made out of laser cut wood, mainly 4 mm thick, with only one layer being 1mm thick. You can laser cut these parts using services like Ponoko, or we can like a FabLab. The first prototype was laser cut inside FabLab Lugano, while the product development advanced in FabLab Torino, where part of Primo development team still resides.
 
-Building Cubetto and the Interface Board it's quite long but very simple, as their shells are basically boxes. The real complexity lays in the Instruction Blocks.
-They are a double 4mm wood layer with magnets and resistors soldered inside.
+Building Cubetto and the Interface Board is a laborious but very simple procedure, their shells are basically boxes. The real complexity lays in the Instruction Blocks. They are a double 4mm wood layer with magnets and resistors soldered inside.
 
 ##4. Prototype Making
 
 ###4.1 Interface Board
 
-To make the interface board you have to laser cut two files: interfaceBoard4.dxf and interfaceBoard1.dxf: the first one is for 4mm plywood and the second one for 1mm plywood. As you can see from the files, the parts are numbered, to ease thew assembly process. The numbers are stored on a different layer, so you can easily remove them before laser cutting. I recommend to adjust the hole for the push button, based on the size of the button that you have.
+To make the interface board you have to laser cut two files: interfaceBoard4.dxf and interfaceBoard1.dxf: the first one is for 4mm plywood and the second one for 1mm plywood. As you can see from the files, the parts are numbered, to ease the assembly process. The numbers are stored on a different layer, so you can easily remove them before lasering. We recommend adjusting the hole for the push button, based on the size of the button you wish to use or have.
 
-First of all, you have to glue parts 3 and 4 together, use the holes in the corners to align them while gluing and let it rest for a night. 
+First of all, you have to glue parts 3 and 4 together, use the holes in the corners to align them with screws while gluing and let it rest for a night. 
 
-Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part that you just glued, they should be at least 30mm wide on each side. Once you finished, you can now glue all the remaining top layers of the interface board, this is the correct order:
+Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part you just glued, they should be at least 30mm wide on each side. Once you finished, you can now glue the remaining top layers of the interface board, this is the correct order:
 
 <order>
 
-Once the glue has dried, we put the magnets in the little holes. Turn your top layer upside-down and fill the little holes with the magnets, all in the same direction of course. Doesn't matter if north or south, just be very sure that they are all facing the same direction (either all the North or South end facing the same side). Seal the hole with a drop of hot glue.
+Once the glue has dried, put the magnets in the little holes. Turn your top layer upside-down and fill the little holes with the magnets, make sure they are all in the same direction of course. Doesn't matter if north or south, just be very sure that they are all facing the same direction (either all the North or South end facing the same side). Seal the hole with a drop of hot glue.
 
-Now the electronics. Start by making rails for the 5V and the GND, all along the hole lines as in the picture. I used to make them using naked wire, just in my last prototype i tried to use copper tape also for the rails and it's really time saving. Also, you can create connections very easily. 
+Now the electronics. Start by making rails for the 5V and the GND, all along the hole lines like in the picture. The first every prototype never had copper strips, it had wires (which you can also use), but in this prototype we used copper tape also for the rails. A real 100% time saver. It also makes things easier for creating connections.
 
 The next step is to wire one of the two connectors of every hole, to the ground rail. If you used copper tape, you can just use a tiny extra bit of it, just enough to touch both ends.
 
