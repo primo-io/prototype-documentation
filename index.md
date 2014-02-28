@@ -6,24 +6,22 @@ title: Primo Prototype Documentation
 ##0. What is this document
 
 ![primo play set](/images/photo/maker-guide.jpg)
-
 In this document I gathered and organized all the information necessary to build a Primo Prototype.
 You can find more info about the project on the [primo.io](http://primo.io) website.
 
-##IMPORTANT
-The product outcome that you can obtain from these documents, it won't be similar or representing the final Primo Product. 
-It's a prototype that will just imitate the functioning of the final project.
+#IMPORTANT
+The documentation and instructions inclosed in this document will allow you to produce a Primo prototype as show in this video, which is different to the final product. However, we will also keep releasing the necessary documentation for updates and new versions of the Primo Play Set, including files for the final product, as and when we have them tried and tested.
 
 
-##MORE IMPORTANT
-The license under we released the Primo Play Set gives you the freedom of building your own Prototype. However, you are not entitled to sell it as Primo, under any circumstances. Also, if you make a derivative of our product, you have to quote the original project (as we do with all our sources) and use our same license: [CC by-nc-sa 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
+#MORE IMPORTANT
+The license under we released the Primo Play Set gives you the freedom of building your own Prototype. However, you are not entitled to sell it as Primo, under any circumstances. Also, if you make a derivative of our product, you have to quote the original project (as we do with all our sources), and use our same license: [CC by-nc-sa 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
 This is not just to protect intellectual property, but also to keep a track of the flow of ideas. As we are spending a lot of time and resources to keep this documentation free and accessible, we also encourage you to "give back" and post your derivatives, results, suggestions, insults and praises on our forum. We are more than happy to hear and answer your feedbacks and blog cool stuff.
 
 ##1. What is Primo
 
 ![primo play set](/images/photo/primo.jpg)
 
-Primo is a tangible interface designed to introduce programming logic to little children (3 to 7), without the need for literacy. The goal of the game is to drive a little robot called Cubetto back to his house. To accomplish the goal, children have to program the little robot using just a limited set of instructions: forward, left, right and function. While the first three are rather intuitive, the last one calls a sub-routine, an extra line of instructions packed in a single command.
+Primo is a tangible interface designed to introduce programming logic to little children (3 to 7), without the need for literacy. The goal of the game is to drive a little robot called Cubetto back to his house. To accomplish the goal, children have to program the little robot using a limited set of instructions: forward, left, right and function. While the first three are rather intuitive, the last one calls a sub-routine, an extra line of instructions packed in a single command.
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
@@ -31,46 +29,45 @@ Primo is a tangible interface designed to introduce programming logic to little 
 
 ##2. Research
 
-Teaching programming to children is a quite relevant topic at the moment and we know that there is already a moderate number of solutions that try to accomplish this. However, not many of them work without a screen. We see an increasing number of Apps for tablets and computers, also in combination with physical robots, but none of them is as free from the pixel domain as the Primo Play Set.
+Teaching programming to children is a widely debated topic. We are aware of a moderate number of solutions that try to accomplish this for children above the ages of 8. However, there aren't many of these solutions suitable for younger children, and there aren't any that work without a screen or without the need for literacy. We see an increasing number of Apps for tablets and computers that also work in combination with physical robots, but none of them are completely free from the pixel domain in the same way the Primo Play Set is.
 
-I chose wood as main material, first of all because it's natural; the feeling you get is very warm and it makes a nice sound. The second reason is cultural. I went to observe the games used in traditional kindergartens in Switzerland (where the product was originally designed) to discover that the games loved by children are all made out of wood. These toys are very durable and you can see marks and scratches on them, signs of their past usage from other children. It's a material with memory. 
-In the  third place, I chose wood because of the contrast that it makes with technology. Inside of Primo there's a circuit board, but I wanted to keep everything as magical as possible, hiding the complexity.
+Wood was chose as the main material, first of all because it's natural; you get a warm feeling from it and it makes a nice sound. The second reason is cultural. Observations were conducted on games used in traditional kindergartens in Switzerland (where the product was originally designed) to discover that the games loved by children were all made out of wood. Wooden toys are very durable and you can see marks and scratches on them, signs of their past usage from other children. It's a material with memory. Wood was also chosen as a material because of the stark contrast it creates with technology. Inside of Primo there's a circuit board, but we wanted to create a "magical" experience, hiding the complexity of the play set.
 
 <img class="float" src="/images/photo/logo-turtle.jpg">
 
-The concept behind Primo is heavily inspired by the work of [Seymour Papert](http://en.wikipedia.org/wiki/Seymour_Papert), a mathematician who co-founded the MIT Artificial Intelligence Laboratory with Marvin Minsky, in the sixties (if you are interested in the subject, we encourage you to read Mindstorms, his most famous book). He was directing the team who invented LOGO, probably the most used and long lasting resource to teach programming to children. The goal of Seymour Papert was not just to teach code, but also to help children discover their own personal way of solving problems. Primo can be considered an extreme simplification of LOGO and the physical turtle. We limited the instructions, to their purest form, avoiding any kind of textual or numerical language.
+The concept behind Primo is heavily inspired by the work of Seymour Papert, a mathematician who co-founded the MIT Artificial Intelligence Laboratory with Marvin Minsky, in the sixties (if you are interested in the subject, we encourage you to read Mindstorms, his most famous book). He was directing the team who invented LOGO, probably the most used and long lasting resource to teach programming to children. The goal of Seymour Papert was not just to teach code, but also to help children discover their own personal way of solving problems. Primo can be considered an extreme simplification of LOGO and the physical turtle. We limited the instructions, to their purest form, avoiding any kind of textual or numerical language.
 
-I realized the first prototype in SUPSI Lugano, during the [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). My background is in product design, at the time I just learned the Arduino basics and a bit of code, so after the concept, I started to look around for technical solutions that were approachable for me at the time to develop this kind of application. The main issues were two: making a robot car from scratch and an interface board that could easily recognize different kinds of instructions.
+The first prototype was realised in SUPSI Lugano by Matteo (Primo.io co-founder and interaction designer), during the [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). Matteo's background is in product design, and after learning the Arduino basics and a bit of code to create the prototype, began to look around for technical solutions that were approachable for a novice, so as to develop an application like Primo. The main issues were two: making a robot car from scratch and an interface board that could easily recognize different instructions.
 
-For the first issue I was lucky enough to get a [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) from David Cuartielles, one of the Arduino founders who was holding a lecture in SUPSI. The Oh_Oh robot is an open project, you can find the source files in the link above. It is basically a car shaped Arduino, I just had to add an XBee for radio communication.
+The first issue was solved by using an [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) from David Cuartielles, one of the Arduino founders who was holding a lecture in SUPSI. The Oh_Oh robot is an open project, you can find the source files in the link above. It is basically a car shaped Arduino, only an XBee for radio communication was added.
 
-The second issue was how to design a reliable way to detect the blocks. I started to look around for solutions and the inspiration came from a [CIID](http://ciid.dk/) project called ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
+The second issue was designing a reliable way to detect the blocks. A solution was inspired by a [CIID](http://ciid.dk/) project called ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div> 
 
-The idea is to use multiple blocks that can be recognized by a board using resistors. It's a basic voltage divider: with the analog pins of an Arduino I can read the resistor values. It's a very simple method, but rather effective for a prototype.
+The idea is to use multiple blocks that can be recognized by a board using resistors. It's a basic voltage divider: with the analog pins of an Arduino I reading the resistor values. It's a very simple method, but rather effective for a prototype.
 
-Design wise there are some features that required testing, for this reason I went trough some testing iterations before arriving at the actual design. 
+Design wise, some features required testing. The actual design is the result of several iterations. 
 
-The 'snake' or 'zig-zag' path of the instruction sequence is due to avoid literacy pre-conceptions.  
+The 'snake' or 'zig-zag' path of the instruction sequence is to avoid literacy pre-conceptions.  
 
 ![left to right](/images/illustrations/left-to-right.jpg)
 
-Then there's the 'D' shape of the blocks. The reason for this is because the blocks can be inserted just in one way, to be consistent with the path design and the direction of the car. Multiple designs can be used for this. The D shape was chosen as it is basically an 'oriented circle' and circle is the shape that I wanted to use from the beginning, to recall similar pin-board designs.
+The 'D' shape of the block connectors, was designed so that blocks could be inserted just one way, to be consistent with the path design and the direction of the car. Multiple designs can be used for this. The D shape was chosen as it is basically an 'oriented circle' and as a shape, also recalls similar pin-board designs.
 
 ![instruction blocks](/images/photo/instruction-blocks.jpg)
 
-Instruction Blocks design is still in testing. The actual design works fine, children get the idea very quickly, they are just confused between left and right. We are currently testing more designs to see if this can be improved.
+The design for the shape of the instruction blocks is still being tested. The actual design works perfectly well, children grasp the difference between the left and right block very quickly, but we are currently working on improving this further.
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
-At the beginning the design for the robot was a toy car. It was very complicated and time consuming to produce them, as it's all laser-cut layer by layer then glued together, then sanded for like one hour. The car had another major issue, it was very boy oriented. We are aware of the big discussion that involves 'brain toys' producer, claiming that the majority of them are all boy-oriented. Think about LEGO or Meccano. We totally agree that the way to go is gender neutral, we didn't want to create a toy specifically for boys or girls, so we opted for a very neutral geometry, a box.
+At the beginning the robot was a toy car. A very complicated and time consuming shape to produce, as it's a laser-cut shape glued together layer by layer, and subsequently sanded for over an hour. The car had another major issue, it was very boy oriented. We wanted to avoid entering in discussions about 'brain toy' producers being criticised of only producing boy-oriented toys. We wanted to stay neutral, we didn't want to create a toy specifically for boys or girls, and instead opted for a very neutral geometry, a box.
 
-We gave the little box a personality, to make it appealing for children, we drew a face on it and we called it Cubetto (little cube in Italian). The idea with Cubetto is also to create a basic module that can be expanded and customized.
+A name was given to the little box, along with a personality and a similey face, making it even more appealing for children. The robot is called Cubetto (little cube in Italian). The idea with Cubetto is also to create a basic module that can be expanded and customized easily in the future.
 
 ![cubetto](/images/photo/cubetto.jpg)
 
@@ -78,13 +75,13 @@ We gave the little box a personality, to make it appealing for children, we drew
 
 ###3.1 The basics
 
-Primo is composed of three parts: Cubetto, Interface Board and Instruction Blocks ans children interact with Interface Board by placing Instruction Blocks into the holes, to create a sequence. 
+Primo is composed of three parts: An Interface Board, Cubetto and a set of Instruction Blocks. Children interact with the Interface Board by placing Instruction Blocks into the holes, to create a sequence (A program) that Cubetto executes. 
 
-There are four types of Instruction Blocks, this means that we will use resistors of 4 different values, possibly quite distant between each other.
+There are four types of Instruction Blocks, this means that resistors of 4 different values can be used, possibly quite distant between each other.
 
 The blocks are inserted into the holes of the Interface Board, where the resistor value is identified. After that, the values are processed into a string that is sent to Cubetto using two XBee modules. Cubetto then executes the instructions, one after the other.
 
-The brain of the prototype are two Arduino Boards, a UNO (or Leonardo, even Duemilanove maybe) for Cubetto, and a Mega for the Interface Board, where we need 16 analog inputs.
+The brain of the prototype is made of two Arduino Boards, a UNO (A Leonardo or a Duemilanove will also do) for Cubetto, and a Mega for the Interface Board, where 16 analog inputs are required.
 
 ###3.2 Electronics
 
@@ -135,24 +132,23 @@ Instruction Blocks
 
 ###3.3 Energy
 
-Cubetto and (optionally) Interface Board, are battery powered. For the prototype you can use LiPo battery or regular AA batteries, that's entirely up to you. We used both, LiPo batteries are good but you need some extra equipment, if you are starting from scratch we recommend AA batteries. Just mind that they disacharge very quickly, so the best would be to use rechargeable batteries, like NiMh.
+Cubetto and (optionally) the Interface Board, are battery powered. For the prototype you can use a LiPo battery or regular AA batteries, that's entirely up to you. We used both, LiPo batteries are good but you need extra equipment, if you are starting from scratch we recommend AA batteries. Just remember they run out very quickly, so the best would be to use rechargeable batteries, like NiMh.
 
 ###3.4 Prototype Design
 
-The whole product is made out of laser cut wood, mainly 4 mm thick, just one layer is 1mm. You can laser this using Ponoko or other local services, like a FabLab. The first prototype was laser cut inside FabLab Lugano, while the product development advanced in FabLab Torino, where part of Primo development team still resides.
+The whole product is made out of laser cut wood, mainly 4 mm thick, with only one layer being 1mm thick. You can laser cut these parts using services like Ponoko, or we can like a FabLab. The first prototype was laser cut inside FabLab Lugano, while the product development advanced in FabLab Torino, where part of Primo development team still resides.
 
-Building Cubetto and the Interface Board it's quite long but very simple, as their shells are basically boxes. The real complexity lays in the Instruction Blocks.
-They are a double 4mm wood layer with magnets and resistors soldered inside.
+Building Cubetto and the Interface Board is a laborious but very simple procedure, their shells are basically boxes. The real complexity lays in the Instruction Blocks. They are a double 4mm wood layer with magnets and resistors soldered inside.
 
 ##4. Prototype Making
 
 ###4.1 Interface Board
 
-To make the interface board you have to laser cut two files: interfaceBoard4.dxf and interfaceBoard1.dxf: the first one is for 4mm plywood and the second one for 1mm plywood. As you can see from the files, the parts are numbered, to ease thew assembly process. The numbers are stored on a different layer, so you can easily remove them before laser cutting. I recommend to adjust the hole for the push button, based on the size of the button that you have.
+To make the interface board you have to laser cut two files: interfaceBoard4.dxf and interfaceBoard1.dxf: the first one is for 4mm plywood and the second one for 1mm plywood. As you can see from the files, the parts are numbered, to ease the assembly process. The numbers are stored on a different layer, so you can easily remove them before lasering. We recommend adjusting the hole for the push button, based on the size of the button you wish to use or have.
 
-First of all, you have to glue parts 3 and 4 together and also 1 and 2 together. Use the holes in the corners to align them while gluing and let it rest for a night. 
+First of all, you have to glue parts 3 and 4 together, use the holes in the corners to align them with screws while gluing and let it rest for a night. 
 
-![glue stuff](/images/illustrations/board-esploso.jpg)
+Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part that you just glued, they should be at least 30mm wide on each side. Once you finished, you can now glue all the remaining top layers of the interface board, this is the correct order:
 
 Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part that you just glued, they should be at least 30mm wide on each side. 
 
@@ -161,10 +157,9 @@ Then take the copper tape, cut 32 pieces of 70mm each and put them inside the re
 
 Once you finished, you can now glue the previously glued parts, 1+2 with 3+4.
 
-Once the glue has dried, we put the magnets in the little holes. Turn your top layer upside-down and fill the little holes with the magnets, all in the same direction of course. Doesn't matter if north or south, just be very sure that they are all facing the same direction (either all the North or South end facing the same side). Seal the hole with a drop of hot glue.
+Once the glue has dried, put the magnets in the little holes. Turn your top layer upside-down and fill the little holes with the magnets, make sure they are all in the same direction of course. Doesn't matter if north or south, just be very sure that they are all facing the same direction (either all the North or South end facing the same side). Seal the hole with a drop of hot glue.
 
-Now the electronics. Start by making rails for the 5V and the GND, all along the hole lines as in the picture. I used to make them using naked wire, just in my last prototype I tried to use copper tape also for the rails and it's really time saving. Also, you can create connections very easily. 
-
+Now the electronics. Start by making rails for the 5V and the GND, all along the hole lines like in the picture. The first every prototype never had copper strips, it had wires (which you can also use), but in this prototype we used copper tape also for the rails. A real 100% time saver. It also makes things easier for creating connections.
 ![rails](/images/illustrations/board-3.jpg)
 
 The next step is to wire one of the two connectors of every hole, to the ground rail. If you used copper tape, you can just use a tiny extra bit of it, just enough to touch both ends.
@@ -179,7 +174,7 @@ At the end of this process, you should have something like this:
 
 ![10k scheme](/images/illustrations/board-6.jpg)
 
-Now it's time to put the LEDs; stick one red LED in each one of the 16 holes, then use a drop of hot glue to seal them to the wood. Once the glue is cold, we have to connect them. Just mind that LEDs have a polarity: the long leg is the anode and the short one the cathode. 
+Now it's time to put the LEDs; stick one red LED in each one of the 16 holes, then use a drop of hot glue to seal them to the wood. Once the glue is cold, we have to connect them. Just mind that LEDs have a polarity: the long leg is the anode and the short one the cathode. Connect each cathode to the ground rail, using a 220Ω Resistor.
 
 ![10k](/images/photo/diy-docs-6.jpg)
 
@@ -207,7 +202,7 @@ Here I used some single male headers, as the analog pins are all on a single lin
 </p>
 
 <p>
-The last thing to connect is the button: take it and solder two cables to two opposite headers, then slip them trough the button hole, from the top, and push it all the way down, until it stops. Now flip the board, you should have the two wires coming out of the hole. Connect them as in the following illustration: one straight to 5V, the other one to GND using a 10k Resistor. Then connect it to an Arduino digital pin from the button-end of the resistor, I used pin number 50.
+The last thing to connect is the button: take it and solder two cables to two opposite headers, then slip them trough the button hole, from the top, and push it all the way down, until it stops. Now flip the board, you should have the two wires coming out of the hole. Connect them as in the following illustration: one straight to 5V, the other one to GND using a 10k Resistor. Then connect it to an Arduino digital pin from the button-end of the resistor, in this example we used pin number 50.
 </p>
 </div>
 
@@ -232,7 +227,7 @@ This is one instruction block, exploded:
 
 To make the Instruction Blocks, the first thing you have to do is laser cut the files, there's one for 4mm thick wood and one for 1mm wood. They are four layers, numbered from 1 to 4 and the drawings provided can be used to make 16 blocks, four of each kind.
 
-Each one of the four types of the blocks has a different resistor. The way I used them in the prototype is the following:
+Each block has a different resistor. These are the resistors used in the prototype:
 
 FORWARD: 4.7K Ω<br>
 LEFT: 100K Ω<br>
@@ -241,7 +236,7 @@ FUNCTION: 10K Ω
 
 To make blocks, first you have to glue part 4 with part 3. 
 
-After the glue has dried, this is the moment to paint the product. See the illustration below to see what part should be colored:
+After the glue has dried, you can start painting. See the illustration below to see what part should be colored:
 
 ![image](/images/illustrations/colors.jpg)
 
@@ -249,11 +244,11 @@ Now you have to cut two pieces of copper tape, 40mm long. Slip them in the holes
 
 ![photo](/images/illustrations/instruction-block-guide.jpg)
 
-After that, you have to put the magnet in the hole. While doing this, **BE SURE THAT IT IS CORRECTELY ORIENTED**, so that the block 'sticks' into the hole. If you put it the other way, it's going to be repelled by the other magnet, a funny outcome but not what we want to achieve.
+After that, you have to put the magnet in the hole. While doing this, BE SURE THAT IT IS CORRECTELY ORIENTED, so that the block 'sticks' into the hole. If you put it the other way, it's going to be repelled by the other magnet, a funny outcome but not what we want to achieve.
 
-After putting the magnet, you can stop it with a little drop of hot glue and before the glue gets cold, put the right resistor on top, with the 'legs' laying on the copper tape. After that, the resistor must be soldered on the two pieces. After soldering, cut the extra leg and glue part 2 on top of the resistor.
+Fix the magnet with a drop of hot glue and before the glue gets cold, put the right resistor on top, with the 'legs' laying on the copper tape. After that, the resistor must be soldered on the two pieces. After soldering, cut the extra leg length and glue part 2 on top of the resistor.
 
-Finish your block by gluing the last layer, part number 1, on the top, then repeat the whole process for 16 blocks :)
+Finish your block by gluing the last layer, part number 1, on the top, then repeat the entire process for every single block :)
 
 ###CUBETTO
 
@@ -261,15 +256,16 @@ Electronics:
 
 The prototype for Cubetto can be built using an Arduino Uno or Leonardo, with a Proto Wireless Shield on top. The reason for the Proto Shield is because it has a small prototyping area, that is wide enough to put the motor driver, the connectors for the optical encoders, motors and power. 
 
-Cubetto has to spin 90 degrees left and right. A very inaccurate way is to use timing event, like "spin right for one second" and you can expect more or less the same result. More or less because it depends a lot from different factors, such as the floor, the battery power and so on. The way I solved this problem, is by detecting the amount of rotation from the wheel using two CNY70 optical encoders in combination with a sticker. The round sticker goes in the inner wheel and it's something like this:
+Cubetto has to spin 90 degrees left and right. A very inaccurate way is tgo use timing event, like "spin right for one second" and you can expect more or less the same result. More or less because it depends a lot from different factors, such as the floor, the battery power and so on. The way I solved this problem, is by detecting the amount of rotation from the wheel using two CNY70 optical encoders in combination with a sticker. The round sticker goes in the inner wheel and it's something like this:
 
 ![photo](/images/photo/diy-docs-14.jpg)
 
-The sticker is split into black and white slices, this is because the CNY70 is able to detect the variation between a white slice and a black one. Basically inside it has an infrared LED that is always on and a phototransistor that is reading the amount of infrared light. When a black material is facing the component, almost no light is reflected, as the black color tends to absorb it. On the contrary, if the material is white, it reflects all the light, so the value read from the sensor it's very high. The difference between readings is used to count the rotation steps.
+The sticker is split into black and white slices, this is because the CNY70 is able to detect the variation between a white slice and a black one. Basically inside it has an infrared LED that is always on and a phototransistor that is reading the amount of infrared light. When a black material is facing the component, almost no light is relfected, as the black color tends to absorb it. On the contrary, if the material is white, it reflects all the light, so the value read from the sensor it's very high. The difference between readings is used to count the rotation steps.
 
 ![photo](/images/illustrations/cny70-physycs.jpg)
 
-The prototyping area of the Wireless Proto Shield is where i soldered the motor driver and other connectors for the other parts.
+The prototyping area of the Wireless Proto Shield is where the motor driver and other connectors for the other parts are soldered. For these, simply use male headers as connector and female headers on the other part.
+
 
 ![photo](/images/illustrations/wireless-shield-connections.jpg)
 
@@ -279,7 +275,7 @@ For these I used simple male headers as connector and female headers on the othe
 
 ![photo](/images/illustrations/wireless-shield-connections-1.jpg)
 
-The SN754410 motor driver has 16 pins that must be connected like in the following scheme:
+The SN754410 motor driver has 16 pins that must be connected following this scheme:
 
 ![photo](/images/illustrations/motor-driver.jpg)
 
@@ -295,17 +291,17 @@ Don't mount the motors for now, first you have to mount the ball casters.
 
 ![photo](/images/photo/diy-docs-9.jpg)
 
-Now the CNY70. Solder the two opposite headers, that must be connected to 5V, together with a wire; then solder three wires to the remaining headers of the CNY70. At the end of these wires solder a row of three female headers, that will be connected later on to the headers on the Proto Shield.
+Now the CNY70. Solder the two opposite headers, that must be connected to 5V, together with a wire; then solder three wires to the remaining headers of the CNY70. At the end of these wires solder a row of three femal headers. They will later be connected on to the headers of the proto shield.
 
-The two CNY70 must be placed on the edge of the bottom layer, with the LED and the photo transistor horizontally aligned. To fix them you can use some hot glue (or other types of glue). 
+The two cny70 must be placed on the edge of the bottom layer, with the LED and the photoransistot horizontally aligned. To fix them you can use some hot glue (or other types of glue). 
 
 See the picture to understand the location.
 
 ![photo](/images/photo/diy-docs-11.jpg)
 
-Just like for the CNY70, solder two wires to the little flaps that come out of each motor. You can twist the two wires to make them more resistant, then at the end, solder them to a row of two female header, just like in the illustration.
+Just like for the CNY70, solder two wires to the little flaps that come out of each motor. You can twist the two wires to make them more resistent, then at the end, solder them to a row of two female header, just like in the illustration.
 
-Now print the inner drawing with the black and white slices, then glue them on a piece of cardboard (or laser cut wood, that's up to you), cut the perimeter and make a hole in the middle, as they will be inserted between the motor and the wheel. The white and black slices must point towards the inner side of Cubetto and the distance between the print and the CNY70 must be between 1 and 3 millimeters for the CNY70 to work properly.
+Now print the inner drawing with the black and white slices, glue them on a piece of cardboard (or laser cut wood, that's up to you), cut the perimeter and make a hole in the middle, as they will be inserted between the motor and the wheel. The white and black slices must point towards the inner side of Cubetto and the distance between the print and the CNY70 must be between 1 and 3 millimeters for the CNY70 to work properly.
 
 ![photo](/images/photo/diy-docs-10.jpg)
 
