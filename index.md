@@ -19,7 +19,7 @@ This document gathers and organizes all the information necessary to build a Pri
 You can find more info about the project on the [primo.io](http://primo.io) website.
 
 ##IMPORTANT
-The documentation and instructions inclosed in this document will allow you to produce a Primo prototype as show in this video, which is different to the final product. However, we will also keep releasing the necessary documentation for updates and new versions of the Primo Play Set, including files for the final product, as and when we have them tried and tested.
+The documentation and instructions inclosed in this document will allow you to produce a Primo prototype as shown in this video, which is different to the final product. However, we will also keep releasing the necessary documentation for updates and new versions of the Primo Play Set, including files for the final product, as and when we have them tried and tested.
 
 
 ##MORE IMPORTANT
@@ -44,7 +44,7 @@ Wood was chose as the main material, first of all because it's natural; you get 
 
 <img class="float" src="images/photo/logo-turtle.jpg">
 
-The concept behind Primo is heavily inspired by the work of Seymour Papert, a mathematician who co-founded the MIT Artificial Intelligence Laboratory with Marvin Minsky, in the sixties (if you are interested in the subject, we encourage you to read Mindstorms, his most famous book). He was directing the team who invented LOGO, probably the most used and long lasting resource to teach programming to children. The goal of Seymour Papert was not just to teach code, but also to help children discover their own personal way of solving problems. Primo can be considered an extreme simplification of LOGO and the physical turtle. We limited the instructions, to their purest form, avoiding any kind of textual or numerical language.
+The concept behind Primo is heavily inspired by the work of Seymour Papert, a mathematician who co-founded the MIT Artificial Intelligence Laboratory with Marvin Minsky, in the sixties (if you are interested in the subject, we encourage you to read [Mindstorms](http://www.amazon.co.uk/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746/ref=sr_1_1?ie=UTF8&qid=1393675158&sr=8-1&keywords=mindstorms+papert), his most famous book). He was directing the team who invented LOGO, probably the most used and long lasting resource to teach programming to children. The goal of Seymour Papert was not just to teach code, but also to help children discover their own personal way of solving problems. Primo can be considered an extreme simplification of LOGO and the physical turtle. We limited the instructions, to their purest form, avoiding any kind of textual or numerical language.
 
 The first prototype was realised in SUPSI Lugano by Matteo Loglio (Primo.io co-founder and interaction designer), during the [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). Matteo's background is in product design, and after learning the Arduino basics and a bit of code to create the prototype, began to look around for technical solutions that were approachable for a novice, so as to develop an application like Primo. The main issues were two: making a robot car from scratch and an interface board that could easily recognize different instructions.
 
@@ -56,11 +56,11 @@ The second issue was designing a reliable way to detect the blocks. A solution w
 	<iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div> 
 
-The idea is to use multiple blocks that can be recognized by a board using resistors. It's a basic voltage divider: with the analog pins of an Arduino I reading the resistor values. It's a very simple method, but rather effective for a prototype.
+The idea is to use multiple blocks that can be recognized by a board using resistors. It's a basic voltage divider, with the analog pins of an Arduino reading the resistor values. It's a very simple method, but rather effective for a prototype.
 
-Design wise, some features required testing. The actual design is the result of several iterations. 
+Design-wise, some features required testing; the actual design is the result of several iterations. 
 
-The 'snake' or 'zig-zag' path of the instruction sequence is to avoid literacy pre-conceptions.  
+The 'snake' or 'zig-zag' path of the instruction sequence was chosen to avoid literacy pre-conceptions.  
 
 ![left to right](images/illustrations/left-to-right.jpg)
 
@@ -68,7 +68,7 @@ The 'D' shape of the block connectors, was designed so that blocks could be inse
 
 ![instruction blocks](images/photo/instruction-blocks.jpg)
 
-The design for the shape of the instruction blocks is still being tested. The actual design works perfectly well, children grasp the difference between the left and right block very quickly, but we are currently working on improving this further.
+The design for the shape of the instruction blocks is still being tested. The actual design works quite well, children grasp their meanings from the beginning, they just have some troubles at the beginning to get familiar with the left and right block. This is also because the "right" and "left" concept is generally quite new for them, for this reason we tried to visualize the direction on the block. We are currently testing other blocks design, to improve this even further.
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -145,7 +145,7 @@ Cubetto and (optionally) the Interface Board, are battery powered. For the proto
 
 ###3.4 Prototype Design
 
-The whole product is made out of laser cut wood, mainly 4 mm thick, with only one layer being 1mm thick. You can laser cut these parts using services like Ponoko, or we can like a FabLab. The first prototype was laser cut inside FabLab Lugano, while the product development advanced in FabLab Torino, where part of Primo development team still resides.
+The whole product is made out of laser cut wood, mainly 4 mm thick, with only one layer being 1mm thick. You can laser cut these parts using services like Ponoko, or in your local FabLab. The first prototype was laser cut inside [FabLab Lugano](http://fablab.supsi.ch/), while the product development advanced in [FabLab Torino](http://fablabtorino.org/), where part of Primo development team still resides.
 
 Building Cubetto and the Interface Board is a laborious but very simple procedure, their shells are basically boxes. The real complexity lays in the Instruction Blocks. They are a double 4mm wood layer with magnets and resistors soldered inside.
 
@@ -155,7 +155,7 @@ Building Cubetto and the Interface Board is a laborious but very simple procedur
 
 ###4.1 Interface Board
 
-To make the interface board you have to laser cut two files: interfaceBoard4.dxf and interfaceBoard1.dxf: the first one is for 4mm plywood and the second one for 1mm plywood. As you can see from the files, the parts are numbered, to ease the assembly process. The numbers are stored on a different layer, so you can easily remove them before lasering. We recommend adjusting the hole for the push button, based on the size of the button you wish to use or have.
+To make the interface board you have to laser cut two files: interface-board-4mm.dxf and interface-board-1mm.dxf: the first one is for 4mm plywood and the second one for 1mm plywood. As you can see from the files, the parts are numbered, to ease the assembly process. The numbers are stored on a different layer, so you can easily remove them before lasering. We recommend adjusting the hole for the push button, based on the size of the button you wish to use or have.
 
 First of all, you have to glue parts 3 and 4 together, use the holes in the corners to align them with screws while gluing and let it rest for a night. 
 
@@ -168,16 +168,19 @@ Then take the copper tape, cut 32 pieces of 70mm each and put them inside the re
 
 Once you finished, you can now glue the previously glued parts, 1+2 with 3+4.
 
-Once the glue has dried, put the magnets in the little holes. Turn your top layer upside-down and fill the little holes with the magnets, make sure they are all in the same direction of course. Doesn't matter if north or south, just be very sure that they are all facing the same direction (either all the North or South end facing the same side). Seal the hole with a drop of hot glue.
+![copper connectors](images/illustrations/board-esploso.jpg)
 
-Now the electronics. Start by making rails for the 5V and the GND, all along the hole lines like in the picture. The first every prototype never had copper strips, it had wires (which you can also use), but in this prototype we used copper tape also for the rails. A real 100% time saver. It also makes things easier for creating connections.
+Once the glue has dried, put the magnets in the little holes. Turn your top layer upside-down and fill the little holes with the magnets, make sure they are all in the same direction, doesn't matter if north or south. Seal the hole with a drop of hot glue.
+
+Now the electronics. Start by making rails for the 5V and the GND, all along the hole lines like in the picture. The first ever prototype never had copper strips, it had wires (which you can also use), but in this prototype we used copper tape also for the rails. A real 100% time saver. It also makes things easier for creating connections.
+
 ![rails](images/illustrations/board-3.jpg)
 
 The next step is to wire one of the two connectors of every hole, to the ground rail. If you used copper tape, you can just use a tiny extra bit of it, just enough to touch both ends.
 
 ![rails](images/illustrations/board-5.jpg)
 
-Now we have to connect the other side of each connector to the 5V rail, but this time, with a 10KΩ resistor in-between. A cool thing of copper tape is that solder melts very well on top of it. This is the technique i used:
+Now we have to connect the other side of each connector to the 5V rail, but this time, with a 10KΩ resistor in-between. A cool thing of copper tape is that solder melts very well on top of it. This is the technique used:
 
 ![10k](images/photo/diy-docs-1.jpg)
 
@@ -193,14 +196,14 @@ Connect each cathode to the ground rail, using a 220Ω Resistor.
 
 ![10k scheme](images/illustrations/board-7.jpg)
 
-The long leg of the LED, must be connected to a basic Arduino digital pin I/O pin On the Arduino Mega, these pins are numbered from 22 to 53. The LEDs must be connected in order, so that it will be much easier to access them later on in the code, in my prototype for example I started from pin number 30 up to 45 (there are 16 LEDs). 
+The long leg of the LED, must be connected to a digital I/O pin on the Arduino Mega, these pins are numbered from 22 to 53. The LEDs must be connected in order, so that it will be much easier to access them later on in the code, in my prototype for example I started from pin number 30 up to 45 (there are 16 LEDs). 
 The starting point is not important, as long as they are in the correct sequential order. This means for example that if we start from pin 30, the first LED must be attached to pin 30, the second to pin 31, the third to pin 32 and so on until LED 16 to pin 45. 
 
-I soldered the cables to a rack of double male headers, as the digital pins on the Arduino Mega are laid out in a double line. In this way it's easy to plug and remove the Arduino from the board.
+The cables are soldered to a rack of double male headers, as the digital pins on the Arduino Mega are laid out in a double line. In this way it's easy to plug and remove the Arduino from the board.
 
 ![rack](images/photo/diy-docs-4.jpg)
 
-Once all the LEDs are soldered, we have to solder our hand made connectors. These must be wired to the Arduino Mega analog pins, to read the different resistor values. Just like the LEDs, these must be connected in order, starting from A0 for hole 1 to A15 for hole 16. The wire has to start from the same point where we soldered previously the 10K resistor. See illustration:
+Once all the LEDs are soldered, we have to solder our hand made connectors. These must be wired to the Arduino Mega analog pins, to read the different resistor values. Just like the LEDs, these must be connected in order, starting from A0 for hole 1 to A15 for hole 16. The wire has to start from the same point where we soldered previously the 10K resistor. See the illustration:
 
 ![analog input board connections](images/illustrations/board-8.jpg)
 
@@ -213,7 +216,7 @@ Here I used some single male headers, as the analog pins are all on a single lin
 </p>
 
 <p>
-The last thing to connect is the button: take it and solder two cables to two opposite headers, then slip them trough the button hole, from the top, and push it all the way down, until it stops. Now flip the board, you should have the two wires coming out of the hole. Connect them as in the following illustration: one straight to 5V, the other one to GND using a 10k Resistor. Then connect it to an Arduino digital pin from the button-end of the resistor, in this example we used pin number 50.
+The last thing to connect is the button: take it and solder two cables to two opposite headers, then slip them trough the button hole, from the top, and push it all the way down, until it stops. Now flip the board, you should have the two wires coming out of the hole. Connect them as in the illustration: one straight to 5V, the other one to GND using a 10k Resistor. Then connect it to an Arduino digital pin from the button-end of the resistor, in this example we used pin number 50.
 </p>
 </div>
 
@@ -267,7 +270,7 @@ Electronics:
 
 The prototype for Cubetto can be built using an Arduino Uno or Leonardo, with a Proto Wireless Shield on top. The reason for the Proto Shield is because it has a small prototyping area, that is wide enough to put the motor driver, the connectors for the optical encoders, motors and power. 
 
-Cubetto has to spin 90 degrees left and right. A very inaccurate way is tgo use timing event, like "spin right for one second" and you can expect more or less the same result. More or less because it depends a lot from different factors, such as the floor, the battery power and so on. The way I solved this problem, is by detecting the amount of rotation from the wheel using two CNY70 optical encoders in combination with a sticker. The round sticker goes in the inner wheel and it's something like this:
+Cubetto has to spin 90 degrees left and right. A very inaccurate way is to use timing event, like "spin right for one second" and you can expect more or less the same result. "More or less" because it depends a lot from different factors, such as the floor, the battery power and so on. The way I solved this problem, is by detecting the amount of rotation from the wheel using two CNY70 optical encoders in combination with a sticker. The round sticker goes in the inner wheel and it's something like this:
 
 ![photo](images/photo/diy-docs-14.jpg)
 
@@ -302,7 +305,7 @@ Don't mount the motors for now, first you have to mount the ball casters.
 
 ![photo](images/photo/diy-docs-9.jpg)
 
-Now the CNY70. Solder the two opposite headers, that must be connected to 5V, together with a wire; then solder three wires to the remaining headers of the CNY70. At the end of these wires solder a row of three femal headers. They will later be connected on to the headers of the proto shield.
+Now the CNY70. Solder the two opposite headers, that must be connected to 5V, together with a wire; then solder three wires to the remaining headers of the CNY70. At the end of these wires solder a row of three female headers. They will later be connected on to the headers of the proto shield.
 
 The two cny70 must be placed on the edge of the bottom layer, with the LED and the photoransistot horizontally aligned. To fix them you can use some hot glue (or other types of glue). 
 
@@ -310,7 +313,7 @@ See the picture to understand the location.
 
 ![photo](images/photo/diy-docs-11.jpg)
 
-Just like for the CNY70, solder two wires to the little flaps that come out of each motor. You can twist the two wires to make them more resistent, then at the end, solder them to a row of two female header, just like in the illustration.
+Just like for the CNY70, solder two wires to the little flaps that come out of each motor. You can twist the two wires to make them more resistent, then at the end, solder a row of two female header, just like in the illustration.
 
 Now print the inner drawing with the black and white slices, glue them on a piece of cardboard (or laser cut wood, that's up to you), cut the perimeter and make a hole in the middle, as they will be inserted between the motor and the wheel. The white and black slices must point towards the inner side of Cubetto and the distance between the print and the CNY70 must be between 1 and 3 millimeters for the CNY70 to work properly.
 
