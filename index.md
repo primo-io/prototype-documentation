@@ -115,8 +115,8 @@ Cubetto
 * SolarBotics Gear Motors GM3 x 2 : 8.36 € - [Solarbotics Store](https://solarbotics.com/product/gm3/)
 * 2 Ball Casters : 5.79 € - [Solarbotics Store](https://solarbotics.com/product/23160/)
 * CNY70 x 2 : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Vishay/CNY70/?qs=%2fha2pyFaduj8YpDhNNtXszq4w32cl%2fAjUjdOwQUvJUM%3d)
-(* Battery Holder : 4 € - [Solarbotics Store](https://solarbotics.com/product/bholdaa_4_cell/))
-(* 4 x Rechargeable Batteries)
+* (optional) Battery Holder : 4 € - [Solarbotics Store](https://solarbotics.com/product/bholdaa_4_cell/)
+* (optional) 4 x Rechargeable Batteries
 
 Interface Board
 
