@@ -68,7 +68,7 @@ The 'D' shape of the block connectors, was designed so that blocks could be inse
 
 ![instruction blocks](images/photo/instruction-blocks.jpg)
 
-The design for the shape of the instruction blocks is still being tested. The actual design works quite well, children grasp their meanings from the beginning, they just have some troubles at the beginning to get familiar with the left and right block. This is also because the "right" and "left" concept is generally quite new for them, for this reason we tried to visualize the direction on the block. We are currently testing other blocks design, to improve this even further.
+The design for the shape of the instruction blocks is still being tested. The actual design works quite well, children easily grasp their meaning, they just have some troubles at the first to get familiar with the left and right block. This is also because the "right" and "left" concept is generally quite new for them. We are currently testing other blocks design, to improve this even further.
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
