@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Primo Prototype Documentation
+category: documentation
 ---
 
 <div id="edit"> <a href="http://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md">Edit this Document</a></div>
 
 <div id="notes">
 	This is the first draft of this documentation, published on the 28th of February. <br>
-	The Arduino code is still missing, we are working on it but it will be published soon. Keep an eye on this page as new content will be added daily.
+	The Arduino code is still missing, we are working on it but it will be published next week. Keep an eye on this page as new content will be added daily.
 	<br><br>
 	<a href="http://github.com/primo-io/prototype-documentation">See it on GitHub</a>
 </div>
@@ -26,43 +27,21 @@ The documentation and instructions inclosed in this document will allow you to p
 The license under we released the Primo Play Set gives you the freedom of building your own Prototype. However, **you are not entitled to sell it as Primo**, under any circumstances. Also, if you make a derivative of our product, you have to quote the original project (as we do with all our sources), and use our same license: [CC by-nc-sa 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). <br>
 This is not just to protect intellectual property, but also to keep a track of the flow of ideas. As we are spending a lot of time and resources to keep this documentation free and accessible, we also encourage you to "give back" and post your derivatives, results, suggestions, insults and praises. We are more than happy to hear and answer your feedbacks and blog cool stuff.
 
-##How to translate this document
+###How to translate this document
 
-If you want to translate this page in your language, you have multiple options:
+If you want to translate this page in your language, you have multiple options, depending on your .
 
-1. **super easy, no automation** Copy and paste this page in your text editor, translate it then mail it to us at [play@primo.io](mailto:play@primo.io)
+1. (super easy, no automation) The easiest one, is to copy and paste this page in your text editor, translate it then mail it to us at [play@primo.io](mailto:play@primo.io)
 
-2. **medium, light automation** Create an account on [GitHub](http://github.com), then open the [repository of this page](https://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md) and click on 'EDIT', in the top menu bar:
+2. (medium, light automation) Another very easy option is to create an account on [GitHub](http://github.com), then open the [repository of this page](https://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md) and click on 'EDIT', in the top menu bar:
 ![photo](images/screenshots/edit-1.jpg)
 Then your page turns into a text editor, where you are able to modify the page source. The page is written in [markdown](http://daringfireball.net/projects/markdown/syntax), very easy to understand. 
 ![photo](images/screenshots/edit-2.jpg)
 You don't have to modify this code, but just copy and paste the whole text in your local text editor, then translate the textual parts in your language, without modifying the parenthesis and HTML parts. Save the text then mail it to us at [play@primo.io](mailto:play@primo.io)
 
-3. **advanced, full automation** This is slightly advanced, but nothing too hard, if you are not familiar with GitHub you have the chance to learn something new :) <br>
-If you are already familiar with git, you have to fork the repository, all the translations are located in the _pages folder. To translate the page, just copy it with the starting language ("english.md" for example) in the same folder, then change the file name with the final language (spanish.md) then translate it. Once finished, make a pull request to add your file to the folder, it will be automatically added to the menu.<br><br>
-The steps above, expanded:
+3. (advanced, full automation) This is slightly advanced, but nothing too hard, if you are not familiar with GitHub you have the chance to learn something new :) 
+Ig you are already familiar with git, in a few words you have to copy the 
 
-    1. Make a GitHub account 
-    2. Download the GitHub application ([Mac](http://mac.github.com/), [Windows](http://windows.github.com/))
-    3. If it's the first time you use it, open it and input your GitHub login details
-    4. Go to [this documentation repository](https://github.com/primo-io/prototype-documentation)
-    5. Click on the "Fork" button in the top right corner, to fork this repository into your account.
-    6. Go to your giHub account, open the forked repository page and click on the "Clone in Desktop" button, on the right-hand sidebar. It will automatically open the GitHub application, asking where to save the local repository.
-    7. After selecting a folder path in your computer, click on "clone"
-    8. After downloading the files, navigate to your local folder where the repository has been downloaded.
-    9. Open the _pages folder, where all the translations are located. Select the starting language ("english.md" for example), then copy the file and rename it to your destination language ("spanish.md" for example), in the same folder.
-    10. Open the newly created file and translate it to your language, keeping the markdown formatting
-    11. After the translation is completed and saved, it's time to re-upload it on GitHub. Open the GitHub application and double click on the repository. On the left sidebar, click on the "Changes" tab. It should say "Uncommitted Changes".
-    12. Give a title to your edits, like "spanish translation", then click on "commit" and then on the "sync" button.
-    13. Go to your GitHub profile, on the forked repository page. You should be able to see your newly created page in the _pages folder. On the top, there should be a green button with two arrows, click on it to issue a pull request. (see picture below)
-    ![photo](images/screenshots/pull-1.jpg)
-
-	14. Then click on "Create Pull Request"
-	![photo](images/screenshots/pull-2.jpg)
-
-	15. Write a message for the pull request and that's it! Now we just have to approve the request.
-
-<br>
 
 ##1. What is Primo
 
