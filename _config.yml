@@ -1,4 +1,4 @@
 name: Primo DIY Documentation
 pygments: true
 markdown: kramdown
-baseurl: http://docs.primo.io
+baseurl: http://docs.primo.io/
