@@ -1,4 +1,3 @@
 name: Primo DIY Documentation
-markdown: redcarpet
 pygments: true
-baseurl: http://primo-io.github.io/prototype-documentation/
+baseurl: //docs.primo.io/
