@@ -20,8 +20,14 @@ The documentation and instructions inclosed in this document will allow you to p
 ##MORE IMPORTANT
 The license under we released the Primo Play Set gives you the freedom of building your own Prototype. However, **you are not entitled to sell it as Primo**, under any circumstances. Also, if you make a derivative of our product, you have to quote the original project (as we do with all our sources), and use our same license: [CC by-nc-sa 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). <br>
 This is not just to protect intellectual property, but also to keep a track of the flow of ideas. As we are spending a lot of time and resources to keep this documentation free and accessible, we also encourage you to "give back" and post your derivatives, results, suggestions, insults and praises. We are more than happy to hear and answer your feedbacks and blog cool stuff.
+<h2>
+<a href="#" id="translate-title">
+    How to translate this document
+</a>
+</h2>
 
-##How to translate this document
+
+<div markdown="1" id="translate">
 
 If you want to translate this page in your language, you have multiple options:
 
@@ -37,26 +43,27 @@ You don't have to modify this code, but just copy and paste the whole text in yo
 If you are already familiar with git, you have to fork the repository, all the translations are located in the 'languages' folder. To translate the page, just copy it with the starting language ("english.md" for example) in the same folder, then change the file name with the final language (spanish.md). Change the page header values 'title' (title in your language) and 'language' (the destination language with Capital letter) then translate the rest of the document. Once finished, make a pull request to add your file to the folder, it will be automatically added to the menu.<br><br>
 The steps above, expanded:
 
-    1. Make a GitHub account 
-    2. Download the GitHub application ([Mac](http://mac.github.com/), [Windows](http://windows.github.com/))
-    3. If it's the first time you use it, open it and input your GitHub login details
-    4. Go to [this documentation repository](https://github.com/primo-io/prototype-documentation)
-    5. Click on the "Fork" button in the top right corner, to fork this repository into your account.
-    6. Go to your giHub account, open the forked repository page and click on the "Clone in Desktop" button, on the right-hand sidebar. It will automatically open the GitHub application, asking where to save the local repository.
-    7. After selecting a folder path in your computer, click on "clone"
-    8. After downloading the files, navigate to your local folder where the repository has been downloaded.
-    9. Open the 'languages' folder, where all the translations are located. Select the starting language ("english.md" for example), then copy the file and rename it to your destination language ("spanish.md" for example), in the same folder.
-    10. Open the newly created file, change the page header values 'title' (title in your language) and 'language' (the destination language with Capital letter), then translate it to your language, keeping the markdown formatting
-    11. After the translation is completed and saved, it's time to re-upload it on GitHub. Open the GitHub application and double click on the repository. On the left sidebar, click on the "Changes" tab. It should say "Uncommitted Changes".
-    12. Give a title to your edits, like "spanish translation", then click on "commit" and then on the "sync" button.
-    13. Go to your GitHub profile, on the forked repository page. You should be able to see your newly created page in the 'languages' folder. On the top, there should be a green button with two arrows, click on it to issue a pull request. (see picture below)
-    ![photo]({{ site.baseurl }}images/screenshots/pull-1.jpg)
+  1. Make a GitHub account 
+  2. Download the GitHub application ([Mac](http://mac.github.com/), [Windows](http://windows.github.com/))
+  3. If it's the first time you use it, open it and input your GitHub login details
+  4. Go to [this documentation repository](https://github.com/primo-io/prototype-documentation)
+  5. Click on the "Fork" button in the top right corner, to fork this repository into your account.
+  6. Go to your giHub account, open the forked repository page and click on the "Clone in Desktop" button, on the right-hand sidebar. It will automatically open the GitHub application, asking where to save the local repository.
+  7. After selecting a folder path in your computer, click on "clone"
+  8. After downloading the files, navigate to your local folder where the repository has been downloaded.
+  9. Open the 'languages' folder, where all the translations are located. Select the starting language ("english.md" for example), then copy the file and rename it to your destination language ("spanish.md" for example), in the same folder.
+  10. Open the newly created file, change the page header values 'title' (title in your language) and 'language' (the destination language with Capital letter), then translate it to your language, keeping the markdown formatting
+  11. After the translation is completed and saved, it's time to re-upload it on GitHub. Open the GitHub application and double click on the repository. On the left sidebar, click on the "Changes" tab. It should say "Uncommitted Changes".
+  12. Give a title to your edits, like "spanish translation", then click on "commit" and then on the "sync" button.
+  13. Go to your GitHub profile, on the forked repository page. You should be able to see your newly created page in the 'languages' folder. On the top, there should be a green button with two arrows, click on it to issue a pull request. (see picture below)
+  ![photo]({{ site.baseurl }}images/screenshots/pull-1.jpg)
 
-	14. Then click on "Create Pull Request"
-	![photo]({{ site.baseurl }}images/screenshots/pull-2.jpg)
+  14. Then click on "Create Pull Request"
+	
+  ![photo]({{ site.baseurl }}images/screenshots/pull-2.jpg)
 
-	15. Write a message for the pull request and that's it! Now we just have to approve the request.
-
+  15. Write a message for the pull request and that's it! Now we just have to approve the request.
+</div>
 <br>
 
 ##1. What is Primo
@@ -66,7 +73,8 @@ The steps above, expanded:
 Primo is a tangible interface designed to introduce programming logic to little children (3 to 7), without the need for literacy. The goal of the game is to drive a little robot called Cubetto back to his house. To accomplish the goal, children have to program the little robot using a limited set of instructions: forward, left, right and function. While the first three are rather intuitive, the last one calls a sub-routine, an extra line of instructions packed in a single command.
 
 <div class="videoWrapper">
-	<iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+	<iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
+    </iframe> 
 </div>
 
 ##2. Research
@@ -86,7 +94,8 @@ The first issue was solved by using an [Oh_Oh board](http://david.cuartielles.co
 The second issue was designing a reliable way to detect the blocks. A solution was inspired by a [CIID](http://ciid.dk/) project called ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
 
 <div class="videoWrapper">
-	<iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
+    </iframe>
 </div> 
 
 The idea is to use multiple blocks that can be recognized by a board using resistors. It's a basic voltage divider, with the analog pins of an Arduino reading the resistor values. It's a very simple method, but rather effective for a prototype.
@@ -104,7 +113,9 @@ The 'D' shape of the block connectors, was designed so that blocks could be inse
 The design for the shape of the instruction blocks is still being tested. The actual design works quite well, children easily grasp their meaning, they just have some troubles at the first to get familiar with the left and right block. This is also because the "right" and "left" concept is generally quite new for them. We are currently testing other blocks design, to improve this even further.
 
 <div class="videoWrapper">
-	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">
+        
+    </iframe>
 </div>
 
 At the beginning the robot was a toy car. A very complicated and time consuming shape to produce, as it's a laser-cut shape glued together layer by layer, and subsequently sanded for over an hour. The car had another major issue, it was very boy oriented. We wanted to avoid entering in discussions about 'brain toy' producers being criticised of only producing boy-oriented toys. We wanted to stay neutral, we didn't want to create a toy specifically for boys or girls, and instead opted for a very neutral geometry, a box.
