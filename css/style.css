@@ -44,6 +44,7 @@ nav li a{
 
 #edit {
 	background: #DDD;
+	line-height: 1.4em;
 	color: black;
 	position: absolute;
 	top: 20px;
