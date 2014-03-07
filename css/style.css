@@ -40,11 +40,11 @@ nav li a{
 #notes {
 	background: #DDD;
 	padding: 2em;
+	line-height: 1.4em;
 }
 
 #edit {
-	background: #DDD;
-	line-height: 1.4em;
+	background: #DDD;	
 	color: black;
 	position: absolute;
 	top: 20px;
