@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Primo プロトタイプのドキュメント
-language: 日本の (coming soon)
+title: Documentazione del Prototipo di Primo
+language: Italiano (coming soon)
 category: language
 ---
+
 <br>
 
 <div id="content" markdown="1">

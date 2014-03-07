@@ -5,22 +5,15 @@ language: English
 category: language
 ---
 
-<div id="edit"> <a href="http://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md">Edit this Document</a></div>
 <br>
 
+<div id="content" markdown="1">
 ##0. What is this document
 
 ![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
 This document gathers and organizes all the information necessary to build a Primo Prototype.
 You can find more info about the project on the [primo.io](http://primo.io) website.
 
-##IMPORTANT
-The documentation and instructions inclosed in this document will allow you to produce a Primo prototype as shown in this video, which is different to the final product. However, we will also keep releasing the necessary documentation for updates and new versions of the Primo Play Set, including files for the final product, as and when we have them tried and tested.
-
-
-##MORE IMPORTANT
-The license under we released the Primo Play Set gives you the freedom of building your own Prototype. However, **you are not entitled to sell it as Primo**, under any circumstances. Also, if you make a derivative of our product, you have to quote the original project (as we do with all our sources), and use our same license: [CC by-nc-sa 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). <br>
-This is not just to protect intellectual property, but also to keep a track of the flow of ideas. As we are spending a lot of time and resources to keep this documentation free and accessible, we also encourage you to "give back" and post your derivatives, results, suggestions, insults and praises. We are more than happy to hear and answer your feedbacks and blog cool stuff.
 <h2>
 <a href="#" id="translate-title">
     How to translate this document
@@ -374,4 +367,10 @@ Take the battery holder and solder the black and red cable to other 2 female con
 ![photo]({{ site.baseurl }}images/photo/diy-docs-13.jpg)
 
 Now you can place the Arduino + Proto shield on top of the motors, plug all the headers on the shield and you have finished making Cubetto.
+</div>
 
+##Arduino
+
+###[Download Arduino Files](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
+
+Instructions in the sketch comments.

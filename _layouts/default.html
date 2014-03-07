@@ -1,11 +1,25 @@
 {% include head.html %}    
 {% include nav.html %}
+<div id="edit">
+	<a href="http://github.com/primo-io/prototype-documentation/blob/gh-pages/{{ page.path }}">Edit this Document</a>
+</div>
+<div id="container">    
+	<a id="logo" href="http://primo.io">    		
+		<img src="/images/logo.png">        			    			    		
+	</a>	    
+	<h1>{{ page.title }}</h1>
+	<div id="notes">
+		<h2>Read this first</h2>
 
-    <div id="container">    
-    <a id="logo" href="http://primo.io">    		
-    	<img src="/images/logo.png">        			    			    		
-    </a>	    
-    <h1>{{ page.title }}</h1>
-    {{ content }}
-    </div>
+		The documentation and instructions included in this document allows you to produce a Primo prototype, which <strong>is different from the product that we make and sell</strong>. Our product will be produced to a high standard of manufacturing, with custom design and electronic boards. These istructions are meant to be used to build a <strong>maker-friendly version</strong> of the product. This said, we will keep to <strong>maintain the open source nature of our product</strong> even with the commercial one, by releasing the necessary documentation for updates and new versions of the Primo Play Set, including files for the final product, as and when we have them tried and tested.
+		<br><br>
+		The license under which we released the Primo Play Set gives you the freedom of building your own Prototype. However, <strong>you are not entitled to sell it as Primo</strong>, under any circumstances. Also, if you make a derivative of our product, you have to quote the original project (as we do with all our sources), and use our same license: <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC by-nc-sa 4.0 International.</a> <br>
+		This is not just to protect intellectual property, but also to keep a track of the flow of ideas. As we are spending a lot of time and resources to keep this documentation free and accessible, we also encourage you to "give back" and post your derivatives, results, suggestions, insults and praises. We are more than happy to hear and answer your feedbacks and blog cool stuff.<br><br>
+		Here on the left you can find the translation of this document in different languages. <strong>If you want to translate</strong> this in your language, scroll down a bit, there's a section called "Translate this document" with instructions. <br><br>
+		The boring stuff is over, enjoy making your diy Primo :)
+		<br><br>
+		<a href="http://github.com/primo-io/prototype-documentation">See it on GitHub</a>
+	</div>
+	{{ content }}
+</div>
 {% include foot.html %}

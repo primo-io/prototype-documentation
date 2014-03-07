@@ -14,6 +14,19 @@ a {
 	border-bottom: 2px solid red;
 }
 
+nav {
+	position: absolute;
+}
+
+nav li {
+	list-style-type:none;
+	margin: 1.1em 0;
+}
+
+nav li a{
+	padding-bottom: .2em;
+}
+
 #logo {
 	display: block;
 	width: 120px;	
@@ -44,12 +57,16 @@ a {
 	margin: 70px auto;
 }
 
-#container img {
+#content img {
 	max-width: 100%;
 	margin: 1em 0;
 }
 
-#container p {	
+#container p {		
+	line-height: 1.4em;
+}
+
+#content p {	
 	margin: 2em 0;
 	line-height: 1.4em;
 }
