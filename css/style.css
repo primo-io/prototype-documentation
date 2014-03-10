@@ -16,15 +16,23 @@ a {
 
 nav {
 	position: absolute;
+	top: 20px;
+	left: 20px;
 }
 
-nav li {
-	list-style-type:none;
-	margin: 1.1em 0;
+select {
+	outline: none;
+	background: url('../images/illustrations/arrow.png') no-repeat 90% #DDD;	
+	border: none;
+	-webkit-appearance: none;
+	padding: 1em 4em 1em 1em;
+	border-radius: 0;
+	font-family: inconsolata;
+	font-size: 1em;	
 }
 
-nav li a{
-	padding-bottom: .2em;
+select option {
+	border-bottom: 1px solid red;
 }
 
 #logo {
@@ -55,7 +63,7 @@ nav li a{
 #container {
 	width: 80%;
 	max-width: 1024px;
-	margin: 70px auto;
+	margin: 120px auto;
 }
 
 #content img {
