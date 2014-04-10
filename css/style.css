@@ -14,6 +14,28 @@ a {
 	border-bottom: 2px solid red;
 }
 
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox] + label{
+    display: block;    
+    padding-left: 40px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    line-height: 32px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+input[type=checkbox]:checked + label{
+  background-position: left -32px;
+}
+
+label{
+  background-image:url('../images/assets/tick.png');
+}
+
 .navs {
 	position: absolute;
 	top: 20px;
@@ -44,12 +66,13 @@ select option {
 
 #logo {
 	display: block;
-	width: 120px;	
+	height: 120px;	
 	border-bottom: none;
 }
 
 #logo img{
-	width:100%;
+	max-height:100%;
+	max-width:100%;
 }
 
 #notes {

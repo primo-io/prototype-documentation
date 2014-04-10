@@ -1,6 +1,6 @@
 ---
 layout: derivative
-title: How to make a derivative
+title: Publish your derivative
 category: derivative
 folder: howto
 ---
@@ -13,13 +13,72 @@ The page URLs should be like:
 example:
 {{ site.baseurl }}derivatives/{{ page.folder }}/images/rubber.jpg
 -->
+If you worked on your Primo derivative, you can publish it here very easily. <br>
+We created a checklist to help you build a meaningful document that other people can use. 
 
-##Example
+###Tick all of them to see the next steps:
 
-![photo]({{ site.baseurl }}derivatives/{{ page.folder }}/images/rubber.jpg)
+<input type="checkbox" id="derp1" checked/>
+<label for="derp1">Make a Primo Derivative</label>
+<input type="checkbox" id="derp2" />
+<label for="derp2">Write a bill of materials with prices and URLs</label>
+<input type="checkbox" id="derp3" />
+<label for="derp3">Collect and organise all the design files</label>
+<input type="checkbox" id="derp4" />
+<label for="derp4">Write an understandable guide</label>
+<input type="checkbox" id="derp5" />
+<label for="derp5">Collect pictures during the process, select the most significative ones and give them meaningful names</label>
+<input type="checkbox" id="derp6" />
+<label for="derp6">Draw some sketches of parts that can be misinterpreted</label>
+<input type="checkbox" id="derp7" />
+<label for="derp7">Organise all the materials in meaningful sub-folders, like ("images", "schemes", "files", etc)</label>
+<input type="checkbox" id="derp8" />
+<label for="derp8">Include your contact information</label>
+<input type="checkbox" id="derp9" />
+<label for="derp9">Select a license for your work</label>
 
-Write here your description
+<div id="instructions" markdown="1">
+<br>
 
-Parturient mid, eros sit porta, porta dignissim, tincidunt, et porta! Porttitor, nec augue eu ridiculus odio, scelerisque nunc placerat aliquet parturient. Purus scelerisque enim eu sagittis nec placerat amet montes integer tristique ut non, et aliquam, pellentesque nec in placerat, mid elit, arcu elementum proin, magnis! Eros magnis ac? Aliquam, porta nascetur amet sit vel massa, nisi amet proin placerat? Sit, nec dapibus phasellus! Ultricies pulvinar! Nec tristique adipiscing porta, eu non eu egestas phasellus, est rhoncus nunc. Elementum, porta? Ultrices? Dis natoque in tincidunt amet turpis duis elit scelerisque! Mus in tincidunt tortor odio dapibus eros a lacus, adipiscing ut sagittis augue est platea, massa massa placerat integer mauris porttitor porttitor, cras mattis, ultricies odio scelerisque! Mattis? Tempor dolor.
+##How to publish your documentation
 
-Porttitor odio cursus penatibus proin, scelerisque tincidunt a amet risus est. Nec ac rhoncus, lectus eros aenean mus in dignissim et adipiscing mid! Velit pid penatibus tortor enim nisi mattis vut scelerisque cras! Augue elementum nec ridiculus turpis pulvinar? Placerat lacus nec turpis vut tincidunt auctor urna? Sed aliquam, phasellus dictumst ridiculus penatibus etiam mattis turpis magnis ultrices placerat, rhoncus elementum diam integer tristique egestas cras a sagittis elit, tincidunt ac et a amet scelerisque, montes? Porttitor! Natoque a arcu tortor. Dictumst eros, ultrices, aenean, habitasse nisi facilisis phasellus? Sit lacus proin mattis tincidunt, elit? Velit placerat nunc turpis amet phasellus in placerat, magnis! Elementum egestas adipiscing auctor montes nisi rhoncus non penatibus, nunc in in enim sed nec.
+1. **super easy, no automation:** <br>
+Write a document with your materials and mail it to us at [play@primo.io](mailto:play@primo.io). Mind that if you do it this way, we will just publish the download link to your document. To avoid this, please make your document in Markdown or HTML, like a single page website
+
+2. **medium, light automation** <br>
+Create a single-page website (markdown is preferred, but HTML is fine too) with your documentation, organized in sub-folders for images and files. 
+Then zip the folder and send it at [play@primo.io](mailto:play@primo.io)
+
+3. **advanced, full automation** <br>
+Start by making a single-page website in Markdown with all your documentation, organized in sub-folders for images and files.<br>
+At the top of your main .md file, include a [YAML header](http://jekyllrb.com/docs/frontmatter/), with the following properties:<br>
+<br>
+---<br>
+layout: derivative<br>
+category: derivative<br>
+title: My Derivative Title<br>
+folder: folder-name<br>
+---<br>
+<br>
+/* your content in markdown or HTML here */<br>
+<br>
+Then [fork the repository on GitHub](https://github.com/primo-io/prototype-documentation), all the derivatives are located in the 'derivatives' folder, each one in its own subfolder. 
+Paste here your website folder (your folder's name must be the same as the "folder" properties you indicated in the YAML header), then create a pull request on GitHub, to merge your files.
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"> </script>
+
+<script type="text/javascript">
+	
+	$("#instructions").hide();
+
+	$("input:checkbox").change(function(){
+	    if ($('input:checked').length == $('input:checkbox').length) {
+	  		$("#instructions").show();
+	    } else {
+	    	$("#instructions").hide();
+	    }
+	});
+</script>
