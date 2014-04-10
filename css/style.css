@@ -18,6 +18,7 @@ nav {
 	position: absolute;
 	top: 20px;
 	left: 20px;
+	width: 24%;
 }
 
 select {
@@ -29,6 +30,7 @@ select {
 	border-radius: 0;
 	font-family: inconsolata;
 	font-size: 1em;	
+	width: 100%;
 }
 
 select option {

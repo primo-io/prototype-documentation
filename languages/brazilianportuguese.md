@@ -329,6 +329,10 @@ O driver de motor SN754410 possui 16 pinos, que devem ser conectados seguindo es
 
 ![photo]({{ site.baseurl }}images/illustrations/motor-driver.jpg)
 
+O CNY70 esquema:
+
+<img style="width:50%" src="{{ site.baseurl }}images/illustrations/cny70-wiring.jpg">
+
 Design:
 
 Começe cortando a laser o arquivo cubetto.dxf; Todas as partes do Cubetto são feitas com compensado de 4mm. Siga essas instruções para montar a base:

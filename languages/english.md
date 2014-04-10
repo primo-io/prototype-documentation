@@ -332,6 +332,10 @@ The SN754410 motor driver has 16 pins that must be connected following this sche
 
 ![photo]({{ site.baseurl }}images/illustrations/motor-driver.jpg)
 
+The CNY70 scheme:
+
+<img style="width:50%" src="{{ site.baseurl }}images/illustrations/cny70-wiring.jpg">
+
 Design:
 
 Start by lasering cubetto.dxf; All Cubetto parts are cut from 4mm plywood, follow these visual instructions to build the base:
