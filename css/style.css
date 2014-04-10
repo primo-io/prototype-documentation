@@ -14,11 +14,16 @@ a {
 	border-bottom: 2px solid red;
 }
 
-nav {
+.navs {
 	position: absolute;
 	top: 20px;
-	left: 20px;
-	width: 24%;
+	left: 20px;	
+}
+
+nav {
+	width: 40%;
+	margin-right: 1em;
+	display: inline-block;
 }
 
 select {
@@ -64,8 +69,7 @@ select option {
 
 #container {
 	width: 80%;
-	max-width: 1024px;
-	margin: 120px auto;
+	max-width: 1024px;	
 }
 
 #content img {
@@ -112,4 +116,49 @@ select option {
 }
 .cf {
 	zoom: 1;
+}
+
+/* tablets and desktop */
+@media only screen and (min-width: 768px) {
+    #container {
+ 		margin: 120px auto;
+ 	}
+
+    .navs {
+    	width: 50%;
+    }
+
+    nav {
+    	display: inline-block;
+    }
+}
+
+/* phones */
+@media only screen and (max-width: 767px) {
+    #container {
+ 		margin: 120px auto;
+ 	}
+
+    .navs {
+		width: 50%;
+    }
+
+    nav {
+    	display: inline-block;
+    }
+}
+
+/* portrait phones */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+ 	#container {
+ 		margin: 150px auto;
+ 	}
+
+ 	.navs {
+    	width: 100%;
+    }   
+
+    nav {
+    	display: block;
+    }
 }
