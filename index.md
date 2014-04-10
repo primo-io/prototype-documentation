@@ -48,7 +48,7 @@ The steps above, expanded:
   ![photo]({{ site.baseurl }}images/screenshots/pull-1.jpg)
 
   14. Then click on "Create Pull Request"
-	
+  
   ![photo]({{ site.baseurl }}images/screenshots/pull-2.jpg)
 
   15. Write a message for the pull request and that's it! Now we just have to approve the request.
@@ -62,7 +62,7 @@ The steps above, expanded:
 Primo is a tangible interface designed to introduce programming logic to little children (3 to 7), without the need for literacy. The goal of the game is to drive a little robot called Cubetto back to his house. To accomplish the goal, children have to program the little robot using a limited set of instructions: forward, left, right and function. While the first three are rather intuitive, the last one calls a sub-routine, an extra line of instructions packed in a single command.
 
 <div class="videoWrapper">
-	<iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
+  <iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
     </iframe> 
 </div>
 
@@ -83,7 +83,7 @@ The first issue was solved by using an [Oh_Oh board](http://david.cuartielles.co
 The second issue was designing a reliable way to detect the blocks. A solution was inspired by a [CIID](http://ciid.dk/) project called ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
 
 <div class="videoWrapper">
-	<iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
+  <iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
     </iframe>
 </div> 
 
@@ -102,7 +102,7 @@ The 'D' shape of the block connectors, was designed so that blocks could be inse
 The design for the shape of the instruction blocks is still being tested. The actual design works quite well, children easily grasp their meaning, they just have some troubles at the first to get familiar with the left and right block. This is also because the "right" and "left" concept is generally quite new for them. We are currently testing other blocks design, to improve this even further.
 
 <div class="videoWrapper">
-	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">
+  <iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">
         
     </iframe>
 </div>
@@ -246,7 +246,7 @@ Once all the LEDs are soldered, we have to solder our hand made connectors. Thes
 
 <p>
 Here I used some single male headers, as the analog pins are all on a single line.
-	
+  
 </p>
 
 <p>
@@ -326,6 +326,10 @@ For these I used simple male headers as connector and female headers on the othe
 The SN754410 motor driver has 16 pins that must be connected following this scheme:
 
 ![photo]({{ site.baseurl }}images/illustrations/motor-driver.jpg)
+
+The CNY70 scheme:
+
+<img style="width:50%" src="{{ site.baseurl }}images/illustrations/cny70-wiring.jpg">
 
 Design:
 
