@@ -71,14 +71,22 @@ Paste here your website folder (your folder's name must be the same as the "fold
         type="text/javascript"> </script>
 
 <script type="text/javascript">
-	
 	$("#instructions").hide();
 
-	$("input:checkbox").change(function(){
-	    if ($('input:checked').length == $('input:checkbox').length) {
-	  		$("#instructions").show();
-	    } else {
-	    	$("#instructions").hide();
-	    }
+	$("input:checkbox").change(function() {
+		if ($('input:checked').length == $('input:checkbox').length) {
+			$("#instructions").show();			  		    		    
+		    goToByScroll("instructions"); 
+		} else {
+			$("#instructions").hide();
+		}
 	});
+
+	// This is a functions that scrolls to #{blah}link
+	function goToByScroll(id) {				
+		$('html,body').animate({
+				scrollTop: $("#" + id).offset().top
+			},
+			'slow');
+	}
 </script>
