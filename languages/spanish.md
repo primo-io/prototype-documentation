@@ -2,17 +2,9 @@
 layout: default
 title: Documentación Prototipo de Primo
 category: language
-language: Spanish
 ---
 
 <div id="edit"> <a href="http://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md">Editar este documento</a></div>
-
-<div id="notes">
-	Este es el primer borrador de este documento, publicado el 28 de febrero.  <br>
-	El código Arduino aún no está disponible, estamos trabajando en ello, pero el documento se publicará la próxima semana. Este pendiente de esta página, se añadirá nuevo contenido diario.
-	<br><br>
-	<a href="http://github.com/primo-io/prototype-documentation">See it on GitHub</a>
-</div>
 
 ##0. Que hay en este documento
 
