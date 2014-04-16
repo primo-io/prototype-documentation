@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Documentación Prototipo de Primo
-category: language
 ---
 
 <div id="edit"> <a href="http://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md">Editar este documento</a></div>
