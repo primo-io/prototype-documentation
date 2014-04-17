@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: Primo prototype documentatie
-language: Nederlands
+language: Nederlands (in bewerking)
 category: language
 ---
 
@@ -228,24 +228,24 @@ Hetzelfde geldt voor de rode knop: nadat deel 14 is geverfd, bevestig je iets za
 
 ![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
-###INSTRUCTION BLOCKS
+###INSTRUCTIEBLOKKEN
 
-This is one instruction block, exploded:
+Dit is één van de instructieblokken, in onderdelen:
 
 <img class="float cf" src="{{ site.baseurl }}images/illustrations/instruction-esploso.jpg">
 
-To make the Instruction Blocks, the first thing you have to do is laser cut the files, there's one for 4mm thick wood and one for 1mm wood. They are four layers, numbered from 1 to 4 and the drawings provided can be used to make 16 blocks, four of each kind.
+Om de instructieblokken te maken, begin je met het snijden van het hout (m.b.v. een lasercutter). Er zijn twee bestanden nodig: één voor het 4 mm triplex en één voor het 1 mm triplex. De blokken bestaan uit 4 lagen, genummerd 1 t/m 4. Met de onderdelen uit de twee bestanden, kun je precies 16 blokken maken, vier van elk type.
 
-Each block has a different resistor. These are the resistors used in the prototype:
+Elk blok heeft een andere weerstand. Dit zijn de weerstanden die gebruikt zijn in het prototype:
 
-FORWARD: 4.7K Ω<br>
-LEFT: 100K Ω<br>
-RIGHT: 220 Ω<br>
-FUNCTION: 10K Ω
+VOORUIT: 4.7K Ω<br>
+LINKSOM: 100K Ω<br>
+RECHTSOM: 220 Ω<br>
+FUNCTIE: 10K Ω
 
-To make blocks, first you have to glue part 4 with part 3. 
+Lijm eerst de delen 3 en 4 aan elkaar.
 
-After the glue has dried, you can start painting. See the illustration below to see what part should be colored:
+Zodra de lijm droog is, kun je gaan verven. In de afbeelding hieronder zie je de kleuren die elk onderdeel moet krijgen:
 
 ![image]({{ site.baseurl }}images/illustrations/colors.jpg)
 
