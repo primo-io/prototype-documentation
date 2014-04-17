@@ -252,7 +252,7 @@ Per blok heb je twee stukken kopertape van 40 mm lang nodig. Steek deze door de 
 
 ![photo]({{ site.baseurl }}images/illustrations/instruction-block-guide.jpg)
 
-Daarna plaats je een magneet in het gat. Zorg ervoor dat deze CORRECT GEORRIENTEERD is, zodat het blok later 'plakt' in het interfacebord. Als je 'm andersom plaatst, dan wordt deze afgestoten door de andere magneet. Een grappig effect, maar niet wat we willen bereiken.
+Daarna plaats je een magneet in het gat. Zorg ervoor dat deze CORRECT GEORIENTEERD is, zodat het blok later 'plakt' in het interfacebord. Als je 'm andersom plaatst, dan wordt deze afgestoten door de andere magneet. Een grappig effect, maar niet wat we willen bereiken.
 
 Fixeer de magneet met een drup lijm en plak daarop de juiste weerstand met de draden op het kopertape.
 Soldeer daarna de weerstand aan de beide stukken kopertape. Knip, na het solderen, de extra draadlengte af en lijm deel 2 op de weerstand.
@@ -261,11 +261,11 @@ Maak je blok af door de laatste laag, deel nummer 1, erop te lijmen. Herhaal dan
 
 ###CUBETTO
 
-Electronics:
+Electronica:
 
-The prototype for Cubetto can be built using an Arduino Uno or Leonardo, with a Proto Wireless Shield on top. The reason for the Proto Shield is because it has a small prototyping area, that is wide enough to put the motor driver, the connectors for the optical encoders, motors and power. 
+Het prototype voor Cubetto kan gemaakt worden met een Arduino UNO of Leonardo, met een Proto Wireless Shield erop. We gebruiken het Proto Shield, omdat er een klein prototypegebied op zit dat breed genoeg is voor de motor driver en de connectoren voor de optische encoders, motoren en stroom.
 
-Cubetto has to spin 90 degrees left and right. A very inaccurate way is to use timing event, like "spin right for one second" and you can expect more or less the same result. "More or less" because it depends a lot from different factors, such as the floor, the battery power and so on. The way I solved this problem, is by detecting the amount of rotation from the wheel using two CNY70 optical encoders in combination with a sticker. The round sticker goes in the inner wheel and it's something like this:
+Cubetto moet 90 graden naar links of recht draaien. Een zeer onnauwkeurige manier om dit te doen, is op basis van tijd , zoals "draai 1 seconde naar rechts"; je kunt dan elke keer ongeveer hetzelfde resultaat verwachten. "Ongeveer", omdat het afhankelijk is van vele factoren, zoals de vloer, batterijspanning enz. Ik heb dit probleem opgelost door de draaiafstand van het wiel te detecteren m.b.v. twee CNY70 optische encoders in combinatie met een sticker. De ronde sticker komt aan de binnenkant van het wiel en ziet er ongeveer zo uit:
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-14.jpg)
 
