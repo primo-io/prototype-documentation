@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Primo Prototype Documentatie
+title: Primo prototype documentatie
 language: Nederlands
 category: language
 ---
@@ -119,8 +119,8 @@ Interfacebord ~ 88 € (puur toeval)
 * Arduino Proto Wireless Shield : 14.90 - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_5&products_id=145#.UxC53vTV_bA)
 * XBee (serie 1 of 2, maakt niet uit welke) : 23.90 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_38&products_id=292#.UxC6cvTV_bA)
 * 16 5mm rode LED's : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Lite-On/LTL-4223/?Lite-On/LTL-4223/&qs=sGAEpiMZZMusoohG2hS%252b15J8d1kHl%252bvkJpzS4atZNEA=)
-* 16 220 Ω weerstanden : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
-* 16 10K Ω weerstanden : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
+* 16 220Ω-weerstanden : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
+* 16 10KΩ-weerstanden : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
 * 1 knop : 1 € 
 * 50 male Headers : 1 € 
 * 16 dubbele male headers : 0.50 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=294#.UxC_3fTV_bA)
@@ -129,10 +129,10 @@ Interfacebord ~ 88 € (puur toeval)
 
 Instructie blokken ~ 4 €
 
-* 4 x 4.7K Ω weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-47K-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2fbdyz6pU6a%252bvHlD5kaZWgo%3d)
-* 4 x 100K Ω weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-100K-RC/?qs=sGAEpiMZZMu61qfTUdNhG81NIhcRRUJQxII5Nsctha8%3d)
-* 4 x 220 Ω weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
-* 4 x 10K Ω weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
+* 4 x 4.7KΩ-weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-47K-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2fbdyz6pU6a%252bvHlD5kaZWgo%3d)
+* 4 x 100KΩ-weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-100K-RC/?qs=sGAEpiMZZMu61qfTUdNhG81NIhcRRUJQxII5Nsctha8%3d)
+* 4 x 220Ω-weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
+* 4 x 10KΩ-weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
 * 16 magneten ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
 
 ###3.3 Spanning
@@ -141,7 +141,7 @@ Cubetto en (optioneel) het interfacebord worden gevoed door batterijen. Je kunt 
 
 ###3.4 Ontwerp van het prototype
 
-Het hele product is gemaakt van hout en uitgesneden met behulp van een lasercutter. Er is voornamelijk hout van 4 mm gebruikt, terwijl één laag 1 mm dik hout gebruikt. Je kunt deze onderdelen laten snijden door een dienst zoals Ponoko of in een FabLab bij je in de buurt. Het eerste prototype werd gemaakt in [FabLab Lugano](http://fablab.supsi.ch/). Het ontwerp werd verder ontwikkeld in [FabLab Torino](http://fablabtorino.org/), waar een deel van het Primo-ontwerpteam nog steeds zit.
+Het hele product is gemaakt van hout en uitgesneden met behulp van een lasercutter. Er is voornamelijk triplex van 4 mm gebruikt, terwijl één laag 1 mm dik hout (vliegtuigtriplex) gebruikt. Je kunt deze onderdelen laten snijden door een dienst zoals Ponoko of in een FabLab bij je in de buurt. Het eerste prototype werd gemaakt in [FabLab Lugano](http://fablab.supsi.ch/). Het ontwerp werd verder ontwikkeld in [FabLab Torino](http://fablabtorino.org/), waar een deel van het Primo-ontwerpteam nog steeds zit.
 
 Het maken van Cubetto en het interfacebord is een bewerkelijk, maar erg simpel proces. Hun buitenkant zijn in de basis dozen. De echte complexiteit ligt in de instructieblokken. Deze zijn gemaakt van een dubbele 4mm houten laag met een magneet en een gesoldeerde weerstand binnenin.
 
@@ -151,55 +151,54 @@ Het maken van Cubetto en het interfacebord is een bewerkelijk, maar erg simpel p
 
 ###4.1 Interfacebord
 
-To make the interface board you have to laser cut two files: interface-board-4mm.dxf and interface-board-1mm.dxf: the first one is for 4mm plywood and the second one for 1mm plywood. As you can see from the files, the parts are numbered, to ease the assembly process. The numbers are stored on a different layer, so you can easily remove them before lasering. We recommend adjusting the hole for the push button, based on the size of the button you wish to use or have.
+Om het interfacebord te maken heb je twee bestanden nodig: interface-board-4mm.dxf en interface-board-1mm.dxf: het eerst is voor het triplex van 4 mm dik en de tweede voor het triplex van 1 mm dik. De onderdelen zijn genummerd, zodat je ze makkelijk kunt samenvoegen. De nummer zitten in een aparte laag in het bestand, dus je kunt ze makkelijk verwijderen voordat je gaat snijden. We raden je aan om het gat voor de knop aan te passen aan de grootte van de knop die je gaat gebruiken.
 
-First of all, you have to glue parts 3 and 4 together, use the holes in the corners to align them with screws while gluing and let it rest for a night. 
+Lijm de delen 1 en 2 aan elkaar. Lijm ook de delen 3 en 4 aan elkaar. Je kunt de gaten in de hoeken gebruiken om de delen te positioneren met behulp van boutjes en moertjes terwijl de lijm een nachtje droogt.
 
-Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part that you just glued, they should be at least 30mm wide on each side. Once you finished, you can now glue all the remaining top layers of the interface board, this is the correct order:
-
-Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part that you just glued, they should be at least 30mm wide on each side. 
+Knip daarna 32 stukken kopertape van 70 mm lang per stuk en plak deze in de rechthoekige gaten in het deel (laag 3+4) dat je zojuist gelijmd hebt; aan beide zijden moet minimaal 30 mm zitten.
 
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-1.jpg)
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-2.jpg)
 
-Once you finished, you can now glue the previously glued parts, 1+2 with 3+4.
+
+Zodra je klaar bent, kun je de twee delen aan elkaar plakken, 1+2 aan 3+4.
 
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-esploso.jpg)
 
-Once the glue has dried, put the magnets in the little holes. Turn your top layer upside-down and fill the little holes with the magnets, make sure they are all in the same direction, doesn't matter if north or south. Seal the hole with a drop of hot glue.
+Zodra de lijm droog is, plaats je de magneten in de kleine gaten. Leg de toplaag op de kop en plaats de magneten in de kleine gaten, zorg ervoor dat de polariteit van de magneten allemaal gelijk is, het maakt niet uit dat noord of zuid is. Lijm de magneten vast met een druppel lijm.
 
-Now the electronics. Start by making rails for the 5V and the GND, all along the hole lines like in the picture. The first ever prototype never had copper strips, it had wires (which you can also use), but in this prototype we used copper tape also for the rails. A real 100% time saver. It also makes things easier for creating connections.
+Nu verder met de electronica. Maak twee sporen voor 5V en GND, zoals je hieronder ziet in de afbeelding. Het eerste prototype had geen kopersporen, het had draden (dat kun je ook gebruiken), maar in dit prototype hebben we kopertape gebruikt voor de sporen. Dat scheelt je 100% van de tijd. Het maakt het maken van verbindingen ook makkelijker.
 
 ![rails]({{ site.baseurl }}images/illustrations/board-3.jpg)
 
-The next step is to wire one of the two connectors of every hole, to the ground rail. If you used copper tape, you can just use a tiny extra bit of it, just enough to touch both ends.
+De volgende stap is het verbinden van één van de connectoren van elk gat aan het GND-spoor. Als je kopertape hebt gebruikt, kun je een extra stukje toevoegen, zodat deze beide uiteinden raakt.
 
 ![rails]({{ site.baseurl }}images/illustrations/board-5.jpg)
 
-Now we have to connect the other side of each connector to the 5V rail, but this time, with a 10KΩ resistor in-between. A cool thing of copper tape is that solder melts very well on top of it. This is the technique used:
+Nu gaan we de andere connector verbinden aan het 5V-spoort, maar nu met een 10KΩ-weerstand ertussen. Een mooie bijkomstigheid van kopertape is dat het soldeertin makkelijk erop smelt. Deze techniek is gebruikt:
 
 ![10k]({{ site.baseurl }}images/photo/diy-docs-1.jpg)
 
-At the end of this process, you should have something like this:
+Dit is wat je ongeveer moet hebben als je klaar bent:
 
 ![10k scheme]({{ site.baseurl }}images/illustrations/board-6.jpg)
 
-Now it's time to put the LEDs; stick one red LED in each one of the 16 holes, then use a drop of hot glue to seal them to the wood. Once the glue is cold, we have to connect them. Just mind that LEDs have a polarity: the long leg is the anode and the short one the cathode. Connect each cathode to the ground rail, using a 220Ω Resistor.
+Nu kun je de LED's plaatsen; stop één rode LED in elk van de 16 gaten en zet deze vast m.b.v. het lijmpistool. Zodra de lijm koud is, kun je 'm verbinden. Houd er rekening mee dat LED's polariteit hebben: de lange draad is de anode en de korte de cathode.
 
 ![10k]({{ site.baseurl }}images/photo/diy-docs-6.jpg)
 
-Connect each cathode to the ground rail, using a 220Ω Resistor.
+Verbind elke cathode aan het GND-spoor met een 220Ω-weerstand ertussen in.
 
 ![10k scheme]({{ site.baseurl }}images/illustrations/board-7.jpg)
 
-The long leg of the LED, must be connected to a digital I/O pin on the Arduino Mega, these pins are numbered from 22 to 53. The LEDs must be connected in order, so that it will be much easier to access them later on in the code, in my prototype for example I started from pin number 30 up to 45 (there are 16 LEDs). 
-The starting point is not important, as long as they are in the correct sequential order. This means for example that if we start from pin 30, the first LED must be attached to pin 30, the second to pin 31, the third to pin 32 and so on until LED 16 to pin 45. 
+De lange draad van een LED wordt verbonden aan een digitale I/O-pin van de Arduino Mega; deze pinnen zijn genummerd van 22 t/m 53. De LED's moeten in volgorde aangesloten worden, zodat het makkelijker wordt om ze in de code aan te sturen. In mijn prototype heb ik, bijvoorbeeld, de pinnen 30 t/m 45 gebruikt (er zijn 16 LED's).
+Het startpunt is niet belangrijk, zolang je ze maar in de juiste volgorde aansluit. Dit betekent dat als we, bijvoorbeeld, beginnen met pin 30, de eerste LED aan pin 30 verbonden moet worden, de tweede aan pin 31, de derde aan pin 32 enzovoorts, tot en met LED 16 aan pin 45.
 
-The cables are soldered to a rack of double male headers, as the digital pins on the Arduino Mega are laid out in a double line. In this way it's easy to plug and remove the Arduino from the board.
+De draden zijn gesoldeerd aan de dubbele male headers, omdat de digitale pinnen van de Arduino Mega in een dubbele lijn zijn gepositioneerd. Op deze manier is het makkelijk om de LED's aan te sluiten en om de Arduino uit het bord te verwijderen.
 
 ![rack]({{ site.baseurl }}images/photo/diy-docs-4.jpg)
 
-Once all the LEDs are soldered, we have to solder our hand made connectors. These must be wired to the Arduino Mega analog pins, to read the different resistor values. Just like the LEDs, these must be connected in order, starting from A0 for hole 1 to A15 for hole 16. The wire has to start from the same point where we soldered previously the 10K resistor. See the illustration:
+Zodra alle LED's zijn gesoldeerd, moeten we onze handgemaakte connector solderen. Deze worden aangesloten op de analoge pins van de Arduino Mega, om de verschillende weerstandwaardes uit te lezen. Net zoals bij de LED's moeten deze in de juiste volgorde worden aangesloten, te beginnen bij A0 voor gat 1 t/m A15 voor gat 16. De draad begint op dezelfde plek als waar we de 10K-weerstand hebben vastgemaakt. Zie deze illustratie:
 
 ![analog input board connections]({{ site.baseurl }}images/illustrations/board-8.jpg)
 
@@ -207,25 +206,25 @@ Once all the LEDs are soldered, we have to solder our hand made connectors. Thes
 <img class="float cf" src="{{ site.baseurl }}images/illustrations/button.jpg">
 
 <p>
-Here I used some single male headers, as the analog pins are all on a single line.
+Hier heb ik enkele male headers gebruikt, omdat de analoge pinnen op één lijn staan.
 	
 </p>
 
 <p>
-The last thing to connect is the button: take it and solder two cables to two opposite headers, then slip them trough the button hole, from the top, and push it all the way down, until it stops. Now flip the board, you should have the two wires coming out of the hole. Connect them as in the illustration: one straight to 5V, the other one to GND using a 10k Resistor. Then connect it to an Arduino digital pin from the button-end of the resistor, in this example we used pin number 50.
+Het laatste om te verbinden is de knop: pak het en soldeer twee draden aan de tegen overelkaar gelegen headers. Plaats de knop dan in het bijbehorende gat vanaf de bovenkant en druk het helemaal naar beneden, totdat het niet verder kan. Draai nu het bord om; er moeten nu twee draden uit de gaten komen. Verbind deze zoals je in de afbeelding ziet: één direct naar het 5V-spoor, de andere naar het GND-spoor met een 10K-weerstand ertussen. Verbind het dan met een digitale pin van de Arduino vanaf de 'knop'-kant van de weerstand. In dit voorbeeld gebruiken we pin 50.
 </p>
 </div>
 
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-5.jpg)
 
-Almost done with the board, now you just have to plug the Wireless Shield on top of the Arduino Mega and stick the headers in place in the board. To recap, 30 to 45 for the LEDs, A0 to A15 for the connectors and 50 for the button. Use the A0 to A5 pins on the Wireless Shield for the first 5 connectors. Don't forget to connect the ground rail to the GND pin and the 5V to the 5V pin.
+Het bord is nu bijna klaar, we hoeven nu alleen nog maar het Wireless Shield op de Arduino Mega te plaatsen en de headers op de juiste plaats in het bord te steken. Ter herinnering, 30 t/m 45 zijn voor de LED's, A0 t/m A15 voor de blokconnectoren en 50 voor de knop. Gebruik de A0 t/m A5-pinnen voor het Wireless Shield voor de eerste 5 connectoren. Vergeet niet om het GND-spoor te verbinden aan de GND-pin en het 5V-spoor aan de 5V-pin.
 
 ![rack]({{ site.baseurl }}images/photo/diy-docs-3.jpg)
 
-Now a little bit of fine-tuning: after that part 12 of the board has been painted, you can glue it with part 13 on top of the board.
+Nu een beetje afwerking: nadat je deel 12 van het bord hebt geverfd, kun je het vastlijmen aan deel 13 van het bord.
 
-Same for the red button: after part 14 has been painted, put something soft like cardboard on top of part 2, around the push button, then some hot glue on top of the push button and before the glue dries off, place the red button. See the illustration:
+Hetzelfde geldt voor de rode knop: nadat deel 14 is geverfd, bevestig je iets zachts (zoals karton) op deel 2 rondom de knop en dan wat lijm op de knop en, voordat de lijm droog is, bevestig je de drode knop. Zie de afbeeldingen:
 
 ![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
