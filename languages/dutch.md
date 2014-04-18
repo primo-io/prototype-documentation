@@ -106,9 +106,9 @@ Cubetto ~ 88 €
 * Arduino Proto Wireless Shield - 14.90 € : [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_5&products_id=145#.UxC53vTV_bA)
 * SN754410 motor driver - 3.90 € : [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_33&products_id=153#.UxC5-_TV_bB)
 * XBee (serie 1 of 2, maakt niet uit welke) : 23.90 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_38&products_id=292#.UxC6cvTV_bA)
-* SolarBotics wielen x 2 : 4.74 € - [Solarbotics Store](https://solarbotics.com/product/gmpw/)
-* SolarBotics Gear Motors GM3 x 2 : 8.36 € - [Solarbotics Store](https://solarbotics.com/product/gm3/)
-* 2 ball casters : 5.79 € - [Solarbotics Store](https://solarbotics.com/product/23160/)
+* 2 x SolarBotics wielen : 4.74 € - [Solarbotics Store](https://solarbotics.com/product/gmpw/)
+* 2 x SolarBotics Gear Motors GM3 : 8.36 € - [Solarbotics Store](https://solarbotics.com/product/gm3/)
+* 2 x ball casters : 5.79 € - [Solarbotics Store](https://solarbotics.com/product/23160/)
 * CNY70 x 2 : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Vishay/CNY70/?qs=%2fha2pyFaduj8YpDhNNtXszq4w32cl%2fAjUjdOwQUvJUM%3d)
 * (optioneel) batterijhouder : 4 € - [Solarbotics Store](https://solarbotics.com/product/bholdaa_4_cell/)
 * (optioneel) 4 x oplaadbare batterijen
@@ -118,14 +118,14 @@ Interfacebord ~ 88 € (puur toeval)
 * Arduino Mega 2560 : 39.00 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=11&products_id=196#.UxC_gPTV_bA)
 * Arduino Proto Wireless Shield : 14.90 - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_5&products_id=145#.UxC53vTV_bA)
 * XBee (serie 1 of 2, maakt niet uit welke) : 23.90 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_38&products_id=292#.UxC6cvTV_bA)
-* 16 5mm rode LED's : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Lite-On/LTL-4223/?Lite-On/LTL-4223/&qs=sGAEpiMZZMusoohG2hS%252b15J8d1kHl%252bvkJpzS4atZNEA=)
-* 16 220Ω-weerstanden : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
-* 16 10KΩ-weerstanden : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
-* 1 knop : 1 € 
-* 50 male Headers : 1 € 
-* 16 dubbele male headers : 0.50 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=294#.UxC_3fTV_bA)
-* 50 female headers : 1 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=188#.UxDAAfTV_bA)
-* 16 magneten ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
+* 16 x 5mm rode LED's : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Lite-On/LTL-4223/?Lite-On/LTL-4223/&qs=sGAEpiMZZMusoohG2hS%252b15J8d1kHl%252bvkJpzS4atZNEA=)
+* 16 x 220Ω-weerstanden : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
+* 16 x 10KΩ-weerstanden : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
+* 1 x knop : 1 € 
+* 50 x male Headers : 1 € 
+* 16 x dubbele male headers : 0.50 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=294#.UxC_3fTV_bA)
+* 50 x female headers : 1 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=188#.UxDAAfTV_bA)
+* 16x  magneten ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
 
 Instructie blokken ~ 4 €
 
@@ -159,7 +159,6 @@ Knip daarna 32 stukken kopertape van 70 mm lang per stuk en plak deze in de rech
 
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-1.jpg)
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-2.jpg)
-
 
 Zodra je klaar bent, kun je de twee delen aan elkaar plakken, 1+2 aan 3+4.
 
@@ -238,9 +237,9 @@ Om de instructieblokken te maken, begin je met het snijden van het hout (m.b.v. 
 Elk blok heeft een andere weerstand. Dit zijn de weerstanden die gebruikt zijn in het prototype:
 
 VOORUIT: 4.7K Ω<br>
-LINKSOM: 100K Ω<br>
+LINKSOM: 10K Ω<br>
 RECHTSOM: 220 Ω<br>
-FUNCTIE: 10K Ω
+FUNCTIE: 100K Ω
 
 Lijm eerst de delen 3 en 4 aan elkaar.
 
@@ -269,64 +268,67 @@ Cubetto moet 90 graden naar links of recht draaien. Een zeer onnauwkeurige manie
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-14.jpg)
 
-The sticker is split into black and white slices, this is because the CNY70 is able to detect the variation between a white slice and a black one. Basically inside it has an infrared LED that is always on and a phototransistor that is reading the amount of infrared light. When a black material is facing the component, almost no light is relfected, as the black color tends to absorb it. On the contrary, if the material is white, it reflects all the light, so the value read from the sensor it's very high. The difference between readings is used to count the rotation steps.
+De sticker is verdeeld in witte en zwarte punten, omdat de CNY70 het verschil kan detecteren tussen de witte en zwarte stukken. De CNY70 heeft een infrarood-LED die continu aan is en een fototransistor die de hoeveelheid infraroodlicht meet. Als zwart materiaal voor het onderdeel staat, wordt er bijna geen licht gereflecteerd, omdat zwart materiaal licht absorbeert. Als het materiaal wit is, dan wordt al het licht gereflecteerd en daarom zal de sensorwaarde heel hoog zijn. Het verschil tussen de waardes wordt gebruikt om de draaiafstand te meten.
 
 ![photo]({{ site.baseurl }}images/illustrations/cny70-physycs.jpg)
 
-The prototyping area of the Wireless Proto Shield is where the motor driver and other connectors for the other parts are soldered. For these, simply use male headers as connector and female headers on the other part.
-
+De motor driver en de connectoren voor de andere onderdelen worden op het prototypinggebied van het Wireless Proto Shield gesoldeerd. Hiervoor kun je male headers gebruiken als connector en female headers voor de andere onderdelen.
 
 ![photo]({{ site.baseurl }}images/illustrations/wireless-shield-connections.jpg)
 
-For these I used simple male headers as connector and female headers on the other part.
+Hier heb ik simpele male headers gebruikt als connector en female headers voor de andere connector.
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-12.jpg)
 
 ![photo]({{ site.baseurl }}images/illustrations/wireless-shield-connections-1.jpg)
 
-The SN754410 motor driver has 16 pins that must be connected following this scheme:
+De SN754410 motor driver heeft 16 pinnen, die als volgt aangesloten moeten worden:
 
 ![photo]({{ site.baseurl }}images/illustrations/motor-driver.jpg)
 
-The CNY70 scheme:
+CNY70-schema:
 
-<img style="width:50%" src="{{ site.baseurl }}images/illustrations/cny70-wiring.jpg">
+![image]({{ site.baseurl }}images/illustrations/cny70-wiring.jpg)
 
-Design:
+Ontwerp:
 
-Start by lasering cubetto.dxf; All Cubetto parts are cut from 4mm plywood, follow these visual instructions to build the base:
+Snij (m.b.v. een lasercutter) eerst alle onderdelen van cubetto.dxf; alle Cubetto-onderdelen komen uit 4 mm dik triplex. Volg deze visuele instructies om de basis te bouwen:
 
 ![photo]({{ site.baseurl }}images/illustrations/cubetto-guide.jpg)
 
-Don't mount the motors for now, first you have to mount the ball casters.
+Monteer de motors nog niet, begin met het monteren van de ball casters.
 
 ![photo]({{ site.baseurl }}images/illustrations/ball-caster.jpg)
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-9.jpg)
 
-Now the CNY70. Solder the two opposite headers, that must be connected to 5V, together with a wire; then solder three wires to the remaining headers of the CNY70. At the end of these wires solder a row of three female headers. They will later be connected on to the headers of the proto shield.
+Nu de CNY70. Soldeer de twee tegenover elkaar gelegen headers (diagonaal) (die aan de 5V verbonden moeten worden) en een draad; soldeer daarna een draad aan de overige twee headers. Soldeer deze drie draden aan een rij van drie female headers. Deze wordt later aangesloten op de headers van het proto shield.
 
-The two cny70 must be placed on the edge of the bottom layer, with the LED and the photoransistot horizontally aligned. To fix them you can use some hot glue (or other types of glue). 
+![image]({{ site.baseurl }}images/illustrations/cny70-header.jpg)
 
-See the picture to understand the location.
+De twee CNY70's moeten aan de rand van de grondplaat vastgemaakt worden, met de LED en de fototransistor horizontaal. Je kunt lijm gebruiken om ze vast te maken. 
+
+Op de foto zie je de exacte locatie.
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-11.jpg)
 
-Just like for the CNY70, solder two wires to the little flaps that come out of each motor. You can twist the two wires to make them more resistent, then at the end, solder a row of two female header, just like in the illustration.
+Soldeer draden aan de kleine aansluitingen van de motors. Je kunt de draden om elkaar draaien om het sterker te maken. Soldeer twee female headers aan het eind, zoals je op de afbeelding ziet:
 
-Now print the inner drawing with the black and white slices, glue them on a piece of cardboard (or laser cut wood, that's up to you), cut the perimeter and make a hole in the middle, as they will be inserted between the motor and the wheel. The white and black slices must point towards the inner side of Cubetto and the distance between the print and the CNY70 must be between 1 and 3 millimeters for the CNY70 to work properly.
+![image]({{ site.baseurl }}images/illustrations/motor-wiring.jpg)
+
+Print nu de tekening met witte en zwarte punten en plak deze op een stuk karton (of hout, dat is aan jou). Knip de randen bij en maak een gat in het midden, omdat dit onderdeel tussen het wiel en de motor komt. De witte en zwarte punten moeten naar de binnenkant van Cubetto wijzen en de afstand tussen de print en de CNY70 moet tussen de 1 en 3 mm liggen, om ervoor te zorgen dat de CNY70 goed werkt.
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-10.jpg)
 
-Now you can put the wheels on the motors, if you used the Solarbotics wheels, you can fasten them with the screw provided, don't make it too tight. 
+Nu kun je de wielen vastmaken aan de motors. Als je de Solarbotics wielen gebruikt, dan kun de deze vastmaken met de meegeleverde schroef (niet te vast draaien).
 
-Glue three out of the four 'walls' of Cubetto, parts 5, 7 and 8. We are going to leave the back removable, just in case we want to modify something. 
+Lijm drie van de vier 'muren' van Cubetto, delen 5, 7 en 8. De achterkant laten we los, voor het geval we nog iets moeten aanpssen.
 
-Take the battery holder and solder the black and red cable to other 2 female connectors. The headers on the shield will go to VIN and ground. A switch that breaks the red wire is heavily suggested.
+Pak de batterijhouder en soldeer de zwarte en rode draad aan 2 female headers. De headers op het shield gaan naar VIN en GND. Een schakelaar die de rode draad onderbreekt, wordt sterk aangeraden.
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-13.jpg)
 
-Now you can place the Arduino + Proto shield on top of the motors, plug all the headers on the shield and you have finished making Cubetto.
+Nu kun je de Arduino + Protoshield op de motortjes plaatsen, alle headers aansluiten op het shield en je bent klaar met het maken van Cubetto.
 </div>
 
 ##Arduino
