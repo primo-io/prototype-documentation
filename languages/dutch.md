@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Primo prototype documentatie
-language: Nederlands (in bewerking)
+language: Nederlands
 category: language
 ---
 
