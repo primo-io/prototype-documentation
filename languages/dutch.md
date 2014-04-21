@@ -1,247 +1,203 @@
 ---
 layout: default
-title: Primo Prototype Documentatie
-language: Nederlands (coming soon)
+title: Primo prototype documentatie
+language: Nederlands
 category: language
 ---
+
 <br>
 
 <div id="content" markdown="1">
-##0. What is this document
+##0. Doel van dit document
 
 ![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
-This document gathers and organizes all the information necessary to build a Primo Prototype.
-You can find more info about the project on the [primo.io](http://primo.io) website.
+Dit document bevat alle informatie die nodig is om een Primo Prototype te maken.
+Meer informatie over het project vind je op de [primo.io](http://primo.io)-website.
 
-<h2>
-<a href="#" id="translate-title">
-    How to translate this document
-</a>
-</h2>
-
-
-<div markdown="1" id="translate">
-
-If you want to translate this page in your language, you have multiple options:
-
-1. **super easy, no automation** Copy and paste this page in your text editor, translate it then mail it to us at [play@primo.io](mailto:play@primo.io)
-
-2. **medium, light automation** Create an account on [GitHub](http://github.com), then open the [repository of this page](https://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md) and click on 'EDIT', in the top menu bar:
-![photo]({{ site.baseurl }}images/screenshots/edit-1.jpg)
-Then your page turns into a text editor, where you are able to modify the page source. The page is written in [markdown](http://daringfireball.net/projects/markdown/syntax), very easy to understand. 
-![photo]({{ site.baseurl }}images/screenshots/edit-2.jpg)
-You don't have to modify this code, but just copy and paste the whole text in your local text editor, then translate the textual parts in your language, without modifying the parenthesis and HTML parts. Save the text then mail it to us at [play@primo.io](mailto:play@primo.io)
-
-3. **advanced, full automation** This is slightly advanced, but nothing too hard, if you are not familiar with GitHub you have the chance to learn something new :) <br>
-If you are already familiar with git, you have to fork the repository, all the translations are located in the 'languages' folder. To translate the page, just copy it with the starting language ("english.md" for example) in the same folder, then change the file name with the final language (spanish.md). Change the page header values 'title' (title in your language) and 'language' (the destination language with Capital letter) then translate the rest of the document. Once finished, make a pull request to add your file to the folder, it will be automatically added to the menu.<br><br>
-The steps above, expanded:
-
-  1. Make a GitHub account 
-  2. Download the GitHub application ([Mac](http://mac.github.com/), [Windows](http://windows.github.com/))
-  3. If it's the first time you use it, open it and input your GitHub login details
-  4. Go to [this documentation repository](https://github.com/primo-io/prototype-documentation)
-  5. Click on the "Fork" button in the top right corner, to fork this repository into your account.
-  6. Go to your giHub account, open the forked repository page and click on the "Clone in Desktop" button, on the right-hand sidebar. It will automatically open the GitHub application, asking where to save the local repository.
-  7. After selecting a folder path in your computer, click on "clone"
-  8. After downloading the files, navigate to your local folder where the repository has been downloaded.
-  9. Open the 'languages' folder, where all the translations are located. Select the starting language ("english.md" for example), then copy the file and rename it to your destination language ("spanish.md" for example), in the same folder.
-  10. Open the newly created file, change the page header values 'title' (title in your language) and 'language' (the destination language with Capital letter), then translate it to your language, keeping the markdown formatting
-  11. After the translation is completed and saved, it's time to re-upload it on GitHub. Open the GitHub application and double click on the repository. On the left sidebar, click on the "Changes" tab. It should say "Uncommitted Changes".
-  12. Give a title to your edits, like "spanish translation", then click on "commit" and then on the "sync" button.
-  13. Go to your GitHub profile, on the forked repository page. You should be able to see your newly created page in the 'languages' folder. On the top, there should be a green button with two arrows, click on it to issue a pull request. (see picture below)
-  ![photo]({{ site.baseurl }}images/screenshots/pull-1.jpg)
-
-  14. Then click on "Create Pull Request"
-  
-  ![photo]({{ site.baseurl }}images/screenshots/pull-2.jpg)
-
-  15. Write a message for the pull request and that's it! Now we just have to approve the request.
-</div>
 <br>
 
-##1. What is Primo
+##1. Wat is Primo?
 
 ![primo play set]({{ site.baseurl }}images/photo/primo.jpg)
 
-Primo is a tangible interface designed to introduce programming logic to little children (3 to 7), without the need for literacy. The goal of the game is to drive a little robot called Cubetto back to his house. To accomplish the goal, children have to program the little robot using a limited set of instructions: forward, left, right and function. While the first three are rather intuitive, the last one calls a sub-routine, an extra line of instructions packed in a single command.
+Primo is een tastbare interface, ontworpen om programmeerlogica te introduceren bij jonge kinderen (3 tot 7 jaar), zonder dat ze hoeven te kunnen lezen. Het doel van het spel is om een kleine robot, genaamd Cubetto, naar zijn huis te laten rijden. Om dit doel te bereiken, zullen kinderen de  robot moeten programmeren met behulp van een beperkte set instructies: vooruit, linksom, rechtsom en functie. De eerste drie zijn redelijk intuïtief. De laatste roept een subroutine aan; een extra regel met instructies aangeroepen door één commando.
 
 <div class="videoWrapper">
-  <iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
+	<iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
     </iframe> 
 </div>
 
-##2. Research
+##2. Onderzoek
 
-Teaching programming to children is a widely debated topic. We are aware of a moderate number of solutions that try to accomplish this for children above the ages of 8. However, there aren't many of these solutions suitable for younger children, and there aren't any that work without a screen or without the need for literacy. We see an increasing number of Apps for tablets and computers that also work in combination with physical robots, but none of them are completely free from the pixel domain in the same way the Primo Play Set is.
+Kinderen leren programmeren is een wereldwijd besproken onderwerp. We zijn ons bewust van een bescheiden aantal oplossingen die dit proberen te bereiken voor kinderen van 8 jaar en ouder. Echter, de meeste van deze oplossingen zijn niet geschikt voor jonge kinderen. En geen enkele werken zonder een beeldscherm of zonder te hoeven lezen. Er verschijnt een groeiend aantal apps voor tablets en computers die ook werken in combinatie met fysieke robots, maar geen van deze zijn volledig vrij van het pixeldomein, zoals de Primo speelset dat wel is.
 
-Wood was chose as the main material, first of all because it's natural; you get a warm feeling from it and it makes a nice sound. The second reason is cultural. Observations were conducted on games used in traditional kindergartens in Switzerland (where the product was originally designed) to discover that the games loved by children were all made out of wood. Wooden toys are very durable and you can see marks and scratches on them, signs of their past usage from other children. It's a material with memory. Wood was also chosen as a material because of the stark contrast it creates with technology. Inside of Primo there's a circuit board, but we wanted to create a "magical" experience, hiding the complexity of the play set.
+Er is voor hout gekozen als primair materiaal, vooral omdat het natuurlijk is; je krijgt er warme gevoelens van en het maakt een mooi geluid. De tweede reden is cultureel. Er is gekeken naar spelletjes in traditionele kleuterscholen in Zwitserland (waar dit product oorspronkelijk is ontworpen) en daaruit bleek dat de geliefde spelletjes allemaal gemaakt zijn van hout. Houten speelgoed is zeer duurzaam en je kunt er krassen en deuken io zien, tekenen van het gebruik van andere kinderen. Het is een materiaal met geheugen. Hout is ook gekozen als materiaal, omdat het een sterk contrast heeft met technologie. Er zit een printplaat binnenin Primo, maar we wilden een "magische" beleving maken door de complexiteit van de speelset te verbergen.
 
 <img class="float" src="{{ site.baseurl }}images/photo/logo-turtle.jpg">
 
-The concept behind Primo is heavily inspired by the work of Seymour Papert, a mathematician who co-founded the MIT Artificial Intelligence Laboratory with Marvin Minsky, in the sixties (if you are interested in the subject, we encourage you to read [Mindstorms](http://www.amazon.co.uk/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746/ref=sr_1_1?ie=UTF8&qid=1393675158&sr=8-1&keywords=mindstorms+papert), his most famous book). He was directing the team who invented [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language)), probably the most used and long lasting resource to teach programming to children. The goal of Seymour Papert was not just to teach code, but also to help children discover their own personal way of solving problems. Primo can be considered an extreme simplification of LOGO and the physical turtle. We limited the instructions, to their purest form, avoiding any kind of textual or numerical language.
+Het concept achter Primo is sterk geïnspireerd door het werk van Seymour Papert, een wiskundige die in de jaren zestig het MIT Artificial Intelligence Laboratory oprichtte, samen met Marvin Minsky (indien je meer wilt weten of dit onderwerp, dan raden we je aan om [Mindstorms](http://www.amazon.co.uk/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746/ref=sr_1_1?ie=UTF8&qid=1393675158&sr=8-1&keywords=mindstorms+papert) te lezen, zijn meest bekende boek). Hij gaf leiding aan het team dat [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language)) bedacht, waarschijnlijk de meest en langst gebruikte bron om kinderen te leren programmeren. Het doel van Seymour Papert was niet om kinderen alleen te leren coderen, maar ook om kinderen hun eigen manier van probleemoplossing te laten ontdekken. Primo mag beschouwd worden als een extreme versimpeling van LOGO en de fysieke schildpad. We hebben het aantal instructies beperkt, in zijn puurste vorm, om enige tekstuele of numerieke taal te omzeilen.
 
-The first prototype was realised in SUPSI Lugano by Matteo Loglio (Primo.io co-founder and interaction designer), during the [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). Matteo's background is in product design, and after learning the Arduino basics and a bit of code to create the prototype, began to look around for technical solutions that were approachable for a novice, so as to develop an application like Primo. The main issues were two: making a robot car from scratch and an interface board that could easily recognize different instructions.
+Het eerste prototype werd gemaakt in SUPSI Lugano door Matteo Loglio (medeoprichter van Primo.io en interactie ontwerper), tijdens zijn [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). Matteo heeft als achtergrond productontwerp. Nadat hij de basis van Arduino had geleerd en een beetje kon programmeren om het prototype te maken, is hij op zoek gegaan naar technische oplossingen, die toegankelijk zijn voor een beginner, om een applicatie te kunnen ontwikkelen, zoals Primo. Er waren twee uitdagingen: een robotauto maken (vanaf nul) en een interfacebord dat makkelijke verschillende instructies herkent.
 
-The first issue was solved by using an [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) from David Cuartielles, one of the Arduino founders who was holding a lecture in SUPSI. The Oh_Oh robot is an open project, you can find the source files in the link above. It is basically a car shaped Arduino, only an XBee for radio communication was added.
+De eerste uitdaging werd opgelost door een [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) van David Cuartielles te gebruiken, één van de Arduino oprichters die een lezing gaf in SUPSI. De Oh_Oh robot is een open project, je kunt de bronbestanden vinden via bovenstaande link. Het is Arduino in een autovorm; alleen voor de draadloze communicatie werd een XBee toegevoegd.
 
-The second issue was designing a reliable way to detect the blocks. A solution was inspired by a [CIID](http://ciid.dk/) project called ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
+De tweede uitdaging was het ontwerpen van een betrouwbare manier om de blokken te onderscheiden. De oplossing was geïnspireerd door een [CIID](http://ciid.dk/)-project genaamd ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
 
 <div class="videoWrapper">
-  <iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
+	<iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
     </iframe>
 </div> 
 
-The idea is to use multiple blocks that can be recognized by a board using resistors. It's a basic voltage divider, with the analog pins of an Arduino reading the resistor values. It's a very simple method, but rather effective for a prototype.
 
-Design-wise, some features required testing; the actual design is the result of several iterations. 
+Het idee is om meerdere blokken te gebruiken, die door weerstandwaardes herkend worden door een bord. Het is een eenvoudige spanningsdeler, waarbij de analoge pinnen van de Arduino de weerstandwaardes uitlezen. Het is een simpele methode, maar zeer effectief voor een prototype.
 
-The 'snake' or 'zig-zag' path of the instruction sequence was chosen to avoid literacy pre-conceptions.  
+Sommige mogelijkheden moesten getest worden; het uiteindelijke ontwerp is het resultaat van meerdere iteraties.
+
+Het 'slang'- of 'zigzag'-pad van de instructievolgorde werd gekozen om invloeden van aangeleerd leesgedrag uit te sluiten.
 
 ![left to right]({{ site.baseurl }}images/illustrations/left-to-right.jpg)
 
-The 'D' shape of the block connectors, was designed so that blocks could be inserted just one way, to be consistent with the path design and the direction of the car. Multiple designs can be used for this. The D shape was chosen as it is basically an 'oriented circle' and as a shape, also recalls similar pin-board designs.
+De 'D'-vorm van de blokconnectoren zorgt ervoor dat de blokken maar op één manier gebruikt kunnen worden en om consistent te zijn met het padontwerp en de richting van de auto.
 
 ![instruction blocks]({{ site.baseurl }}images/photo/instruction-blocks.jpg)
 
-The design for the shape of the instruction blocks is still being tested. The actual design works quite well, children easily grasp their meaning, they just have some troubles at the first to get familiar with the left and right block. This is also because the "right" and "left" concept is generally quite new for them. We are currently testing other blocks design, to improve this even further.
+Het ontwerp voor de vorm van de instructieblokken wordt nog steeds getest. Het huidige ontwerp werkt redelijk goed; kinderen pakken makkelijk het juiste blok, ze hebben in het begin alleen wat moeite om te wennen aan de linksom- en rechtsomblokken. Dit komt ook omdat "links" en "rechts" redelijk nieuwe begrippen voor ze zijn. We testen op dit moment andere vormen, om dit nog verder te verbeteren.
 
 <div class="videoWrapper">
-  <iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">
+	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">
         
     </iframe>
 </div>
 
-At the beginning the robot was a toy car. A very complicated and time consuming shape to produce, as it's a laser-cut shape glued together layer by layer, and subsequently sanded for over an hour. The car had another major issue, it was very boy oriented. We wanted to avoid entering in discussions about 'brain toy' producers being criticised of only producing boy-oriented toys. We wanted to stay neutral, we didn't want to create a toy specifically for boys or girls, and instead opted for a very neutral geometry, a box.
+In eerste instantie was de robot een speelgoedauto. Een zeer complexe en tijdrovende vorm om te maken, omdat het een vorm (uitgesneden met een lasercutter) is die laag voor laag aan elkaar geplakt is en daarna meer dan een uur geschuurd moet worden. De auto had ook een andere beperking; het was zeer gericht op jongens. Als 'breinspeelgoed'-maker wilden we discussies en opmerkingen over jongensgericht speelgoed voorkomen. We wilden neutraal blijven en wilden geen speelgoed ontwerpen speciaal voor jongens of meisjes. Daarom hebben we gekozen voor een zeer neutrale vorm, een doos.
 
-A name was given to the little box, along with a personality and a similey face, making it even more appealing for children. The robot is called Cubetto (little cube in Italian). The idea with Cubetto is also to create a basic module that can be expanded and customized easily in the future.
+Er werd een naam, persoonlijkheid en een glimlach gegeven aan het doosje, zodat het aantrekkelijker werd voor kinderen. De robot heet "Cubetto" (Italiaans voor "kleine kubus"). Het idee is ook om een basismodule te maken van Cubetto, dat later makkelijk uitgebreid en aangepast kan worden in de toekomst.
 
 ![cubetto]({{ site.baseurl }}images/photo/cubetto.jpg)
 
-##3. Getting Started
+##3. Om te beginnen
 
-###3.1 The basics
+###3.1 De basis
 
-Primo is composed of three parts: An Interface Board, Cubetto and a set of Instruction Blocks. Children interact with the Interface Board by placing Instruction Blocks into the holes, to create a sequence (A program) that Cubetto executes. 
+Primo bestaat uit drie delen: een interfacebord, Cubetto en een set instructieblokken. Door instructieblokken in het interfacebord te plaatsen, maken kinderen een instructieset (een programma) welke Cubette uitvoert.
 
-There are four types of Instruction Blocks, this means that resistors of 4 different values can be used, possibly quite distant between each other.
+Er zijn vier type instructieblokken. Hierdoor moeten 4 verschillende weerstandwaardes gebruikt worden; het liefst met een groot waardeverschil tussen elkaar.
 
-The blocks are inserted into the holes of the Interface Board, where the resistor value is identified. After that, the values are processed into a string that is sent to Cubetto using two XBee modules. Cubetto then executes the instructions, one after the other.
+De blokken worden in de gaten van het interfacebord geplaatst, waar de weerstandwaarde wordt herkent. Daarna worden de waardes verwerkt in een tekenreeks welke naar Cubetto worden gestuurd met behulp van twee XBee-modules. Cubette voert deze instructies vervolgens uit, één voor één.
 
-The brain of the prototype is made of two Arduino Boards, a UNO (A Leonardo or a Duemilanove will also do) for Cubetto, and a Mega for the Interface Board, where 16 analog inputs are required.
+Het brein van het prototype is gemaakt met twee Arduino's, een UNO (een Leonardo of Duemilanove kan ook) voor Cubetto en een Mega voor het interfacebord, waar 16 analoge inputs nodig zijn.
 
-###3.2 Electronics
+###3.2 Electronica
 
-###Tools Required
+###Benodige gereedschappen
 
-* Soldering Iron
-* Solder
-* Wires
-* Hot Glue Gun
-* Wood Glue
-* Copper Tape 5mm wide
+* Soldeerbout
+* Soldeertin
+* Draad
+* Lijmpistool
+* Houtlijm
+* Kopertape (5mm breed)
 
-###Materials (prices in euro)
+###Materialen (prijzen in Euro)
 
 Cubetto ~ 88 €
 
-* Arduino UNO (or Leonardo) - 20 € : [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=11&products_id=195#.UxC5nfTV_bA)
+* Arduino UNO (of Leonardo) - 20 € : [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=11&products_id=195#.UxC5nfTV_bA)
 * Arduino Proto Wireless Shield - 14.90 € : [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_5&products_id=145#.UxC53vTV_bA)
-* SN754410 Motor Driver - 3.90 € : [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_33&products_id=153#.UxC5-_TV_bB)
-* XBee (series 1 or 2, doesn't make any difference) : 23.90 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_38&products_id=292#.UxC6cvTV_bA)
-* SolarBotics Wheels x 2 : 4.74 € - [Solarbotics Store](https://solarbotics.com/product/gmpw/)
-* SolarBotics Gear Motors GM3 x 2 : 8.36 € - [Solarbotics Store](https://solarbotics.com/product/gm3/)
-* 2 Ball Casters : 5.79 € - [Solarbotics Store](https://solarbotics.com/product/23160/)
+* SN754410 motor driver - 3.90 € : [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_33&products_id=153#.UxC5-_TV_bB)
+* XBee (serie 1 of 2, maakt niet uit welke) : 23.90 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_38&products_id=292#.UxC6cvTV_bA)
+* 2 x SolarBotics wielen : 4.74 € - [Solarbotics Store](https://solarbotics.com/product/gmpw/)
+* 2 x SolarBotics Gear Motors GM3 : 8.36 € - [Solarbotics Store](https://solarbotics.com/product/gm3/)
+* 2 x ball casters : 5.79 € - [Solarbotics Store](https://solarbotics.com/product/23160/)
 * CNY70 x 2 : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Vishay/CNY70/?qs=%2fha2pyFaduj8YpDhNNtXszq4w32cl%2fAjUjdOwQUvJUM%3d)
-* (optional) Battery Holder : 4 € - [Solarbotics Store](https://solarbotics.com/product/bholdaa_4_cell/)
-* (optional) 4 x Rechargeable Batteries
+* (optioneel) batterijhouder : 4 € - [Solarbotics Store](https://solarbotics.com/product/bholdaa_4_cell/)
+* (optioneel) 4 x oplaadbare batterijen
 
-Interface Board ~ 88 € (pure coincidence)
+Interfacebord ~ 88 € (puur toeval)
 
 * Arduino Mega 2560 : 39.00 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=11&products_id=196#.UxC_gPTV_bA)
 * Arduino Proto Wireless Shield : 14.90 - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_5&products_id=145#.UxC53vTV_bA)
-* XBee (series 1 or 2, doesn't make any difference) : 23.90 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_38&products_id=292#.UxC6cvTV_bA)
-* 16 5mm Red LED : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Lite-On/LTL-4223/?Lite-On/LTL-4223/&qs=sGAEpiMZZMusoohG2hS%252b15J8d1kHl%252bvkJpzS4atZNEA=)
-* 16 220 Ω Resistors : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
-* 16 10K Ω Resistors : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
-* 1 Push Button : 1 € 
-* 50 Male Headers : 1 € 
-* 16 Double male headers : 0.50 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=294#.UxC_3fTV_bA)
-* 50 female headers : 1 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=188#.UxDAAfTV_bA)
-* 16 Magnets ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
+* XBee (serie 1 of 2, maakt niet uit welke) : 23.90 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=37_38&products_id=292#.UxC6cvTV_bA)
+* 16 x 5mm rode LED's : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Lite-On/LTL-4223/?Lite-On/LTL-4223/&qs=sGAEpiMZZMusoohG2hS%252b15J8d1kHl%252bvkJpzS4atZNEA=)
+* 16 x 220Ω-weerstand : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
+* 16 x 10KΩ-weerstand : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
+* 1 x knop : 1 € 
+* 50 x male headers : 1 € 
+* 16 x dubbele male headers : 0.50 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=294#.UxC_3fTV_bA)
+* 50 x female headers : 1 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=188#.UxDAAfTV_bA)
+* 16 x magneten ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
 
-Instruction Blocks ~ 4 €
+Instructie blokken ~ 4 €
 
-* 4 x 4.7K Ω Resistor : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-47K-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2fbdyz6pU6a%252bvHlD5kaZWgo%3d)
-* 4 x 100K Ω Resistor : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-100K-RC/?qs=sGAEpiMZZMu61qfTUdNhG81NIhcRRUJQxII5Nsctha8%3d)
-* 4 x 220 Ω Resistor : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
-* 4 x 10K Ω Resistor : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
-* 16 Magnets ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
+* 4 x 4.7KΩ-weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-47K-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2fbdyz6pU6a%252bvHlD5kaZWgo%3d)
+* 4 x 100KΩ-weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-100K-RC/?qs=sGAEpiMZZMu61qfTUdNhG81NIhcRRUJQxII5Nsctha8%3d)
+* 4 x 220Ω-weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
+* 4 x 10KΩ-weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
+* 16 magneten ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
 
-###3.3 Energy
+###3.3 Spanning
 
-Cubetto and (optionally) the Interface Board, are battery powered. For the prototype you can use a LiPo battery or regular AA batteries, that's entirely up to you. We used both, LiPo batteries are good but you need extra equipment, if you are starting from scratch we recommend AA batteries. Just remember they run out very quickly, so the best would be to use rechargeable batteries, like NiMh.
+Cubetto en (optioneel) het interfacebord worden gevoed door batterijen. Je kunt LiPo- of AA-batterijen gebruiken voor het prototype, die keuze is aan jou. Wij hebben beide gebruikt; LiPo-batterijen zijn erg goed, maar hebben extra benodigheden nodig. Als je vanaf nul begint, raden we AA-batterijen aan. Ze raken wel snel leeg; daarom kun je het beste oplaadbare batterijen gebruiken, zoals NiMh.
 
-###3.4 Prototype Design
+###3.4 Ontwerp van het prototype
 
-The whole product is made out of laser cut wood, mainly 4 mm thick, with only one layer being 1mm thick. You can laser cut these parts using services like Ponoko, or in your local FabLab. The first prototype was laser cut inside [FabLab Lugano](http://fablab.supsi.ch/), while the product development advanced in [FabLab Torino](http://fablabtorino.org/), where part of Primo development team still resides.
+Het hele product is gemaakt van hout en uitgesneden met behulp van een lasercutter. Er is voornamelijk triplex van 4 mm gebruikt, terwijl voor één laag 1 mm dik hout (vliegtuigtriplex) gebruikt is. Je kunt deze onderdelen laten snijden door een dienst zoals Ponoko of in een FabLab bij je in de buurt. Het eerste prototype werd gemaakt in [FabLab Lugano](http://fablab.supsi.ch/). Het ontwerp werd verder ontwikkeld in [FabLab Torino](http://fablabtorino.org/), waar een deel van het Primo-ontwerpteam nog steeds zit.
 
-Building Cubetto and the Interface Board is a laborious but very simple procedure, their shells are basically boxes. The real complexity lays in the Instruction Blocks. They are a double 4mm wood layer with magnets and resistors soldered inside.
+Het maken van Cubetto en het interfacebord is een bewerkelijk, maar erg simpel proces. Hun buitenkanten zijn in de basis dozen. De echte complexiteit ligt in de instructieblokken. Deze zijn gemaakt van een dubbele 4mm houten laag met een magneet en een gesoldeerde weerstand binnenin.
 
-##4. Prototype Making
+##4. Het prototype maken
 
-###[Download Source Files](files/primo-prototype-laser.zip)
+###[Download de lasercutter-bestanden](files/primo-prototype-laser.zip)
 
-###4.1 Interface Board
+###4.1 Interfacebord
 
-To make the interface board you have to laser cut two files: interface-board-4mm.dxf and interface-board-1mm.dxf: the first one is for 4mm plywood and the second one for 1mm plywood. As you can see from the files, the parts are numbered, to ease the assembly process. The numbers are stored on a different layer, so you can easily remove them before lasering. We recommend adjusting the hole for the push button, based on the size of the button you wish to use or have.
+Om het interfacebord te maken heb je twee bestanden nodig: interface-board-4mm.dxf en interface-board-1mm.dxf: het eerst is voor het triplex van 4 mm dik en de tweede voor het triplex van 1 mm dik. De onderdelen zijn genummerd, zodat je ze makkelijk kunt samenvoegen. De nummers zitten in een aparte laag in het bestand, dus je kunt ze makkelijk verwijderen voordat je gaat snijden. We raden je aan om het gat voor de knop aan te passen aan de grootte van de knop die je gaat gebruiken.
 
-First of all, you have to glue parts 3 and 4 together, use the holes in the corners to align them with screws while gluing and let it rest for a night. 
+Lijm de delen 1 en 2 aan elkaar. Lijm ook de delen 3 en 4 aan elkaar. Je kunt de gaten in de hoeken gebruiken om de delen te positioneren met behulp van boutjes en moertjes terwijl de lijm een nachtje droogt.
 
-Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part that you just glued, they should be at least 30mm wide on each side. Once you finished, you can now glue all the remaining top layers of the interface board, this is the correct order:
-
-Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part that you just glued, they should be at least 30mm wide on each side. 
+Knip daarna 32 stukken kopertape van 70 mm lang per stuk en plak deze in de rechthoekige gaten in het deel (laag 3+4) dat je zojuist gelijmd hebt; aan beide zijden moet minimaal 30 mm zitten.
 
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-1.jpg)
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-2.jpg)
 
-Once you finished, you can now glue the previously glued parts, 1+2 with 3+4.
+Zodra je klaar bent, kun je de twee delen aan elkaar plakken, 1+2 aan 3+4.
 
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-esploso.jpg)
 
-Once the glue has dried, put the magnets in the little holes. Turn your top layer upside-down and fill the little holes with the magnets, make sure they are all in the same direction, doesn't matter if north or south. Seal the hole with a drop of hot glue.
+Zodra de lijm droog is, plaats je de magneten in de kleine gaten. Leg de toplaag op de kop en plaats de magneten in de kleine gaten, zorg ervoor dat de polariteit van de magneten allemaal gelijk is, het maakt niet uit of dat noord of zuid is. Lijm de magneten vast met een druppel lijm.
 
-Now the electronics. Start by making rails for the 5V and the GND, all along the hole lines like in the picture. The first ever prototype never had copper strips, it had wires (which you can also use), but in this prototype we used copper tape also for the rails. A real 100% time saver. It also makes things easier for creating connections.
+Nu verder met de electronica. Maak twee sporen voor 5V en GND, zoals je hieronder ziet in de afbeelding. Het eerste prototype had geen kopersporen, het had draden (dat kun je ook gebruiken), maar in dit prototype hebben we kopertape gebruikt voor de sporen. Dat scheelt je 100% van de tijd. Het maakt het maken van verbindingen ook makkelijker.
 
 ![rails]({{ site.baseurl }}images/illustrations/board-3.jpg)
 
-The next step is to wire one of the two connectors of every hole, to the ground rail. If you used copper tape, you can just use a tiny extra bit of it, just enough to touch both ends.
+De volgende stap is het verbinden van één van de connectoren van elk gat aan het GND-spoor. Als je kopertape hebt gebruikt, kun je een extra stukje toevoegen, zodat deze beide uiteinden raakt.
 
 ![rails]({{ site.baseurl }}images/illustrations/board-5.jpg)
 
-Now we have to connect the other side of each connector to the 5V rail, but this time, with a 10KΩ resistor in-between. A cool thing of copper tape is that solder melts very well on top of it. This is the technique used:
+Nu gaan we de andere connector verbinden aan het 5V-spoort, maar nu met een 10KΩ-weerstand ertussen. Een mooie bijkomstigheid van kopertape is dat het soldeertin makkelijk erop smelt. Deze techniek is gebruikt:
 
 ![10k]({{ site.baseurl }}images/photo/diy-docs-1.jpg)
 
-At the end of this process, you should have something like this:
+Dit is wat je ongeveer moet hebben als je klaar bent:
 
 ![10k scheme]({{ site.baseurl }}images/illustrations/board-6.jpg)
 
-Now it's time to put the LEDs; stick one red LED in each one of the 16 holes, then use a drop of hot glue to seal them to the wood. Once the glue is cold, we have to connect them. Just mind that LEDs have a polarity: the long leg is the anode and the short one the cathode. Connect each cathode to the ground rail, using a 220Ω Resistor.
+Nu kun je de LED's plaatsen; stop één rode LED in elk van de 16 gaten en zet deze vast m.b.v. het lijmpistool. Zodra de lijm koud is, kun je 'm verbinden. Houd er rekening mee dat LED's polariteit hebben: de lange draad is de anode en de korte de cathode.
 
 ![10k]({{ site.baseurl }}images/photo/diy-docs-6.jpg)
 
-Connect each cathode to the ground rail, using a 220Ω Resistor.
+Verbind elke cathode aan het GND-spoor met een 220Ω-weerstand ertussen in.
 
 ![10k scheme]({{ site.baseurl }}images/illustrations/board-7.jpg)
 
-The long leg of the LED, must be connected to a digital I/O pin on the Arduino Mega, these pins are numbered from 22 to 53. The LEDs must be connected in order, so that it will be much easier to access them later on in the code, in my prototype for example I started from pin number 30 up to 45 (there are 16 LEDs). 
-The starting point is not important, as long as they are in the correct sequential order. This means for example that if we start from pin 30, the first LED must be attached to pin 30, the second to pin 31, the third to pin 32 and so on until LED 16 to pin 45. 
+De lange draad van een LED wordt verbonden aan een digitale I/O-pin van de Arduino Mega; deze pinnen zijn genummerd van 22 t/m 53. De LED's moeten in volgorde aangesloten worden, zodat het makkelijker wordt om ze in de code aan te sturen. In mijn prototype heb ik, bijvoorbeeld, de pinnen 30 t/m 45 gebruikt (er zijn 16 LED's).
+Het startpunt is niet belangrijk, zolang je ze maar in de juiste volgorde aansluit. Dit betekent dat, als we, bijvoorbeeld, beginnen met pin 30, de eerste LED aan pin 30 verbonden moet worden, de tweede aan pin 31, de derde aan pin 32, enzovoorts, tot en met LED 16 aan pin 45.
 
-The cables are soldered to a rack of double male headers, as the digital pins on the Arduino Mega are laid out in a double line. In this way it's easy to plug and remove the Arduino from the board.
+De draden zijn gesoldeerd aan de dubbele male headers, omdat de digitale pinnen van de Arduino Mega in een dubbele lijn zijn gepositioneerd. Op deze manier is het makkelijk om de LED's aan te sluiten en om de Arduino uit het bord te kunnen halen.
 
 ![rack]({{ site.baseurl }}images/photo/diy-docs-4.jpg)
 
-Once all the LEDs are soldered, we have to solder our hand made connectors. These must be wired to the Arduino Mega analog pins, to read the different resistor values. Just like the LEDs, these must be connected in order, starting from A0 for hole 1 to A15 for hole 16. The wire has to start from the same point where we soldered previously the 10K resistor. See the illustration:
+Zodra alle LED's zijn gesoldeerd, moeten we onze handgemaakte connector solderen. Deze wordt aangesloten op de analoge pinnen van de Arduino Mega, om de verschillende weerstandwaardes uit te lezen. Net zoals bij de LED's moeten deze in de juiste volgorde worden aangesloten, te beginnen bij A0 voor gat 1 t/m A15 voor gat 16. De draad begint op dezelfde plek als waar we de 10KΩ-weerstand hebben vastgemaakt. Zie deze illustratie:
 
 ![analog input board connections]({{ site.baseurl }}images/illustrations/board-8.jpg)
 
@@ -249,127 +205,134 @@ Once all the LEDs are soldered, we have to solder our hand made connectors. Thes
 <img class="float cf" src="{{ site.baseurl }}images/illustrations/button.jpg">
 
 <p>
-Here I used some single male headers, as the analog pins are all on a single line.
-  
+Hier heb ik enkele male headers gebruikt, omdat de analoge pinnen op één lijn staan.
+	
 </p>
 
 <p>
-The last thing to connect is the button: take it and solder two cables to two opposite headers, then slip them trough the button hole, from the top, and push it all the way down, until it stops. Now flip the board, you should have the two wires coming out of the hole. Connect them as in the illustration: one straight to 5V, the other one to GND using a 10k Resistor. Then connect it to an Arduino digital pin from the button-end of the resistor, in this example we used pin number 50.
+Het laatste om te verbinden is de knop: pak het en soldeer twee draden aan de tegen overelkaar gelegen headers. Plaats de knop dan in het bijbehorende gat vanaf de bovenkant en druk het helemaal naar beneden, totdat het niet verder kan. Draai nu het bord om; er moeten nu twee draden uit de gaten komen. Verbind deze, zoals je in de afbeelding ziet: één direct naar het 5V-spoor, de andere naar het GND-spoor met een 10KΩ-weerstand ertussen. Verbind het dan met een digitale pin van de Arduino vanaf de 'knop'-kant van de weerstand. In dit voorbeeld gebruiken we pin 50.
 </p>
 </div>
 
-
 ![photo]({{ site.baseurl }}images/photo/diy-docs-5.jpg)
 
-Almost done with the board, now you just have to plug the Wireless Shield on top of the Arduino Mega and stick the headers in place in the board. To recap, 30 to 45 for the LEDs, A0 to A15 for the connectors and 50 for the button. Use the A0 to A5 pins on the Wireless Shield for the first 5 connectors. Don't forget to connect the ground rail to the GND pin and the 5V to the 5V pin.
+Het bord is nu bijna klaar, we hoeven nu alleen nog maar het Wireless Shield op de Arduino Mega te plaatsen en de headers op de juiste plaats in het bord te steken. Ter herinnering, 30 t/m 45 zijn voor de LED's, A0 t/m A15 voor de blokconnectoren en 50 voor de knop. Gebruik de A0 t/m A5-pinnen voor de eerste 5 connectoren van het Wireless Shield. Vergeet niet om het GND-spoor te verbinden aan de GND-pin en het 5V-spoor aan de 5V-pin.
 
 ![rack]({{ site.baseurl }}images/photo/diy-docs-3.jpg)
 
-Now a little bit of fine-tuning: after that part 12 of the board has been painted, you can glue it with part 13 on top of the board.
+Nu een beetje afwerking: nadat je deel 12 van het bord hebt geverfd, kun je het vastlijmen aan deel 13 van het bord.
 
-Same for the red button: after part 14 has been painted, put something soft like cardboard on top of part 2, around the push button, then some hot glue on top of the push button and before the glue dries off, place the red button. See the illustration:
+Hetzelfde geldt voor de rode knop: nadat deel 14 is geverfd, bevestig je iets zachts (zoals karton) op deel 2 rondom de knop en dan wat lijm op de knop en, voordat de lijm droog is, bevestig je de rode knop. Zie de afbeeldingen:
 
 ![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
-###INSTRUCTION BLOCKS
+###INSTRUCTIEBLOKKEN
 
-This is one instruction block, exploded:
+Dit is één van de instructieblokken, in onderdelen:
 
 <img class="float cf" src="{{ site.baseurl }}images/illustrations/instruction-esploso.jpg">
 
-To make the Instruction Blocks, the first thing you have to do is laser cut the files, there's one for 4mm thick wood and one for 1mm wood. They are four layers, numbered from 1 to 4 and the drawings provided can be used to make 16 blocks, four of each kind.
+Om de instructieblokken te maken, begin je met het snijden van het hout (m.b.v. een lasercutter). Er zijn twee bestanden nodig: één voor het 4 mm triplex en één voor het 1 mm triplex. De blokken bestaan uit 4 lagen, genummerd 1 t/m 4. Met de onderdelen uit de twee bestanden, kun je precies 16 blokken maken, vier van elk type.
 
-Each block has a different resistor. These are the resistors used in the prototype:
+Elk blok heeft een andere weerstand. Dit zijn de weerstanden die gebruikt zijn in het prototype:
 
-FORWARD: 4.7K Ω<br>
-LEFT: 100K Ω<br>
-RIGHT: 220 Ω<br>
-FUNCTION: 10K Ω
+VOORUIT: 4.7K Ω<br>
+LINKSOM: 10K Ω<br>
+RECHTSOM: 220 Ω<br>
+FUNCTIE: 100K Ω
 
-To make blocks, first you have to glue part 4 with part 3. 
+Lijm eerst de delen 3 en 4 aan elkaar.
 
-After the glue has dried, you can start painting. See the illustration below to see what part should be colored:
+Zodra de lijm droog is, kun je gaan verven. In de afbeelding hieronder zie je welke kleur elk onderdeel moet krijgen:
 
 ![image]({{ site.baseurl }}images/illustrations/colors.jpg)
 
-Now you have to cut two pieces of copper tape, 40mm long. Slip them in the holes of the two blocks that you just glued, making a ring around it using the upper and lower fissure, the ring must be quite tight.
+Per blok heb je twee stukken kopertape van 40 mm lang nodig. Steek deze door de gaten van de delen die je net gelijmd hebt en maak hier een strakke ring van.
 
 ![photo]({{ site.baseurl }}images/illustrations/instruction-block-guide.jpg)
 
-After that, you have to put the magnet in the hole. While doing this, BE SURE THAT IT IS CORRECTELY ORIENTED, so that the block 'sticks' into the hole. If you put it the other way, it's going to be repelled by the other magnet, a funny outcome but not what we want to achieve.
+Daarna plaats je een magneet in het gat. Zorg ervoor dat deze CORRECT GEORIENTEERD is, zodat het blok later 'plakt' in het interfacebord. Als je 'm andersom plaatst, dan wordt deze afgestoten door de andere magneet. Een grappig effect, maar niet wat we willen bereiken.
 
-Fix the magnet with a drop of hot glue and before the glue gets cold, put the right resistor on top, with the 'legs' laying on the copper tape. After that, the resistor must be soldered on the two pieces. After soldering, cut the extra leg length and glue part 2 on top of the resistor.
+Fixeer de magneet met een drup lijm en plak daarop de juiste weerstand met de draden op het kopertape.
+Soldeer daarna de weerstand aan de beide stukken kopertape. Knip, na het solderen, de extra draadlengte af en lijm deel 2 op de weerstand.
 
-Finish your block by gluing the last layer, part number 1, on the top, then repeat the entire process for every single block :)
+Maak je blok af door de laatste laag, deel nummer 1, erop te lijmen. Herhaal dan dit proces voor elk blok :)
 
 ###CUBETTO
 
-Electronics:
+Electronica:
 
-The prototype for Cubetto can be built using an Arduino Uno or Leonardo, with a Proto Wireless Shield on top. The reason for the Proto Shield is because it has a small prototyping area, that is wide enough to put the motor driver, the connectors for the optical encoders, motors and power. 
+Het prototype voor Cubetto kan gemaakt worden met een Arduino UNO of Leonardo, met een Proto Wireless Shield erop. We gebruiken het Proto Shield, omdat er een klein prototypegebied op zit dat breed genoeg is voor de motor driver en de connectoren voor de optische encoders, motoren en stroom.
 
-Cubetto has to spin 90 degrees left and right. A very inaccurate way is to use timing event, like "spin right for one second" and you can expect more or less the same result. "More or less" because it depends a lot from different factors, such as the floor, the battery power and so on. The way I solved this problem, is by detecting the amount of rotation from the wheel using two CNY70 optical encoders in combination with a sticker. The round sticker goes in the inner wheel and it's something like this:
+Cubetto moet 90 graden naar links of recht draaien. Een zeer onnauwkeurige manier om dit te doen is op basis van tijd, zoals "draai 1 seconde naar rechts"; je kunt dan elke keer ongeveer hetzelfde resultaat verwachten. "Ongeveer", omdat het afhankelijk is van vele factoren, zoals de vloer, batterijspanning enz. Ik heb dit probleem opgelost door de draaiafstand van het wiel te detecteren m.b.v. twee CNY70 optische encoders in combinatie met een sticker. De ronde sticker komt aan de binnenkant van het wiel en ziet er ongeveer zo uit:
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-14.jpg)
 
-The sticker is split into black and white slices, this is because the CNY70 is able to detect the variation between a white slice and a black one. Basically inside it has an infrared LED that is always on and a phototransistor that is reading the amount of infrared light. When a black material is facing the component, almost no light is relfected, as the black color tends to absorb it. On the contrary, if the material is white, it reflects all the light, so the value read from the sensor it's very high. The difference between readings is used to count the rotation steps.
+De sticker is verdeeld in witte en zwarte punten, omdat de CNY70 het verschil kan detecteren tussen de witte en zwarte stukken. De CNY70 heeft een infrarood-LED die continu aan is en een fototransistor die de hoeveelheid infraroodlicht meet. Als zwart materiaal voor het onderdeel staat, wordt er bijna geen licht gereflecteerd, omdat zwart materiaal licht absorbeert. Als het materiaal wit is, dan wordt al het licht gereflecteerd en daarom zal de sensorwaarde heel hoog zijn. Het verschil tussen de waardes wordt gebruikt om de draaiafstand te meten.
 
 ![photo]({{ site.baseurl }}images/illustrations/cny70-physycs.jpg)
 
-The prototyping area of the Wireless Proto Shield is where the motor driver and other connectors for the other parts are soldered. For these, simply use male headers as connector and female headers on the other part.
-
+De motor driver en de connectoren voor de andere onderdelen worden op het prototypinggebied van het Wireless Proto Shield gesoldeerd. Hiervoor kun je male headers gebruiken als connector en female headers voor de andere onderdelen.
 
 ![photo]({{ site.baseurl }}images/illustrations/wireless-shield-connections.jpg)
 
-For these I used simple male headers as connector and female headers on the other part.
+Hier heb ik simpele male headers gebruikt als connector en female headers voor de andere connector.
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-12.jpg)
 
 ![photo]({{ site.baseurl }}images/illustrations/wireless-shield-connections-1.jpg)
 
-The SN754410 motor driver has 16 pins that must be connected following this scheme:
+De SN754410 motor driver heeft 16 pinnen, die als volgt aangesloten moeten worden:
 
 ![photo]({{ site.baseurl }}images/illustrations/motor-driver.jpg)
 
-Design:
+CNY70-schema:
 
-Start by lasering cubetto.dxf; All Cubetto parts are cut from 4mm plywood, follow these visual instructions to build the base:
+![image]({{ site.baseurl }}images/illustrations/cny70-wiring.jpg)
+
+Ontwerp:
+
+Snij (m.b.v. een lasercutter) eerst alle onderdelen van cubetto.dxf; alle Cubetto-onderdelen komen uit 4 mm dik triplex. Volg deze visuele instructies om de basis te bouwen:
 
 ![photo]({{ site.baseurl }}images/illustrations/cubetto-guide.jpg)
 
-Don't mount the motors for now, first you have to mount the ball casters.
+Monteer de motoren nog niet, begin met het monteren van de ball casters.
 
 ![photo]({{ site.baseurl }}images/illustrations/ball-caster.jpg)
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-9.jpg)
 
-Now the CNY70. Solder the two opposite headers, that must be connected to 5V, together with a wire; then solder three wires to the remaining headers of the CNY70. At the end of these wires solder a row of three female headers. They will later be connected on to the headers of the proto shield.
+Nu de CNY70. Soldeer de twee tegenover elkaar gelegen headers (diagonaal) (die aan de 5V verbonden moeten worden) en een draad; soldeer daarna twee draden aan de overige twee headers. Soldeer deze drie draden aan een rij van drie female headers. Deze wordt later aangesloten op de headers van het proto shield.
 
-The two cny70 must be placed on the edge of the bottom layer, with the LED and the photoransistot horizontally aligned. To fix them you can use some hot glue (or other types of glue). 
+![image]({{ site.baseurl }}images/illustrations/cny70-header.jpg)
 
-See the picture to understand the location.
+De twee CNY70's moeten aan de rand van de grondplaat vastgemaakt worden, met de LED en de fototransistor horizontaal. Je kunt lijm gebruiken om ze vast te maken. 
+
+Op de foto zie je de exacte locatie.
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-11.jpg)
 
-Just like for the CNY70, solder two wires to the little flaps that come out of each motor. You can twist the two wires to make them more resistent, then at the end, solder a row of two female header, just like in the illustration.
+Soldeer draden aan de kleine aansluitingen van de motoren. Je kunt de draden om elkaar draaien om het sterker te maken. Soldeer twee female headers aan het eind, zoals je op de afbeelding ziet:
 
-Now print the inner drawing with the black and white slices, glue them on a piece of cardboard (or laser cut wood, that's up to you), cut the perimeter and make a hole in the middle, as they will be inserted between the motor and the wheel. The white and black slices must point towards the inner side of Cubetto and the distance between the print and the CNY70 must be between 1 and 3 millimeters for the CNY70 to work properly.
+![image]({{ site.baseurl }}images/illustrations/motor-wiring.jpg)
+
+Print nu de tekening met witte en zwarte punten en plak deze op een stuk karton (of hout, dat is aan jou). Knip de randen bij en maak een gat in het midden, omdat dit onderdeel tussen het wiel en de motor komt. De witte en zwarte punten moeten naar de binnenkant van Cubetto wijzen en de afstand tussen de print en de CNY70 moet tussen de 1 en 3 mm liggen, om ervoor te zorgen dat de CNY70 goed werkt.
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-10.jpg)
 
-Now you can put the wheels on the motors, if you used the Solarbotics wheels, you can fasten them with the screw provided, don't make it too tight. 
+Nu kun je de wielen vastmaken aan de motoren. Als je de Solarbotics wielen gebruikt, dan kun de deze vastmaken met de meegeleverde schroef (niet te vast draaien).
 
-Glue three out of the four 'walls' of Cubetto, parts 5, 7 and 8. We are going to leave the back removable, just in case we want to modify something. 
+Lijm drie van de vier 'muren' van Cubetto, delen 5, 7 en 8. De achterkant laten we los, voor het geval we nog iets moeten aanpssen.
 
-Take the battery holder and solder the black and red cable to other 2 female connectors. The headers on the shield will go to VIN and ground. A switch that breaks the red wire is heavily suggested.
+Pak de batterijhouder en soldeer de zwarte en rode draad aan 2 female headers. De headers op het shield gaan naar VIN en GND. Een schakelaar die de rode draad onderbreekt, wordt sterk aangeraden.
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-13.jpg)
 
-Now you can place the Arduino + Proto shield on top of the motors, plug all the headers on the shield and you have finished making Cubetto.
+Nu kun je de Arduino + Protoshield op de motoren plaatsen, alle headers aansluiten op het shield en je bent klaar met het maken van Cubetto.
 </div>
 
 ##Arduino
 
-###[Download Arduino Files](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
+###[Download de Arduino-bestanden](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
 
-Instructions in the sketch comments.
+De instructies staan als commentaar in de sketches.
