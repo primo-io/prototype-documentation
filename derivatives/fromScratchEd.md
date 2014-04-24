@@ -13,7 +13,9 @@ Please <a href="http://fromscratched.nl/index.php/neem-contact-op/?lang=en">cont
 <br>
 Sjoerd Dirk Meijer, the Netherlands<br>
 Blog: <a href="http://fromscratched.nl/?lang=en">http://fromScratchEd.nl</a><br>
-Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets in Dutch and English)
+Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets in Dutch and English)<br>
+<br>
+License: CC BY-NC-SA 3.0
 </div>
 <br>
 
