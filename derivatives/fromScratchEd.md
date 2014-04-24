@@ -11,8 +11,13 @@ folder: fromScratchEd
 > Please [contact me][2] when you need more information or have questions.
 >
 > Sjoerd Dirk Meijer, the Netherlands
+>
 > Blog: [http://fromScratchEd.nl][3]
+>
 > Twitter: [@fromScratchEd][4] (tweets in Dutch and English)
+
+<br>
+<br>
 
 ###Bill of materials
 ([Tayda publishes discount codes on their Facebook page regularly!][5])
