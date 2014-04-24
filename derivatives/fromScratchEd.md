@@ -5,18 +5,16 @@ title: fromScratchEd's Primo play set
 folder: fromScratchEd
 ---
 
-> This document lists all necessary information needed to build your own prototype like [fromScratchEd][1] did.
-> Please use this document side-by-side of the original documentation of Primo for the building instructions.
-> 
-> Please [contact me][2] when you need more information or have questions.
->
-> Sjoerd Dirk Meijer, the Netherlands
->
-> Blog: [http://fromScratchEd.nl][3]
->
-> Twitter: [@fromScratchEd][4] (tweets in Dutch and English)
-
+<div id="notes">
+This document lists all necessary information needed to build your own prototype like [fromScratchEd][1] did.<br>
+Please use this document side-by-side of the original documentation of Primo for the building instructions.<br>
 <br>
+Please [contact me][2] when you need more information or have questions.<br>
+<br>
+Sjoerd Dirk Meijer, the Netherlands<br>
+Blog: [http://fromScratchEd.nl][3]<br>
+Twitter: [@fromScratchEd][4] (tweets in Dutch and English)
+</div>
 <br>
 
 ###Bill of materials
