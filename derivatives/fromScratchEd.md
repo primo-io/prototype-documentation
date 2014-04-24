@@ -34,7 +34,7 @@ folder: fromScratchEd
 
 ####Interface Board
 
-* Shrimp ([http://Shrimping.it)][17]: replacement of Arduino Mega 2560
+* 2 x Shrimp ([http://Shrimping.it)][17]: replacement of Arduino Mega 2560
 * Stripboard ([Tayda][18]): replacement of Arduino Proto Wireless Shield
 * XRF wireless RF radio UART RS232 serial data module XBee shape ([Ciseco][19]): replacement of XBee
 * Active(!) XBBO - break out board for XBee shaped modules ([Ciseco][20]): replacement of Arduino Proto Wireless Shield
@@ -44,7 +44,7 @@ folder: fromScratchEd
 * 1 x Push Button ([Tayda][24]) 
 * 16 x Magnets ø 4 h 4 ([Magnetenspecialist][25]): replacement of Magnets ø 4 h 3
 * 1 x Voltage regulator kit ([Ciseco][26]) (not shown in schematics below)
-* 1 x CD4052 ([Tayda][52])
+* 2 x CD4052 ([Tayda][52])
 
 ####Instruction Blocks
 
@@ -82,6 +82,8 @@ folder: fromScratchEd
 [Lasercutter files][50]
 
 ###Schematics
+For the Interface Board I've used two Shrimps connected with I2C (connect A4 at A4, A5 at A5, 5V at 5V and GND at GND).
+The primary Shrimp is connected to the block holes of the interface board, the second Shrimp is connected to the LED's.
 ![enter image description here][51]
 
 
