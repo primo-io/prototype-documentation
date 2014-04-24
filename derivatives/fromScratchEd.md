@@ -6,14 +6,14 @@ folder: fromScratchEd
 ---
 
 <div id="notes">
-This document lists all necessary information needed to build your own prototype like [fromScratchEd][1] did.<br>
+This document lists all necessary information needed to build your own prototype like <a href="http://fromscratched.nl/?lang=en">fromScratchEd</a> did.<br>
 Please use this document side-by-side of the original documentation of Primo for the building instructions.<br>
 <br>
-Please [contact me][2] when you need more information or have questions.
+Please <a href="http://fromscratched.nl/index.php/neem-contact-op/?lang=en">contact me</a> when you need more information or have questions.
 <br>
 Sjoerd Dirk Meijer, the Netherlands<br>
-Blog: [http://fromScratchEd.nl][3]<br>
-Twitter: [@fromScratchEd][4] (tweets in Dutch and English)
+Blog: <a href="http://fromscratched.nl/?lang=en">http://fromScratchEd.nl</a>[3]<br>
+Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets in Dutch and English)
 </div>
 <br>
 
