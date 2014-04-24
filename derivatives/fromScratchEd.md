@@ -44,6 +44,7 @@ folder: fromScratchEd
 * 1 x Push Button ([Tayda][24]) 
 * 16 x Magnets ø 4 h 4 ([Magnetenspecialist][25]): replacement of Magnets ø 4 h 3
 * 1 x Voltage regulator kit ([Ciseco][26]) (not shown in schematics below)
+* 1 x CD4052 ([Tayda][52])
 
 ####Instruction Blocks
 
@@ -135,3 +136,4 @@ folder: fromScratchEd
   [49]: https://github.com/sdmeijer/arduino-sketches/blob/master/fromScratchEd/fromScratchEd.zip?raw=true
   [50]: https://github.com/sdmeijer/arduino-sketches/blob/master/fromScratchEd/fromScratchEd_laser.zip?raw=true
   [51]: http://fromscratched.nl/wp-content/uploads/2014/04/Scan-140415-0001_small.jpg
+  [52]: http://www.taydaelectronics.com/cd4052-4052-cmos-multiplex-demultiplexer-ic.html
