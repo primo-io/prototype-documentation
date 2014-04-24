@@ -87,9 +87,9 @@ Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets 
 [Lasercutter files][50]
 
 ###Schematics
-For the Interface Board I've used two Shrimps connected with I2C (connect A4 at A4, A5 at A5, 5V at 5V and GND at GND).
+For the Interface Board I used two Shrimps connected with I2C (connect A4 at A4, A5 at A5, 5V at 5V and GND at GND).
 
-The primary Shrimp is connected to the block holes of the interface board, the second Shrimp is connected to the LED's.
+The primary Shrimp is connected to the block holes of the interface board, the secondary Shrimp is connected to the LED's.
 
 ![enter image description here][51]
 
