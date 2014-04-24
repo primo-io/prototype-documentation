@@ -31,11 +31,12 @@ Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets 
 * 2 x SolarBotics Gear Motors GM3 ([Technobots][12])
 * 2 x Ball Casters ([Technobots][13])
 * 2 x CNY70 ([AliExpress][14])
-* 1 x 10KΩ Resistor
-* 1 x 220Ω Resistor
+* 2 x 10KΩ Resistor
+* 2 x 220Ω Resistor
 * 1 x Battery Holder ([Tayda][15])
 * 4 x Rechargeable Batteries (local store)
 * 1 x Voltage regulator kit ([Ciseco][16]) (not shown in schematics below)
+* 1 x Switch (local store) (to cut the power)
 
 ####Interface Board
 
@@ -52,6 +53,7 @@ Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets 
 * 4 x Rechargeable Batteries (local store)
 * 1 x Voltage regulator kit ([Ciseco][26]) (not shown in schematics below)
 * 2 x CD4052 ([Tayda][52]) (to add extra analog inputs)
+* 1 x Switch (local store) (to cut the power)
 
 ####Instruction Blocks
 
