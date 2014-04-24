@@ -65,8 +65,8 @@ Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets 
 
 ####Wood
 
-* 6 x 60cm x 30cm x 4mm triplex (local store)
-* 1 x 50cm x 30cm x 1mm triplex (a.k.a. flexible plywood, bendy plywood, flexiply of airplane plywood) ([Yvonne's Hobby-corner][32])
+* 6 x 60cm x 30cm x 4mm plywood (local store)
+* 1 x 50cm x 30cm x 1mm plywood (a.k.a. flexible plywood, bendy plywood, flexiply of airplane plywood) ([Yvonne's Hobby-corner][32])
 
 ###The adventures (links to my blog)
 * [Day 1][33]: Getting the source files
