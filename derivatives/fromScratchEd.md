@@ -8,7 +8,7 @@ folder: fromScratchEd
 > This document lists all necessary information needed to build your own prototype like [fromScratchEd][1] did.
 > Please use this document side-by-side of the original documentation of Primo for the building instructions.
 > 
-> Please [contact me][2], when you want more information or have questions.
+> Please [contact me][2] when you need more information or have questions.
 >
 > Sjoerd Dirk Meijer, the Netherlands
 > Blog: [http://fromScratchEd.nl][3]
