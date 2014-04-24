@@ -22,32 +22,34 @@ Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets 
 
 ####Cubetto
 
-* Shrimp ([http://Shrimping.it)][6]: replacement of Arduino UNO (or Leonardo)
-* Stripboard ([Tayda][7]): replacement of Arduino Proto Wireless Shield
-* L293D ([Tayda][8]): replacement of SN754410 Motor Driver
-* XRF wireless RF radio UART RS232 serial data module XBee shape ([Ciseco][9]): replacement of XBee
-* Active(!) XBBO - break out board for XBee shaped modules ([Ciseco][10]): replacement of Arduino Proto Wireless Shield
+* 1 x Shrimp ([http://Shrimping.it)][6]: replacement of Arduino UNO (or Leonardo)
+* 1 x Stripboard ([Tayda][7]): replacement of Arduino Proto Wireless Shield
+* 1 x L293D ([Tayda][8]): replacement of SN754410 Motor Driver
+* 1 x XRF wireless RF radio UART RS232 serial data module XBee shape ([Ciseco][9]): replacement of XBee
+* 1 x Active(!) XBBO - break out board for XBee shaped modules ([Ciseco][10]): replacement of Arduino Proto Wireless Shield
 * 2 x SolarBotics Wheels ([Technobots][11])
 * 2 x SolarBotics Gear Motors GM3 ([Technobots][12])
 * 2 x Ball Casters ([Technobots][13])
 * 2 x CNY70 ([AliExpress][14])
-* Battery Holder ([Tayda][15])
+* 1 x Battery Holder ([Tayda][15])
 * 4 x Rechargeable Batteries (local store)
 * 1 x Voltage regulator kit ([Ciseco][16]) (not shown in schematics below)
 
 ####Interface Board
 
 * 2 x Shrimp ([http://Shrimping.it)][17]: replacement of Arduino Mega 2560
-* Stripboard ([Tayda][18]): replacement of Arduino Proto Wireless Shield
-* XRF wireless RF radio UART RS232 serial data module XBee shape ([Ciseco][19]): replacement of XBee
-* Active(!) XBBO - break out board for XBee shaped modules ([Ciseco][20]): replacement of Arduino Proto Wireless Shield
+* 2 x Stripboard ([Tayda][18]): replacement of Arduino Proto Wireless Shield
+* 1 x XRF wireless RF radio UART RS232 serial data module XBee shape ([Ciseco][19]): replacement of XBee
+* 1 x Active(!) XBBO - break out board for XBee shaped modules ([Ciseco][20]): replacement of Arduino Proto Wireless Shield
 * 16 x 5mm Red LED ([Tayda][21]) 
 * 16 x 220Ω Resistors ([Tayda][22]) 
 * 16 x 10KΩ Resistors ([Tayda][23]) 
-* 1 x Push Button ([Tayda][24]) 
+* 1 x Push Button ([Tayda][24])
 * 16 x Magnets ø 4 h 4 ([Magnetenspecialist][25]): replacement of Magnets ø 4 h 3
+* 1 x Battery Holder ([Tayda][15])
+* 4 x Rechargeable Batteries (local store)
 * 1 x Voltage regulator kit ([Ciseco][26]) (not shown in schematics below)
-* 2 x CD4052 ([Tayda][52])
+* 2 x CD4052 ([Tayda][52]) (to add extra analog inputs)
 
 ####Instruction Blocks
 
