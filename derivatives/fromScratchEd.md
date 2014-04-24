@@ -24,9 +24,9 @@ Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets 
 
 * 1 x Shrimp ([http://Shrimping.it)][6]: replacement of Arduino UNO (or Leonardo)
 * 1 x Stripboard ([Tayda][7]): replacement of Arduino Proto Wireless Shield
-* 1 x L293D ([Tayda][8]): replacement of SN754410 Motor Driver
-* 1 x XRF wireless RF radio UART RS232 serial data module XBee shape ([Ciseco][9]): replacement of XBee
 * 1 x Active(!) XBBO - break out board for XBee shaped modules ([Ciseco][10]): replacement of Arduino Proto Wireless Shield
+* 1 x XRF wireless RF radio UART RS232 serial data module XBee shape ([Ciseco][9]): replacement of XBee
+* 1 x L293D ([Tayda][8]): replacement of SN754410 Motor Driver
 * 2 x SolarBotics Wheels ([Technobots][11])
 * 2 x SolarBotics Gear Motors GM3 ([Technobots][12])
 * 2 x Ball Casters ([Technobots][13])
@@ -39,8 +39,8 @@ Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets 
 
 * 2 x Shrimp ([http://Shrimping.it)][17]: replacement of Arduino Mega 2560
 * 2 x Stripboard ([Tayda][18]): replacement of Arduino Proto Wireless Shield
-* 1 x XRF wireless RF radio UART RS232 serial data module XBee shape ([Ciseco][19]): replacement of XBee
 * 1 x Active(!) XBBO - break out board for XBee shaped modules ([Ciseco][20]): replacement of Arduino Proto Wireless Shield
+* 1 x XRF wireless RF radio UART RS232 serial data module XBee shape ([Ciseco][19]): replacement of XBee
 * 16 x 5mm Red LED ([Tayda][21]) 
 * 16 x 220Ω Resistors ([Tayda][22]) 
 * 16 x 10KΩ Resistors ([Tayda][23]) 
