@@ -12,7 +12,7 @@ Please use this document side-by-side the original documentation of Primo for th
 Please <a href="http://fromscratched.nl/index.php/neem-contact-op/?lang=en">contact me</a> when you need more information or have questions.<br>
 <br>
 Sjoerd Dirk Meijer, the Netherlands<br>
-Blog: <a href="http://fromscratched.nl/?lang=en">http://fromScratchEd.nl</a>[3]<br>
+Blog: <a href="http://fromscratched.nl/?lang=en">http://fromScratchEd.nl</a><br>
 Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets in Dutch and English)
 </div>
 <br>
