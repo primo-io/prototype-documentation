@@ -7,7 +7,7 @@ folder: fromScratchEd
 
 <div id="notes">
 This document lists all necessary information needed to build your own prototype like <a href="http://fromscratched.nl/?lang=en">fromScratchEd</a> did.<br>
-Please use this document side-by-side of the original documentation of Primo for the building instructions.<br>
+Please use this document side-by-side the original documentation of Primo for the building instructions.<br>
 <br>
 Please <a href="http://fromscratched.nl/index.php/neem-contact-op/?lang=en">contact me</a> when you need more information or have questions.<br>
 <br>
