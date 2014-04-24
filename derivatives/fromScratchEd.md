@@ -29,10 +29,10 @@ Twitter: <a href="https://twitter.com/fromScratchEd">@fromScratchEd</a> (tweets 
 * 1 x L293D ([Tayda][8]): replacement of SN754410 Motor Driver
 * 2 x SolarBotics Wheels ([Technobots][11])
 * 2 x SolarBotics Gear Motors GM3 ([Technobots][12])
-* 2 x Ball Casters ([Technobots][13])
+* 2 x Ball Casters 3/8 inch ([Technobots][13]): replacement of Ball Casters 1/2 inch
 * 2 x CNY70 ([AliExpress][14])
-* 2 x 10KΩ Resistor
-* 2 x 220Ω Resistor
+* 2 x 10KΩ Resistors
+* 2 x 220Ω Resistors
 * 1 x Battery Holder ([Tayda][15])
 * 4 x Rechargeable Batteries (local store)
 * 1 x Voltage regulator kit ([Ciseco][16]) (not shown in schematics below)
