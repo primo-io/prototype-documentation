@@ -59,21 +59,21 @@ folder: fromScratchEd
 * 1 x 50cm x 30cm x 1mm triplex (a.k.a. flexible plywood, bendy plywood, flexiply of airplane plywood) ([Yvonne's Hobby-corner][32])
 
 ###The adventures (links to my blog)
-[Day 1][33]: Getting the source files
-[Day 2][34]: Ordering materials
-[Day 3][35]: Editing lasercutter files
-[Day 4][36]: Buying the 4mm wood
-[Day 5][37]: Buying the 1mm wood
-[Day 6][38]: Sawing
-[Day 7][39]: Reordering materials
-[Day 8][40]: Lasercutting (with tips!) @[FabKlas][41]
-[Day 9][42]: Wheels arrived
-[Day 10][43]: CNY70's arrived
-[Day 11][44]: GM3 alternative (don't use them!)
-[Day 12][45]: Making the interface board and blocks
-[Photos][46]: Photos of the building process
-[Schematics and software][47]
-[Finished][48]: Why I made Primo, what I'm going to do with Primo and who I am (and why I think programming with young children is important)
+* [Day 1][33]: Getting the source files
+* [Day 2][34]: Ordering materials
+* [Day 3][35]: Editing lasercutter files
+* [Day 4][36]: Buying the 4mm wood
+* [Day 5][37]: Buying the 1mm wood
+* [Day 6][38]: Sawing
+* [Day 7][39]: Reordering materials
+* [Day 8][40]: Lasercutting (with tips!) @[FabKlas][41]
+* [Day 9][42]: Wheels arrived
+* [Day 10][43]: CNY70's arrived
+* [Day 11][44]: GM3 alternative (don't use them!)
+* [Day 12][45]: Making the interface board and blocks
+* [Photos][46]: Photos of the building process
+* [Schematics and software][47]
+* [Finished][48]: Why I made Primo, what I'm going to do with Primo and who I am (and why I think programming with young children is important)
 
 ###Source files
 [Arduino files][49]
