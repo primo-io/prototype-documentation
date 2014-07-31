@@ -10,7 +10,7 @@ category: language
 <div id="content" markdown="1">
 ##0. Doel van dit document
 
-![primo play set]({{ site.baseurl }}/images/photo/maker-guide.jpg)
+![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
 Dit document bevat alle informatie die nodig is om een Primo Prototype te maken.
 Meer informatie over het project vind je op de [primo.io](http://primo.io)-website.
 
@@ -18,7 +18,7 @@ Meer informatie over het project vind je op de [primo.io](http://primo.io)-websi
 
 ##1. Wat is Primo?
 
-![primo play set]({{ site.baseurl }}/images/photo/primo.jpg)
+![primo play set]({{ site.baseurl }}images/photo/primo.jpg)
 
 Primo is een tastbare interface, ontworpen om programmeerlogica te introduceren bij jonge kinderen (3 tot 7 jaar), zonder dat ze hoeven te kunnen lezen. Het doel van het spel is om een kleine robot, genaamd Cubetto, naar zijn huis te laten rijden. Om dit doel te bereiken, zullen kinderen de  robot moeten programmeren met behulp van een beperkte set instructies: vooruit, linksom, rechtsom en functie. De eerste drie zijn redelijk intuïtief. De laatste roept een subroutine aan; een extra regel met instructies aangeroepen door één commando.
 
@@ -33,7 +33,7 @@ Kinderen leren programmeren is een wereldwijd besproken onderwerp. We zijn ons b
 
 Er is voor hout gekozen als primair materiaal, vooral omdat het natuurlijk is; je krijgt er warme gevoelens van en het maakt een mooi geluid. De tweede reden is cultureel. Er is gekeken naar spelletjes in traditionele kleuterscholen in Zwitserland (waar dit product oorspronkelijk is ontworpen) en daaruit bleek dat de geliefde spelletjes allemaal gemaakt zijn van hout. Houten speelgoed is zeer duurzaam en je kunt er krassen en deuken io zien, tekenen van het gebruik van andere kinderen. Het is een materiaal met geheugen. Hout is ook gekozen als materiaal, omdat het een sterk contrast heeft met technologie. Er zit een printplaat binnenin Primo, maar we wilden een "magische" beleving maken door de complexiteit van de speelset te verbergen.
 
-<img class="float" src="{{ site.baseurl }}/images/photo/logo-turtle.jpg">
+<img class="float" src="{{ site.baseurl }}images/photo/logo-turtle.jpg">
 
 Het concept achter Primo is sterk geïnspireerd door het werk van Seymour Papert, een wiskundige die in de jaren zestig het MIT Artificial Intelligence Laboratory oprichtte, samen met Marvin Minsky (indien je meer wilt weten of dit onderwerp, dan raden we je aan om [Mindstorms](http://www.amazon.co.uk/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746/ref=sr_1_1?ie=UTF8&qid=1393675158&sr=8-1&keywords=mindstorms+papert) te lezen, zijn meest bekende boek). Hij gaf leiding aan het team dat [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language)) bedacht, waarschijnlijk de meest en langst gebruikte bron om kinderen te leren programmeren. Het doel van Seymour Papert was niet om kinderen alleen te leren coderen, maar ook om kinderen hun eigen manier van probleemoplossing te laten ontdekken. Primo mag beschouwd worden als een extreme versimpeling van LOGO en de fysieke schildpad. We hebben het aantal instructies beperkt, in zijn puurste vorm, om enige tekstuele of numerieke taal te omzeilen.
 
@@ -55,11 +55,11 @@ Sommige mogelijkheden moesten getest worden; het uiteindelijke ontwerp is het re
 
 Het 'slang'- of 'zigzag'-pad van de instructievolgorde werd gekozen om invloeden van aangeleerd leesgedrag uit te sluiten.
 
-![left to right]({{ site.baseurl }}/images/illustrations/left-to-right.jpg)
+![left to right]({{ site.baseurl }}images/illustrations/left-to-right.jpg)
 
 De 'D'-vorm van de blokconnectoren zorgt ervoor dat de blokken maar op één manier gebruikt kunnen worden en om consistent te zijn met het padontwerp en de richting van de auto.
 
-![instruction blocks]({{ site.baseurl }}/images/photo/instruction-blocks.jpg)
+![instruction blocks]({{ site.baseurl }}images/photo/instruction-blocks.jpg)
 
 Het ontwerp voor de vorm van de instructieblokken wordt nog steeds getest. Het huidige ontwerp werkt redelijk goed; kinderen pakken makkelijk het juiste blok, ze hebben in het begin alleen wat moeite om te wennen aan de linksom- en rechtsomblokken. Dit komt ook omdat "links" en "rechts" redelijk nieuwe begrippen voor ze zijn. We testen op dit moment andere vormen, om dit nog verder te verbeteren.
 
@@ -73,7 +73,7 @@ In eerste instantie was de robot een speelgoedauto. Een zeer complexe en tijdrov
 
 Er werd een naam, persoonlijkheid en een glimlach gegeven aan het doosje, zodat het aantrekkelijker werd voor kinderen. De robot heet "Cubetto" (Italiaans voor "kleine kubus"). Het idee is ook om een basismodule te maken van Cubetto, dat later makkelijk uitgebreid en aangepast kan worden in de toekomst.
 
-![cubetto]({{ site.baseurl }}/images/photo/cubetto.jpg)
+![cubetto]({{ site.baseurl }}images/photo/cubetto.jpg)
 
 ##3. Om te beginnen
 
@@ -157,52 +157,52 @@ Lijm de delen 1 en 2 aan elkaar. Lijm ook de delen 3 en 4 aan elkaar. Je kunt de
 
 Knip daarna 32 stukken kopertape van 70 mm lang per stuk en plak deze in de rechthoekige gaten in het deel (laag 3+4) dat je zojuist gelijmd hebt; aan beide zijden moet minimaal 30 mm zitten.
 
-![copper connectors]({{ site.baseurl }}/images/illustrations/board-1.jpg)
-![copper connectors]({{ site.baseurl }}/images/illustrations/board-2.jpg)
+![copper connectors]({{ site.baseurl }}images/illustrations/board-1.jpg)
+![copper connectors]({{ site.baseurl }}images/illustrations/board-2.jpg)
 
 Zodra je klaar bent, kun je de twee delen aan elkaar plakken, 1+2 aan 3+4.
 
-![copper connectors]({{ site.baseurl }}/images/illustrations/board-esploso.jpg)
+![copper connectors]({{ site.baseurl }}images/illustrations/board-esploso.jpg)
 
 Zodra de lijm droog is, plaats je de magneten in de kleine gaten. Leg de toplaag op de kop en plaats de magneten in de kleine gaten, zorg ervoor dat de polariteit van de magneten allemaal gelijk is, het maakt niet uit of dat noord of zuid is. Lijm de magneten vast met een druppel lijm.
 
 Nu verder met de electronica. Maak twee sporen voor 5V en GND, zoals je hieronder ziet in de afbeelding. Het eerste prototype had geen kopersporen, het had draden (dat kun je ook gebruiken), maar in dit prototype hebben we kopertape gebruikt voor de sporen. Dat scheelt je 100% van de tijd. Het maakt het maken van verbindingen ook makkelijker.
 
-![rails]({{ site.baseurl }}/images/illustrations/board-3.jpg)
+![rails]({{ site.baseurl }}images/illustrations/board-3.jpg)
 
 De volgende stap is het verbinden van één van de connectoren van elk gat aan het GND-spoor. Als je kopertape hebt gebruikt, kun je een extra stukje toevoegen, zodat deze beide uiteinden raakt.
 
-![rails]({{ site.baseurl }}/images/illustrations/board-5.jpg)
+![rails]({{ site.baseurl }}images/illustrations/board-5.jpg)
 
 Nu gaan we de andere connector verbinden aan het 5V-spoort, maar nu met een 10KΩ-weerstand ertussen. Een mooie bijkomstigheid van kopertape is dat het soldeertin makkelijk erop smelt. Deze techniek is gebruikt:
 
-![10k]({{ site.baseurl }}/images/photo/diy-docs-1.jpg)
+![10k]({{ site.baseurl }}images/photo/diy-docs-1.jpg)
 
 Dit is wat je ongeveer moet hebben als je klaar bent:
 
-![10k scheme]({{ site.baseurl }}/images/illustrations/board-6.jpg)
+![10k scheme]({{ site.baseurl }}images/illustrations/board-6.jpg)
 
 Nu kun je de LED's plaatsen; stop één rode LED in elk van de 16 gaten en zet deze vast m.b.v. het lijmpistool. Zodra de lijm koud is, kun je 'm verbinden. Houd er rekening mee dat LED's polariteit hebben: de lange draad is de anode en de korte de cathode.
 
-![10k]({{ site.baseurl }}/images/photo/diy-docs-6.jpg)
+![10k]({{ site.baseurl }}images/photo/diy-docs-6.jpg)
 
 Verbind elke cathode aan het GND-spoor met een 220Ω-weerstand ertussen in.
 
-![10k scheme]({{ site.baseurl }}/images/illustrations/board-7.jpg)
+![10k scheme]({{ site.baseurl }}images/illustrations/board-7.jpg)
 
 De lange draad van een LED wordt verbonden aan een digitale I/O-pin van de Arduino Mega; deze pinnen zijn genummerd van 22 t/m 53. De LED's moeten in volgorde aangesloten worden, zodat het makkelijker wordt om ze in de code aan te sturen. In mijn prototype heb ik, bijvoorbeeld, de pinnen 30 t/m 45 gebruikt (er zijn 16 LED's).
 Het startpunt is niet belangrijk, zolang je ze maar in de juiste volgorde aansluit. Dit betekent dat, als we, bijvoorbeeld, beginnen met pin 30, de eerste LED aan pin 30 verbonden moet worden, de tweede aan pin 31, de derde aan pin 32, enzovoorts, tot en met LED 16 aan pin 45.
 
 De draden zijn gesoldeerd aan de dubbele male headers, omdat de digitale pinnen van de Arduino Mega in een dubbele lijn zijn gepositioneerd. Op deze manier is het makkelijk om de LED's aan te sluiten en om de Arduino uit het bord te kunnen halen.
 
-![rack]({{ site.baseurl }}/images/photo/diy-docs-4.jpg)
+![rack]({{ site.baseurl }}images/photo/diy-docs-4.jpg)
 
 Zodra alle LED's zijn gesoldeerd, moeten we onze handgemaakte connector solderen. Deze wordt aangesloten op de analoge pinnen van de Arduino Mega, om de verschillende weerstandwaardes uit te lezen. Net zoals bij de LED's moeten deze in de juiste volgorde worden aangesloten, te beginnen bij A0 voor gat 1 t/m A15 voor gat 16. De draad begint op dezelfde plek als waar we de 10KΩ-weerstand hebben vastgemaakt. Zie deze illustratie:
 
-![analog input board connections]({{ site.baseurl }}/images/illustrations/board-8.jpg)
+![analog input board connections]({{ site.baseurl }}images/illustrations/board-8.jpg)
 
 <div class="cf">
-<img class="float cf" src="{{ site.baseurl }}/images/illustrations/button.jpg">
+<img class="float cf" src="{{ site.baseurl }}images/illustrations/button.jpg">
 
 <p>
 Hier heb ik enkele male headers gebruikt, omdat de analoge pinnen op één lijn staan.
@@ -214,23 +214,23 @@ Het laatste om te verbinden is de knop: pak het en soldeer twee draden aan de te
 </p>
 </div>
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-5.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-5.jpg)
 
 Het bord is nu bijna klaar, we hoeven nu alleen nog maar het Wireless Shield op de Arduino Mega te plaatsen en de headers op de juiste plaats in het bord te steken. Ter herinnering, 30 t/m 45 zijn voor de LED's, A0 t/m A15 voor de blokconnectoren en 50 voor de knop. Gebruik de A0 t/m A5-pinnen voor de eerste 5 connectoren van het Wireless Shield. Vergeet niet om het GND-spoor te verbinden aan de GND-pin en het 5V-spoor aan de 5V-pin.
 
-![rack]({{ site.baseurl }}/images/photo/diy-docs-3.jpg)
+![rack]({{ site.baseurl }}images/photo/diy-docs-3.jpg)
 
 Nu een beetje afwerking: nadat je deel 12 van het bord hebt geverfd, kun je het vastlijmen aan deel 13 van het bord.
 
 Hetzelfde geldt voor de rode knop: nadat deel 14 is geverfd, bevestig je iets zachts (zoals karton) op deel 2 rondom de knop en dan wat lijm op de knop en, voordat de lijm droog is, bevestig je de rode knop. Zie de afbeeldingen:
 
-![photo]({{ site.baseurl }}/images/illustrations/button-mechanics.jpg)
+![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
 ###INSTRUCTIEBLOKKEN
 
 Dit is één van de instructieblokken, in onderdelen:
 
-<img class="float cf" src="{{ site.baseurl }}/images/illustrations/instruction-esploso.jpg">
+<img class="float cf" src="{{ site.baseurl }}images/illustrations/instruction-esploso.jpg">
 
 Om de instructieblokken te maken, begin je met het snijden van het hout (m.b.v. een lasercutter). Er zijn twee bestanden nodig: één voor het 4 mm triplex en één voor het 1 mm triplex. De blokken bestaan uit 4 lagen, genummerd 1 t/m 4. Met de onderdelen uit de twee bestanden, kun je precies 16 blokken maken, vier van elk type.
 
@@ -245,11 +245,11 @@ Lijm eerst de delen 3 en 4 aan elkaar.
 
 Zodra de lijm droog is, kun je gaan verven. In de afbeelding hieronder zie je welke kleur elk onderdeel moet krijgen:
 
-![image]({{ site.baseurl }}/images/illustrations/colors.jpg)
+![image]({{ site.baseurl }}images/illustrations/colors.jpg)
 
 Per blok heb je twee stukken kopertape van 40 mm lang nodig. Steek deze door de gaten van de delen die je net gelijmd hebt en maak hier een strakke ring van.
 
-![photo]({{ site.baseurl }}/images/illustrations/instruction-block-guide.jpg)
+![photo]({{ site.baseurl }}images/illustrations/instruction-block-guide.jpg)
 
 Daarna plaats je een magneet in het gat. Zorg ervoor dat deze CORRECT GEORIENTEERD is, zodat het blok later 'plakt' in het interfacebord. Als je 'm andersom plaatst, dan wordt deze afgestoten door de andere magneet. Een grappig effect, maar niet wat we willen bereiken.
 
@@ -266,59 +266,59 @@ Het prototype voor Cubetto kan gemaakt worden met een Arduino UNO of Leonardo, m
 
 Cubetto moet 90 graden naar links of recht draaien. Een zeer onnauwkeurige manier om dit te doen is op basis van tijd, zoals "draai 1 seconde naar rechts"; je kunt dan elke keer ongeveer hetzelfde resultaat verwachten. "Ongeveer", omdat het afhankelijk is van vele factoren, zoals de vloer, batterijspanning enz. Ik heb dit probleem opgelost door de draaiafstand van het wiel te detecteren m.b.v. twee CNY70 optische encoders in combinatie met een sticker. De ronde sticker komt aan de binnenkant van het wiel en ziet er ongeveer zo uit:
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-14.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-14.jpg)
 
 De sticker is verdeeld in witte en zwarte punten, omdat de CNY70 het verschil kan detecteren tussen de witte en zwarte stukken. De CNY70 heeft een infrarood-LED die continu aan is en een fototransistor die de hoeveelheid infraroodlicht meet. Als zwart materiaal voor het onderdeel staat, wordt er bijna geen licht gereflecteerd, omdat zwart materiaal licht absorbeert. Als het materiaal wit is, dan wordt al het licht gereflecteerd en daarom zal de sensorwaarde heel hoog zijn. Het verschil tussen de waardes wordt gebruikt om de draaiafstand te meten.
 
-![photo]({{ site.baseurl }}/images/illustrations/cny70-physycs.jpg)
+![photo]({{ site.baseurl }}images/illustrations/cny70-physycs.jpg)
 
 De motor driver en de connectoren voor de andere onderdelen worden op het prototypinggebied van het Wireless Proto Shield gesoldeerd. Hiervoor kun je male headers gebruiken als connector en female headers voor de andere onderdelen.
 
-![photo]({{ site.baseurl }}/images/illustrations/wireless-shield-connections.jpg)
+![photo]({{ site.baseurl }}images/illustrations/wireless-shield-connections.jpg)
 
 Hier heb ik simpele male headers gebruikt als connector en female headers voor de andere connector.
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-12.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-12.jpg)
 
-![photo]({{ site.baseurl }}/images/illustrations/wireless-shield-connections-1.jpg)
+![photo]({{ site.baseurl }}images/illustrations/wireless-shield-connections-1.jpg)
 
 De SN754410 motor driver heeft 16 pinnen, die als volgt aangesloten moeten worden:
 
-![photo]({{ site.baseurl }}/images/illustrations/motor-driver.jpg)
+![photo]({{ site.baseurl }}images/illustrations/motor-driver.jpg)
 
 CNY70-schema:
 
-![image]({{ site.baseurl }}/images/illustrations/cny70-wiring.jpg)
+![image]({{ site.baseurl }}images/illustrations/cny70-wiring.jpg)
 
 Ontwerp:
 
 Snij (m.b.v. een lasercutter) eerst alle onderdelen van cubetto.dxf; alle Cubetto-onderdelen komen uit 4 mm dik triplex. Volg deze visuele instructies om de basis te bouwen:
 
-![photo]({{ site.baseurl }}/images/illustrations/cubetto-guide.jpg)
+![photo]({{ site.baseurl }}images/illustrations/cubetto-guide.jpg)
 
 Monteer de motoren nog niet, begin met het monteren van de ball casters.
 
-![photo]({{ site.baseurl }}/images/illustrations/ball-caster.jpg)
+![photo]({{ site.baseurl }}images/illustrations/ball-caster.jpg)
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-9.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-9.jpg)
 
 Nu de CNY70. Soldeer de twee tegenover elkaar gelegen headers (diagonaal) (die aan de 5V verbonden moeten worden) en een draad; soldeer daarna twee draden aan de overige twee headers. Soldeer deze drie draden aan een rij van drie female headers. Deze wordt later aangesloten op de headers van het proto shield.
 
-![image]({{ site.baseurl }}/images/illustrations/cny70-header.jpg)
+![image]({{ site.baseurl }}images/illustrations/cny70-header.jpg)
 
 De twee CNY70's moeten aan de rand van de grondplaat vastgemaakt worden, met de LED en de fototransistor horizontaal. Je kunt lijm gebruiken om ze vast te maken. 
 
 Op de foto zie je de exacte locatie.
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-11.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-11.jpg)
 
 Soldeer draden aan de kleine aansluitingen van de motoren. Je kunt de draden om elkaar draaien om het sterker te maken. Soldeer twee female headers aan het eind, zoals je op de afbeelding ziet:
 
-![image]({{ site.baseurl }}/images/illustrations/motor-wiring.jpg)
+![image]({{ site.baseurl }}images/illustrations/motor-wiring.jpg)
 
 Print nu de tekening met witte en zwarte punten en plak deze op een stuk karton (of hout, dat is aan jou). Knip de randen bij en maak een gat in het midden, omdat dit onderdeel tussen het wiel en de motor komt. De witte en zwarte punten moeten naar de binnenkant van Cubetto wijzen en de afstand tussen de print en de CNY70 moet tussen de 1 en 3 mm liggen, om ervoor te zorgen dat de CNY70 goed werkt.
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-10.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-10.jpg)
 
 Nu kun je de wielen vastmaken aan de motoren. Als je de Solarbotics wielen gebruikt, dan kun de deze vastmaken met de meegeleverde schroef (niet te vast draaien).
 
@@ -326,7 +326,7 @@ Lijm drie van de vier 'muren' van Cubetto, delen 5, 7 en 8. De achterkant laten 
 
 Pak de batterijhouder en soldeer de zwarte en rode draad aan 2 female headers. De headers op het shield gaan naar VIN en GND. Een schakelaar die de rode draad onderbreekt, wordt sterk aangeraden.
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-13.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-13.jpg)
 
 Nu kun je de Arduino + Protoshield op de motoren plaatsen, alle headers aansluiten op het shield en je bent klaar met het maken van Cubetto.
 </div>

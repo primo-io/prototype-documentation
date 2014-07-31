@@ -10,7 +10,7 @@ category: language
 <div id="content" markdown="1">
 ##0. O que é esse documento
 
-![primo play set]({{ site.baseurl }}/images/photo/maker-guide.jpg)
+![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
 Este documento reúne todas as informações necessárias para construir um protótipo do Primo.
 Você pode achar mais informações sobre o projeto no site [primo.io](http://primo.io).
 
@@ -28,9 +28,9 @@ Se você gostaria de traduzir essa página para outra língua, você tem algumas
 1. **super fácil, sem automações** Copie e cole essa página em seu editor de texto, traduza-a e então nos envie um email para [play@primo.io](mailto:play@primo.io)
 
 2. **fácil, um pouquinho mais automático** Crie uma conta no [GitHub](http://github.com), então abra o [repositório dessa página]https://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md) e clique em 'EDIT' na barra de menus superior:
-![photo]({{ site.baseurl }}/images/screenshots/edit-1.jpg)
+![photo]({{ site.baseurl }}images/screenshots/edit-1.jpg)
 Sua página se tornará um editor de textos, onde será possível modificar a página original. A página está escrita em [markdown](http://daringfireball.net/projects/markdown/syntax), uma linguagem super fácil de entender.
-![photo]({{ site.baseurl }}/images/screenshots/edit-2.jpg)
+![photo]({{ site.baseurl }}images/screenshots/edit-2.jpg)
 Você não tem que modificar o código, apenas copie e cole em seu editor de texto local e traduza a parte textual em sua língua, sem modificar os parênteses e as partes em HTML. Salve o texto e então nos envie um email para [play@primo.io](mailto:play@primo.io)
 
 3. **avançado, tudo automático** Essa opção é um pouco mais avançada, mas nada tão difícil assim, se você não é familiarizado com o Github essa é a chance de aprender algo novo :) <br>
@@ -51,11 +51,11 @@ Segue abaixo um passo-a-passo:
   12. Dê um título à sua edição, como "spanish translation", clique em "commit" e depois no botão "sync".
   13. Vá até o seu perfil no GitHub, na página do repositório que você trabalhou em paralelo (“forked”). Você deve ser capaz de ver a nova página criada na pasta 'languages'. Na parte superior deve haver um botão verde com duas setas, clique nele para requisitar a publicação. (veja a figura abaixo)
 
-  ![photo]({{ site.baseurl }}/images/screenshots/pull-1.jpg)
+  ![photo]({{ site.baseurl }}images/screenshots/pull-1.jpg)
 
   14. Clique em "Create Pull Request"
 	
-  ![photo]({{ site.baseurl }}/images/screenshots/pull-2.jpg)
+  ![photo]({{ site.baseurl }}images/screenshots/pull-2.jpg)
 
   15. Escreva uma mensagem para a sua requisição e é só isso! Agora nós apenas precisamos aprová-la.
 </div>
@@ -63,7 +63,7 @@ Segue abaixo um passo-a-passo:
 
 ##1. O que é o Primo
 
-![primo play set]({{ site.baseurl }}/images/photo/primo.jpg)
+![primo play set]({{ site.baseurl }}images/photo/primo.jpg)
 
 Primo é uma interface física projetada para introduzir a lógica de programação para crianças pequenas (de 3 a 7 anos), sem a necessidade de alfabetização. O objetivo do jogo é conduzir um pequeno robô, chamado Cubetto, de volta para sua casa. Para alcançar o objetivo, as crianças devem programar o robô usando um conjunto limitado de instruções: em frente, à esquerda, à direita e função. Enquanto as primeiras três instruções são bem intuitivas, essa última chama uma sub-rotina, uma linha extra de instruções empacotadas em um único comando.
 
@@ -78,7 +78,7 @@ O ensino de programação para crianças é um campo já amplamente debatido. N�
 
 A madeira foi escolhida como o material principal, em primeiro lugar, porque é natural; traz uma sensação mais 'quente' e tem uma sonoridade bacana. A segunda razão é cultural. Foram realizadas pesquisas sobre brinquedos utilizados em jardins de infância tradicionais na Suíça (onde o produto foi originalmente concebido) e foi descoberto que os jogos mais queridos pelas crianças eram aqueles feito com madeira. Brinquedos de madeira são, de maneira geral, muito duráveis e você pode ver as marcas e arranhões neles, sinais de seu uso por outras crianças. É um material com memória. A madeira foi escolhida também como material por conta do forte contraste que ela cria com o uso da tecnologia. Dentro do Primo existe um circuito integrado, mas nós queríamos criar uma experiência 'mágica', escondendo propositadamente a complexidade existente no conjunto.
 
-<img class="float" src="{{ site.baseurl }}/images/photo/logo-turtle.jpg">
+<img class="float" src="{{ site.baseurl }}images/photo/logo-turtle.jpg">
 
 O conceito por detrás do Primo é muito inspirado pelo trabalho de Seymour Papert, um matemático que foi o co-fundador do Laboratório de Inteligência Artificial no MIT, juntamente com Marvin Minsky nos anos sessenta (se você está interessado nesse tema, sugerimos que você leia [Mindstorms](http://www.amazon.co.uk/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746/ref=sr_1_1?ie=UTF8&qid=1393675158&sr=8-1&keywords=mindstorms+papert), seu livro mais famoso). Ele dirigia a equipe que inventou o [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language)), provavelmente o recurso mais amplamente utilizado para o ensino de programação para crianças. O objetivo de Seymour Papert não era apenas ensinar a programar, mas também ajudar as crianças a descobrir a sua maneira pessoal de resolver problemas. Primo pode ser considerado uma grande simplificação do LOGO e da 'tartaruga', que era a sua interface física. Nós limitamos as nossas instruções à sua mais pura forma, evitando qualquer tipo de linguagem numérica ou textual.
 
@@ -98,11 +98,11 @@ No campo do design, algumas características ainda precisavam ser testadas; o de
 
 O a escolha do formato de 'cobra' ou ‘zig-zag' para a sequência de instruções foi escolhida para evitar pré-concepções relacionadas com a alfabetização.  
 
-![left to right]({{ site.baseurl }}/images/illustrations/left-to-right.jpg)
+![left to right]({{ site.baseurl }}images/illustrations/left-to-right.jpg)
 
 O formato em 'D' dos blocos conectores foi projetado para que os mesmos pudessem ser inseridos de uma só maneira, sendo consistentes com o desenho do caminho e com a direção a ser seguida pelo carro. Múltiplos designs poderiam ser usados para isso. O formato em D foi escolhido pois é basicamente 'um circulo com orientação' e também porque de certa maneira remete a um quadro de avisos, um objeto familiar.
 
-![instruction blocks]({{ site.baseurl }}/images/photo/instruction-blocks.jpg)
+![instruction blocks]({{ site.baseurl }}images/photo/instruction-blocks.jpg)
 
 O desenho do formato dos blocos de instrução ainda está sendo testado. O design atual funciona bem, as crianças pegam facilmente o significado. Eles apenas tem alguma dificuldade inicial para se familiarizarem com os blocos de comando ‘direita' e ‘esquerda’. Isso ocorre também porque, em geral, esses conceitos de direção também são novos para os pequenos. Continuamos testando outros formatos de blocos para aprimorar ainda mais essa questão.
 
@@ -116,7 +116,7 @@ No início, o robô tinha a forma de um carrinho de brinquedo e era uma forma be
 
 Demos um nome para a caixinha, junto com uma carinha sorridente, fazendo-o mais chamativo para as crianças. O robô foi chamado de Cubetto (cubinho em italiano). A idéia com o Cubetto é também criar um módulo básico que pode ser expandido e customizado facilmente no futuro.
 
-![cubetto]({{ site.baseurl }}/images/photo/cubetto.jpg)
+![cubetto]({{ site.baseurl }}images/photo/cubetto.jpg)
 
 ##3. Começando
 
@@ -200,52 +200,52 @@ Em primeiro lugar, você tem que colar entre si as partes 3 e 4, usando os furos
 
 Pegue então a fita de cobre, corte 32 pedaços com 70mm cada e passe-os dentro dos orifícios retangulares das partes que você acabou de colar, deixando ao menos 30mm de cada lado (em cima e em baixo). 
 
-![copper connectors]({{ site.baseurl }}/images/illustrations/board-1.jpg)
-![copper connectors]({{ site.baseurl }}/images/illustrations/board-2.jpg)
+![copper connectors]({{ site.baseurl }}images/illustrations/board-1.jpg)
+![copper connectors]({{ site.baseurl }}images/illustrations/board-2.jpg)
 
 Uma vez terminado esse trabalho você pode colar as partes já anteriormente coladas, nessa ordem:1+2 com 3+4.
 
-![copper connectors]({{ site.baseurl }}/images/illustrations/board-esploso.jpg)
+![copper connectors]({{ site.baseurl }}images/illustrations/board-esploso.jpg)
 
 Assim que a cola secar, chegou a hora de colocar os imãs. Vire a camada superior da Mesa para baixo e preencha os pequenos orifícios com os imãs, tendo certeza de que eles estão sempre na mesma polaridade/direção, não importa se norte ou sul. Sele os buraquinhos com uma gota de cola quente.
 
 Agora, a eletrônica! Comece fazendo as trilhas para a alimentação (5V, vermelho) e para o aterramento (GND, preto) em toda a extensão da fila de orifícios, como mostrado na figura. Fizemos o nosso primeiro protótipo sem a fita de cobre, mas usando fios (que você também pode usar), mas nesse protótipo nós preferimos usar a fita, mesmo para as trilhas. Ela deixa o trabalho de montar as conexões muito mais fácil depois.
 
-![rails]({{ site.baseurl }}/images/illustrations/board-3.jpg)
+![rails]({{ site.baseurl }}images/illustrations/board-3.jpg)
 
 O próximo passo é conectar um dos dois conectores de cada orifício à trilha GND. Se você usou a fita de cobre, pode agora usar um pequeno pedaço extra, suficiente apenas para tocar as duas extremidades.
 
-![rails]({{ site.baseurl }}/images/illustrations/board-5.jpg)
+![rails]({{ site.baseurl }}images/illustrations/board-5.jpg)
 
 Agora temos que juntar os outros conectores restantes com a trilha de alimentação (5V), mas dessa vez com um resistor de 10KΩ entre eles. Uma característica bacana da fita de cobre é que a solda gruda muito bem em sua superfície. Essa é a técnica usada:
 
-![10k]({{ site.baseurl }}/images/photo/diy-docs-1.jpg)
+![10k]({{ site.baseurl }}images/photo/diy-docs-1.jpg)
 
 No final desse processo, você deve ter algo assim:
 
-![10k scheme]({{ site.baseurl }}/images/illustrations/board-6.jpg)
+![10k scheme]({{ site.baseurl }}images/illustrations/board-6.jpg)
 
 Agora é a hora de colocarmos os LEDs; Espete um LED vermelho em cada um dos 16 orifícios, então use uma gota de cola quente para fixá-los na madeira. Uma vez que a cola esfriou, é a hora de conectá-los. Lembre-se que os LEDs possuem polaridade: a perna mais comprida é o ânodo e a mais curta o cátodo. 
 
-![10k]({{ site.baseurl }}/images/photo/diy-docs-6.jpg)
+![10k]({{ site.baseurl }}images/photo/diy-docs-6.jpg)
 
 Conecte cada cátodo com a trilha do aterramento (GND), usando um resistor de 220Ω.
 
-![10k scheme]({{ site.baseurl }}/images/illustrations/board-7.jpg)
+![10k scheme]({{ site.baseurl }}images/illustrations/board-7.jpg)
 
 A perna mais comprida do LED deve ser conectada a um pino de entrada/saída (I/O) digital no Arduino Mega. Esses pinos são numerados de 22 a 53. Os LEDs devem ser conectados numa ordem sequencial, assim será muito mais fácil acessá-los mais tarde durante a programação. No meu protótipo, por exemplo, comecei no pino de número 30 e fui até o 45 (são 16 LEDs).
 O ponto de partida não é importante, desde que eles estejam na ordem sequencial correta. Isso significa, por exemplo, que se começarmos do pino 30, o primeiro LED deve estar conectado no pino 30, o segundo no pino 31, o terceiro no pino 32 e assim por diante, até o LED 16 no pino 45.
 
 Os cabos devem ser soldados em uma barra de pinos conectores machos duplos, pois os pinos de entrada e saída no Arduino Mega são dispostos em uma linha dupla. Desta maneira fica mais fácil de remover o Arduino da Mesa de Interface quando for necessário.
 
-![rack]({{ site.baseurl }}/images/photo/diy-docs-4.jpg)
+![rack]({{ site.baseurl }}images/photo/diy-docs-4.jpg)
 
 Uma vez que todos os LEDs estejam soldados, nós temos que começar a soldar os conectores da Mesa, àqueles feitos à mão com a fita de cobre. Esses devem ser ligados aos pinos analógicos do Arduino através de um cabo para que seja possível fazer a leitura dos diferentes valores dos resistores. Assim como no caso dos LEDs, esses também dever ser conectados em ordem, começando do A0 para o orifício 1 até o A15 para o orifício 16. O cabo deve ter início do mesmo ponto onde soldamos previamente os resistores de 10K. Veja a imagem:
 
-![analog input board connections]({{ site.baseurl }}/images/illustrations/board-8.jpg)
+![analog input board connections]({{ site.baseurl }}images/illustrations/board-8.jpg)
 
 <div class="cf">
-<img class="float cf" src="{{ site.baseurl }}/images/illustrations/button.jpg">
+<img class="float cf" src="{{ site.baseurl }}images/illustrations/button.jpg">
 
 <p>
 Aqui eu usei alguns conectores macho simples, já que os pinos de entrada e saída analógicos estão dispostos em apenas uma fileira.
@@ -258,23 +258,23 @@ A última coisa a ser conectada é o botão do tipo push-button: solde dois cabo
 </div>
 
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-5.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-5.jpg)
 
 A Mesa já está quase pronta, agora só falta conectar o módulo wireless na parte superior do Arduino Mega e plugar os conectores em seu lugar na placa. Recapitulando: pinos 30 a 45 para os LEDs, A0 ao A15 para os conectores e o número 50 para o botão push-button. Use os pinos de A0 a A5 no módulo wireless para os primeiros 5 conectores. Não se esqueça de conectar a trilha do aterramento (GND) ao pino GND e a trilha de alimentação (5V) no pino 5V.
 
-![rack]({{ site.baseurl }}/images/photo/diy-docs-3.jpg)
+![rack]({{ site.baseurl }}images/photo/diy-docs-3.jpg)
 
 Agora um ajuste fino: depois de pintar a parte 12 da Mesa, você pode colá-la com a parte 13 no topo da mesma.
 
 O mesmo vale para o botão vermelho: depois de pintar a parte 14, coloque algo macio, como um papel cartão ou EVA no topo da parte 2, ao redor do botão push-button e, antes que a cola seque, cole o botão vermelho. Veja na figura:
 
-![photo]({{ site.baseurl }}/images/illustrations/button-mechanics.jpg)
+![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
 ###BLOCOS DE INSTRUÇÃO
 
 Este é um bloco de instrução, em vista explodida:
 
-<img class="float cf" src="{{ site.baseurl }}/images/illustrations/instruction-esploso.jpg">
+<img class="float cf" src="{{ site.baseurl }}images/illustrations/instruction-esploso.jpg">
 
 Para fazer os Blocos de Instrução, a primeira coisa que você deve providenciar é o corte a laser dos respectivos arquivos; existe um para a madeira de 4mm e um para a de 1mm. São quatro camadas, numeradas de 1 a 4 e os desenhos fornecidos serão usados para fazer 16 blocos, quatro de cada tipo.
 
@@ -289,11 +289,11 @@ Para fazer os blocos, primeiro você tem que colar a parte 4 com a parte 3.
 
 Após a cola ter secado, você pode começar a pintar. Veja a figura abaixo para entender o esquema das cores:
 
-![image]({{ site.baseurl }}/images/illustrations/colors.jpg)
+![image]({{ site.baseurl }}images/illustrations/colors.jpg)
 
 Agora você tem que cortar dois pedaços de fita de cobre com 40mm de comprimento. Passe os mesmos pelos orifícios das duas peças que você acabou de colar e forme um anel bem apertado em volta delas.
 
-![photo]({{ site.baseurl }}/images/illustrations/instruction-block-guide.jpg)
+![photo]({{ site.baseurl }}images/illustrations/instruction-block-guide.jpg)
 
 Depois disso você deve inserir os imãs dentro dos orifícios. Enquanto faz isso, TENHA CERTEZA QUE OS MESMOS ESTÃO CORRETAMENTE ORIENTADOS, para que os blocos de fato ’grudem’ na Mesa. Se você fizer de maneira contrária os mesmos serão repelidos, o que é até engraçado, mas não é o que queremos, certo?
 
@@ -309,41 +309,41 @@ O protótipo do Cubetto pode ser construído usando um Arduino Uno ou Leonardo, 
 
 O Cubetto deve girar 90 graus para a esquerda e para a direita. Uma maneira não muito precisa de fazer isso seria usando uma contagem de tempo, fazendo algo como “gire a direita por um segundo”. É de se esperar que o resultado seja mais ou menos sempre o mesmo. “Mais ou menos” porque isso vai depender de uma porção de fatores distintos, como o piso, a carga da bateria e assim por diante. A maneira que resolvemos esse problema é detectando a quantidade de rotação da roda usando dois sensores ópticos CNY70 combinados com um adesivo. O adesivo redondo é aplicado por dentro da roda, como nessa foto:
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-14.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-14.jpg)
 
 O adesivo tem um padrão geométrico de listas pretas e brancas, porque o CNY70 é capaz de detectar a variação da emissão de entre elas. Dentro deles, basicamente existe um LED infravermelho - sempre ligado - e um fototransistor que faz a leitura da quantidade de luz infravermelha. Quando o material preto está na frente do componente quase não há luz refletida, já que a cor preta tende a absorvê-la. No caso oposto, quando o material é branco, ele reflete toda a luz, logo o valor lido pelo sensor é muito grande. A diferença entre essas leituras é usada para controlar a quantidade de rotação.
 
-![photo]({{ site.baseurl }}/images/illustrations/cny70-physycs.jpg)
+![photo]({{ site.baseurl }}images/illustrations/cny70-physycs.jpg)
 
 A área útil disponível no Módulo Wireless é onde os drivers dos motores e outros conectores das demais peças serão soldados. 
 
-![photo]({{ site.baseurl }}/images/illustrations/wireless-shield-connections.jpg)
+![photo]({{ site.baseurl }}images/illustrations/wireless-shield-connections.jpg)
 
 Para esse protótipo, use os pinos conectores machos simples, que receberão os conectores fêmeas na outra parte.
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-12.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-12.jpg)
 
-![photo]({{ site.baseurl }}/images/illustrations/wireless-shield-connections-1.jpg)
+![photo]({{ site.baseurl }}images/illustrations/wireless-shield-connections-1.jpg)
 
 O driver de motor SN754410 possui 16 pinos, que devem ser conectados seguindo esse esquema:
 
-![photo]({{ site.baseurl }}/images/illustrations/motor-driver.jpg)
+![photo]({{ site.baseurl }}images/illustrations/motor-driver.jpg)
 
 O CNY70 esquema:
 
-<img style="width:50%" src="{{ site.baseurl }}/images/illustrations/cny70-wiring.jpg">
+<img style="width:50%" src="{{ site.baseurl }}images/illustrations/cny70-wiring.jpg">
 
 Design:
 
 Começe cortando a laser o arquivo cubetto.dxf; Todas as partes do Cubetto são feitas com compensado de 4mm. Siga essas instruções para montar a base:
 
-![photo]({{ site.baseurl }}/images/illustrations/cubetto-guide.jpg)
+![photo]({{ site.baseurl }}images/illustrations/cubetto-guide.jpg)
 
 Ainda não monte os motores, você precisa primeiro montar os rodízios de metal!
 
-![photo]({{ site.baseurl }}/images/illustrations/ball-caster.jpg)
+![photo]({{ site.baseurl }}images/illustrations/ball-caster.jpg)
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-9.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-9.jpg)
 
 Agora vamos cuidar do CNY70. Solde os dois conectores opostos, que devem ser ligados à alimentação 5V, juntamente através de um mesmo fio; então solde mais três fios nos conectores restantes do CNY70. No final desses fios, solde um bloco de três conectores fêmeas. Eles serão conectados mais tarde aos seus pares no Módulo Wireless.
 
@@ -351,13 +351,13 @@ Os dois CNY70 devem ser colocados na beirada da camada inferior, com o LED e o f
 
 Veja a figura para entender bem a posição.
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-11.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-11.jpg)
 
 Assim como nos CNY70, solde dois cabos às pequenas abas que saem de cada motor. Você pode torcer os dois cabos para fazê-los ficar um pouco mais resistentes e então, no final, solde um bloco de dois conectores fêmeas, como você pode ver na figura.
 
 Agora imprima o desenho com as listas pretas e brancas e cole-o em um pedaço de cartolina (ou numa madeira fina também cortada a laser, fica a seu critério). Corte o perímetro e faça um furo bem no meio, pois ele será inserido entre o motor e a roda. As listas pretas e brancas devem estar viradas para o lado de dentro do Cubetto e a distância entre elas e o sensor CNY70 deve ser algo em torno de 1 a 3mm, para que o CNY70 funcione corretamente.
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-10.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-10.jpg)
 
 Agora você pode colocar as rodas sobre os motores e, se você utilizou as rodas da Solarbotics, pode aparafusá-las com o parafuso fornecido, mas não aperte muito, ok?
 
@@ -365,7 +365,7 @@ Cole três das quatro ‘paredes' do Cubetto, as partes 5, 7 e 8. Vamos deixar a
 
 Pegue o suporte das baterias e solde os cabos preto e vermelho a outros dois conectores fêmea. Os conectores no Módulo serão ligados ao VIN e ao aterramento. Sugerimos a instalação de uma chave (interruptor) que interrompa o fio vermelho.
 
-![photo]({{ site.baseurl }}/images/photo/diy-docs-13.jpg)
+![photo]({{ site.baseurl }}images/photo/diy-docs-13.jpg)
 
 Agora você pode colocar o conjunto Arduino + Módulo Wireless por cima dos motores, plugar todos os conectores na placa e no Módulo e você terminou de fazer o Cubetto!
 </div>
