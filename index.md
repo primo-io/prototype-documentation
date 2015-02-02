@@ -3,15 +3,15 @@ layout: default
 title: Primo Prototype Documentation
 ---
 <div id="content" markdown="1">
-##0. What is this document
+##0. O que é este documento
 
 ![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
-This document gathers and organizes all the information necessary to build a Primo Prototype.
-You can find more info about the project on the [primo.io](http://primo.io) website.
+Este documento contém e organiza as informações necessárias para se construir um Protótipo Primo.
+Mais informações sobre este projeto no endereço [primo.io](http://primo.io).
 
 <h2>
 <a href="#" id="translate-title">
-    How to translate this document
+    Como traduzir este documento
 </a>
 </h2>
 
@@ -55,43 +55,43 @@ The steps above, expanded:
 </div>
 <br>
 
-##1. What is Primo
+##1. O que é Primo
 
 ![primo play set]({{ site.baseurl }}images/photo/primo.jpg)
 
-Primo is a tangible interface designed to introduce programming logic to little children (3 to 7), without the need for literacy. The goal of the game is to drive a little robot called Cubetto back to his house. To accomplish the goal, children have to program the little robot using a limited set of instructions: forward, left, right and function. While the first three are rather intuitive, the last one calls a sub-routine, an extra line of instructions packed in a single command.
+Primo é uma interface manipulável projetada para introduzir lógica de programação a crianças de 3 a 7 anos de idade, sem necessidade de alfabetização prévia. O objetivo do jogo é conduzir um pequeno robô chamado Cubetto de volta à sua casa. Para isso, as crianças devem programar o robô usando um pequeno conjunto de instruções: seguir, esquerda, direita e função. Ao passo que as três primeiras instruções são intuitivas, a última executa uma sub-rotina, isto é, uma linha extra de instruções agrupadas em um único comando.
 
 <div class="videoWrapper">
   <iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
     </iframe> 
 </div>
 
-##2. Research
+##2. Pesquisa
 
-Teaching programming to children is a widely debated topic. We are aware of a moderate number of solutions that try to accomplish this for children above the ages of 8. However, there aren't many of these solutions suitable for younger children, and there aren't any that work without a screen or without the need for literacy. We see an increasing number of Apps for tablets and computers that also work in combination with physical robots, but none of them are completely free from the pixel domain in the same way the Primo Play Set is.
+O ensino de programação para crianças é um assunto amplamente discutido. Apesar de haver certo número de iniciativas que trabalham programação com crianças acima de 8 anos, não há iniciativas semelhantes adequadas para crianças mais novas, além de não haver nenhuma que trabalhe sem uma tela ou sem a necessidade de alfabetização. Observamos um número crescente de aplicativos para 'tablets' e computadores que também trabalham em combinação com robôs físicos, mas nenhum é completamente independente da representação em tela como é o Conjunto Primo.
 
-Wood was chose as the main material, first of all because it's natural; you get a warm feeling from it and it makes a nice sound. The second reason is cultural. Observations were conducted on games used in traditional kindergartens in Switzerland (where the product was originally designed) to discover that the games loved by children were all made out of wood. Wooden toys are very durable and you can see marks and scratches on them, signs of their past usage from other children. It's a material with memory. Wood was also chosen as a material because of the stark contrast it creates with technology. Inside of Primo there's a circuit board, but we wanted to create a "magical" experience, hiding the complexity of the play set.
+A madeira foi escolhida como materia principal por dois motivos: primeiro porque é um material natural. Com a madeira, tem-se a sensação de conforto, além de ela produzir um bom som. O segundo motivo é cultural: observações conduzidas em jardins de infância tradicionais na Suíça (onde o produto foi projetado inicialmente) concluíram que os jogos preferidos das crianças eram todos feitos de madeira. Brinquedos de madeira são muito duráveis, e guardam marcas, sinais de usos anteriores por outras crianças. Trata-se de um material que possui história. Madeira também foi escolhida como material pelo contraste acentuado que cria com a tecnologia. No interior do Primo há uma placa de circuitos, mas nosso desejo foi o de criar uma experiência "mágica", escondendo a complexidade do conjunto.
 
 <img class="float" src="{{ site.baseurl }}images/photo/logo-turtle.jpg">
 
-The concept behind Primo is heavily inspired by the work of Seymour Papert, a mathematician who co-founded the MIT Artificial Intelligence Laboratory with Marvin Minsky, in the sixties (if you are interested in the subject, we encourage you to read [Mindstorms](http://www.amazon.co.uk/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746/ref=sr_1_1?ie=UTF8&qid=1393675158&sr=8-1&keywords=mindstorms+papert), his most famous book). He was directing the team who invented [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language)), probably the most used and long lasting resource to teach programming to children. The goal of Seymour Papert was not just to teach code, but also to help children discover their own personal way of solving problems. Primo can be considered an extreme simplification of LOGO and the physical turtle. We limited the instructions, to their purest form, avoiding any kind of textual or numerical language.
+O conceito por trás do Primo é fortemente inspirado no trabalho de Seymour Papert, um matemático que co-fundou o Laboratório de Inteligência Artificial do MIT com Marvin Minsky, na década de 1960 (se você ficou interessado (a) no assunto, leia  [Mindstorms](http://www.amazon.co.uk/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746/ref=sr_1_1?ie=UTF8&qid=1393675158&sr=8-1&keywords=mindstorms+papert), seu livro mais conhecido). Ele conduzia uma equipe que inventou o  [LOGO](http://en.wikipedia.org/wiki/Logo_(linguagem de programação)), provavelmente o recurso mais utilizado e duradouro para ensinar programação para crianças. O objetivo de Seymour Papert não era apenas ensinar código, mas ajudar crianças a descobrirem maneiras próprias de resolver problemas. Primo pode ser considerado uma simplificação extrema do LOGO e da tartaruga física. Limitamos as instruções às suas formas mais puras, evitando qualquer tipo de linguagem numérica ou textual.
 
-The first prototype was realised in SUPSI Lugano by Matteo Loglio (Primo.io co-founder and interaction designer), during the [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). Matteo's background is in product design, and after learning the Arduino basics and a bit of code to create the prototype, began to look around for technical solutions that were approachable for a novice, so as to develop an application like Primo. The main issues were two: making a robot car from scratch and an interface board that could easily recognize different instructions.
+O primeiro protótio foi concebido na SUPSI (Universidade de Ciências Aplicadas e Arte), em Lugano, por Matteo Loglio (co-fundador e 'designer' de interação do Primo.io), durante o [MAInD - Mestrado de Estudos Avançados em Design de Interação](http://www.maind.supsi.ch/). Com experiência em projeto de produto, e após aprender o básico do Arduino e um pouco de programação para criar o protótipo, Matteo começou a pensar em soluções técnicas adequadas para novatos, como desenvolver algo como o Primo. Havia dois problemas a resolver: fazer um carro-robô do zero e pensar numa interface de comando que pudesse reconhecer facilmente instruções diferentes.
 
-The first issue was solved by using an [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) from David Cuartielles, one of the Arduino founders who was holding a lecture in SUPSI. The Oh_Oh robot is an open project, you can find the source files in the link above. It is basically a car shaped Arduino, only an XBee for radio communication was added.
+O primeiro problema foi resolvido com uma [placa Oh_Oh](http://david.cuartielles.com/w/Maquila2/Ohoh), de autoria do David Cuartielles, um dos fundadores do Arduino que estava apresentando uma palestra na SUPSI. O robô Oh_Oh é um projeto aberto (os arquivos-fonte estão disponíveis no link abaixo), com Arduino em forma de carro e um XBee para comunicação por rádio.
 
-The second issue was designing a reliable way to detect the blocks. A solution was inspired by a [CIID](http://ciid.dk/) project called ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
+O segundo problema foi projetar uma maneira confiável de detectar as peças. A solução foi inspirada por um projeto do [CIID](http://ciid.dk/) (Instituto de Design de Interação de Copenhague) chamado ["Piano Código de Barras"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/) (em inglês). 
 
 <div class="videoWrapper">
   <iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
     </iframe>
 </div> 
 
-The idea is to use multiple blocks that can be recognized by a board using resistors. It's a basic voltage divider, with the analog pins of an Arduino reading the resistor values. It's a very simple method, but rather effective for a prototype.
+A ideia é usar várias peças que podem ser reconhecidas por uma placa com resistores. É um divisor de voltagem básico, com os pinos analógicos de um Arduino fazendo a leitura dos valores dos resistores. É um método muito simples, mas muito eficiente para um protótipo.
 
-Design-wise, some features required testing; the actual design is the result of several iterations. 
+Em termos de 'design', alguns atributos necessitaram de teste. O 'design' atual é o resultado de muitas versões. 
 
-The 'snake' or 'zig-zag' path of the instruction sequence was chosen to avoid literacy pre-conceptions.  
+A linha em formato de 'cobra' ou 'zig-zag' da sequência de instruções evita pré-concepções em alfabetização.  
 
 ![left to right]({{ site.baseurl }}images/illustrations/left-to-right.jpg)
 
