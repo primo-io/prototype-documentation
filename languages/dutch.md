@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Primo prototype documentatie
+title: Cubetto prototype documentatie
 language: Nederlands
 category: language
 ---

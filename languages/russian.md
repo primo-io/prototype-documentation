@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Документация к Прототипу Primo
+title: Документация к Прототипу Cubetto
 language: Русский
 category: language
 ---

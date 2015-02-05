@@ -1,17 +1,52 @@
-body {
-	font-family: 'Inconsolata', sans-serif;	
+@font-face {
+ font-family: 'ginger';
+ src: url(http://primo.io/fonts/f37-regular.eot);
+ src: url(http://primo.io/fonts/f37-regular.eot?#iefix) format('embedded-opentype'),
+ url(http://primo.io/fonts/f37-regular.woff) format('woff'),
+ url(http://primo.io/fonts/f37-regular.ttf) format('truetype'),
+ url(http://primo.io/fonts/f37-regular.svg#f37_gingerbold) format('svg');
+ font-weight: normal;
+ font-style: normal;
 }
 
-h1 {
-	font-weight: normal;	
-	padding-bottom: 0.5em;
-	border-bottom: 2px solid red;
+@font-face {
+ font-family: 'nationale';
+ src: url(http://primo.io/fonts/nationale.eot);
+ src: url(http://primo.io/fonts/nationale.eot?#iefix) format('embedded-opentype'),
+ url(http://primo.io/fonts/nationale.woff) format('woff'),
+ url(http://primo.io/fonts/nationale.ttf) format('truetype'),
+ url(http://primo.io/fonts/nationale.svg#nationale§) format('svg');
+ font-weight: normal;
+ font-style: normal;
+} 
+
+body {
+	font-family: 'Inconsolata', sans-serif;	
+	background: #faf5eb;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	font-family: 'ginger';	
+	color: #692d55;
+}
+
+h1 {	
+	padding-bottom: 0.5em;	
+}
+
+h2 {
+	margin-top: 2em;
+}
+
+h3 {
+	margin-bottom: -0.5em;
 }
 
 a {
-	text-decoration: none;
-	color: black;
-	border-bottom: 2px solid red;
+	text-decoration: none;	
+	border-bottom: 2px solid #05DC94;
+	color: inherit;
 }
 
 input[type=checkbox]{
@@ -49,10 +84,12 @@ nav {
 }
 
 select {
+	color: #FFF;
 	outline: none;
-	background: url('../images/illustrations/arrow.png') no-repeat 90% #DDD;	
+	background: url('../images/illustrations/arrow.png') #FFA900 no-repeat 90%/8% ;	
 	border: none;
 	-webkit-appearance: none;
+	-moz-appearance: none;
 	padding: 1em 4em 1em 1em;
 	border-radius: 0;
 	font-family: inconsolata;
@@ -60,13 +97,19 @@ select {
 	width: 100%;
 }
 
-select option {
-	border-bottom: 1px solid red;
+option {
+	margin: 0.5em 0;	
+}
+
+option:hover {
+	background-color: #FFF;
+	color:#FFA900;
 }
 
 #logo {
 	display: block;
-	height: 120px;	
+	height: 65px;	
+	margin-bottom: 2.5em;
 	border-bottom: none;
 }
 
@@ -82,30 +125,33 @@ select option {
 }
 
 #edit {
-	background: #DDD;	
-	color: black;
+	background: #F43C3C;
+	font-family: 'ginger' !important;
+	color: white;
 	position: absolute;
 	top: 20px;
 	right: 20px;
 	padding: 13px;
+	border-bottom: none !important;
 }
 
 #container {
-	width: 80%;
-	max-width: 1024px;	
+	width: 80%;	
+	max-width: 800px;	
+	color: #692d55;
 }
 
 #content img {
 	max-width: 100%;
-	margin: 1em 0;
+	margin-bottom: 1em;
 }
 
 #container p {		
-	line-height: 1.4em;
+	line-height: 1.4em;	
 }
 
 #content p {	
-	margin: 2em 0;
+	margin-bottom: 2em;
 	line-height: 1.4em;
 }
 
@@ -114,6 +160,7 @@ select option {
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
+	margin-bottom: 2em;
 }
 .videoWrapper iframe {
 	position: absolute;
@@ -125,7 +172,7 @@ select option {
 
 #container img.float {
 	float: left;
-	margin: 0 1em;
+	margin: 3em 3em 3em 0;
 	max-width: 40%;
 }
 

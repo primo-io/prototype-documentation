@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentazione del Prototipo di Primo
+title: Documentazione del Prototipo di Cubetto
 language: Italiano (coming soon)
 category: language
 ---

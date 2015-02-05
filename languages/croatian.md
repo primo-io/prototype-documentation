@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Primo prototip dokumentacija
+title: Cubetto prototip dokumentacija
 language: Hrvatski
 category: language
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Primo Prototype Documentation
+title: Cubetto Prototype Documentation
 ---
 <div id="content" markdown="1">
 ##0. What is this document

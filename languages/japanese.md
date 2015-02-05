@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Primo プロトタイプのドキュメント
+title: Cubetto chan プロトタイプのドキュメント
 language: 日本の (coming soon)
 category: language
 ---

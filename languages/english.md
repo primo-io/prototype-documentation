@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Primo Prototype Documentation
+title: Cubetto Prototype Documentation
 language: English
 category: language
 ---
