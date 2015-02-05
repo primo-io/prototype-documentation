@@ -191,7 +191,7 @@ option:hover {
 /* tablets and desktop */
 @media only screen and (min-width: 768px) {
     #container {
- 		margin: 120px auto;
+ 		margin: 160px auto;
  	}
 
     .navs {
@@ -206,7 +206,7 @@ option:hover {
 /* phones */
 @media only screen and (max-width: 767px) {
     #container {
- 		margin: 120px auto;
+ 		margin: 140px auto;
  	}
 
     .navs {
