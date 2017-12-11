@@ -2,3 +2,4 @@ name: Primo DIY Documentation
 pygments: true
 markdown: kramdown
 baseurl: http://docs.primo.io/
+theme: jekyll-theme-minimal
