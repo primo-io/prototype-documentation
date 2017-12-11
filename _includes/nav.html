@@ -4,7 +4,7 @@
 	    	<option selected disabled>Languages</option>
 	        {% for p in site.pages %}
 	        {% if p.category == 'language' %}
-	        <option {% if p.url == page.url %}selected="selected"{% endif %} value="{{ p.url }}">
+	        <option {% if p.url == page.url %}selected="selected"{% endif %} value="{{ site.baseurl }}{{ p.url }}">
 	        	{{ p.language }}
 	        </option>
 	        {% endif %}
@@ -16,7 +16,7 @@
 	    	<option selected disabled>Derivatives</option>
 	        {% for p in site.pages %}
 	        {% if p.category == 'derivative' %}
-	        <option {% if p.url == page.url %}selected="selected"{% endif %} value="{{ p.url }}">
+	        <option {% if p.url == page.url %}selected="selected"{% endif %} value="{{ site.baseurl }}{{ p.url }}">
 	        	{{ p.title }}
 	        </option>
 	        {% endif %}

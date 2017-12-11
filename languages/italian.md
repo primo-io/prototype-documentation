@@ -8,7 +8,7 @@ category: language
 <br>
 
 <div id="content" markdown="1">
-##0. What is this document
+## 0. What is this document
 
 ![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
 This document gathers and organizes all the information necessary to build a Primo Prototype.
@@ -29,7 +29,7 @@ If you want to translate this page in your language, you have multiple options:
 
 2. **medium, light automation** Create an account on [GitHub](http://github.com), then open the [repository of this page](https://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md) and click on 'EDIT', in the top menu bar:
 ![photo]({{ site.baseurl }}images/screenshots/edit-1.jpg)
-Then your page turns into a text editor, where you are able to modify the page source. The page is written in [markdown](http://daringfireball.net/projects/markdown/syntax), very easy to understand. 
+Then your page turns into a text editor, where you are able to modify the page source. The page is written in [markdown](http://daringfireball.net/projects/markdown/syntax), very easy to understand.
 ![photo]({{ site.baseurl }}images/screenshots/edit-2.jpg)
 You don't have to modify this code, but just copy and paste the whole text in your local text editor, then translate the textual parts in your language, without modifying the parenthesis and HTML parts. Save the text then mail it to us at [play@primo.io](mailto:play@primo.io)
 
@@ -37,7 +37,7 @@ You don't have to modify this code, but just copy and paste the whole text in yo
 If you are already familiar with git, you have to fork the repository, all the translations are located in the 'languages' folder. To translate the page, just copy it with the starting language ("english.md" for example) in the same folder, then change the file name with the final language (spanish.md). Change the page header values 'title' (title in your language) and 'language' (the destination language with Capital letter) then translate the rest of the document. Once finished, make a pull request to add your file to the folder, it will be automatically added to the menu.<br><br>
 The steps above, expanded:
 
-  1. Make a GitHub account 
+  1. Make a GitHub account
   2. Download the GitHub application ([Mac](http://mac.github.com/), [Windows](http://windows.github.com/))
   3. If it's the first time you use it, open it and input your GitHub login details
   4. Go to [this documentation repository](https://github.com/primo-io/prototype-documentation)
@@ -53,14 +53,14 @@ The steps above, expanded:
   ![photo]({{ site.baseurl }}images/screenshots/pull-1.jpg)
 
   14. Then click on "Create Pull Request"
-  
+
   ![photo]({{ site.baseurl }}images/screenshots/pull-2.jpg)
 
   15. Write a message for the pull request and that's it! Now we just have to approve the request.
 </div>
 <br>
 
-##1. What is Primo
+## 1. What is Primo
 
 ![primo play set]({{ site.baseurl }}images/photo/primo.jpg)
 
@@ -68,10 +68,10 @@ Primo is a tangible interface designed to introduce programming logic to little 
 
 <div class="videoWrapper">
   <iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
-    </iframe> 
+    </iframe>
 </div>
 
-##2. Research
+## 2. Research
 
 Teaching programming to children is a widely debated topic. We are aware of a moderate number of solutions that try to accomplish this for children above the ages of 8. However, there aren't many of these solutions suitable for younger children, and there aren't any that work without a screen or without the need for literacy. We see an increasing number of Apps for tablets and computers that also work in combination with physical robots, but none of them are completely free from the pixel domain in the same way the Primo Play Set is.
 
@@ -85,16 +85,16 @@ The first prototype was realised in SUPSI Lugano by Matteo Loglio (Primo.io co-f
 
 The first issue was solved by using an [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) from David Cuartielles, one of the Arduino founders who was holding a lecture in SUPSI. The Oh_Oh robot is an open project, you can find the source files in the link above. It is basically a car shaped Arduino, only an XBee for radio communication was added.
 
-The second issue was designing a reliable way to detect the blocks. A solution was inspired by a [CIID](http://ciid.dk/) project called ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
+The second issue was designing a reliable way to detect the blocks. A solution was inspired by a [CIID](http://ciid.dk/) project called ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/).
 
 <div class="videoWrapper">
   <iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
     </iframe>
-</div> 
+</div>
 
 The idea is to use multiple blocks that can be recognized by a board using resistors. It's a basic voltage divider, with the analog pins of an Arduino reading the resistor values. It's a very simple method, but rather effective for a prototype.
 
-Design-wise, some features required testing; the actual design is the result of several iterations. 
+Design-wise, some features required testing; the actual design is the result of several iterations.
 
 The 'snake' or 'zig-zag' path of the instruction sequence was chosen to avoid literacy pre-conceptions.  
 
@@ -108,7 +108,7 @@ The design for the shape of the instruction blocks is still being tested. The ac
 
 <div class="videoWrapper">
   <iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">
-        
+
     </iframe>
 </div>
 
@@ -118,11 +118,11 @@ A name was given to the little box, along with a personality and a similey face,
 
 ![cubetto]({{ site.baseurl }}images/photo/cubetto.jpg)
 
-##3. Getting Started
+## 3. Getting Started
 
-###3.1 The basics
+### 3.1 The basics
 
-Primo is composed of three parts: An Interface Board, Cubetto and a set of Instruction Blocks. Children interact with the Interface Board by placing Instruction Blocks into the holes, to create a sequence (A program) that Cubetto executes. 
+Primo is composed of three parts: An Interface Board, Cubetto and a set of Instruction Blocks. Children interact with the Interface Board by placing Instruction Blocks into the holes, to create a sequence (A program) that Cubetto executes.
 
 There are four types of Instruction Blocks, this means that resistors of 4 different values can be used, possibly quite distant between each other.
 
@@ -130,9 +130,9 @@ The blocks are inserted into the holes of the Interface Board, where the resisto
 
 The brain of the prototype is made of two Arduino Boards, a UNO (A Leonardo or a Duemilanove will also do) for Cubetto, and a Mega for the Interface Board, where 16 analog inputs are required.
 
-###3.2 Electronics
+### 3.2 Electronics
 
-###Tools Required
+### Tools Required
 
 * Soldering Iron
 * Solder
@@ -141,7 +141,7 @@ The brain of the prototype is made of two Arduino Boards, a UNO (A Leonardo or a
 * Wood Glue
 * Copper Tape 5mm wide
 
-###Materials (prices in euro)
+### Materials (prices in euro)
 
 Cubetto ~ 88 €
 
@@ -164,8 +164,8 @@ Interface Board ~ 88 € (pure coincidence)
 * 16 5mm Red LED : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Lite-On/LTL-4223/?Lite-On/LTL-4223/&qs=sGAEpiMZZMusoohG2hS%252b15J8d1kHl%252bvkJpzS4atZNEA=)
 * 16 220 Ω Resistors : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
 * 16 10K Ω Resistors : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
-* 1 Push Button : 1 € 
-* 50 Male Headers : 1 € 
+* 1 Push Button : 1 €
+* 50 Male Headers : 1 €
 * 16 Double male headers : 0.50 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=294#.UxC_3fTV_bA)
 * 50 female headers : 1 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=188#.UxDAAfTV_bA)
 * 16 Magnets ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
@@ -178,29 +178,29 @@ Instruction Blocks ~ 4 €
 * 4 x 10K Ω Resistor : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
 * 16 Magnets ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
 
-###3.3 Energy
+### 3.3 Energy
 
 Cubetto and (optionally) the Interface Board, are battery powered. For the prototype you can use a LiPo battery or regular AA batteries, that's entirely up to you. We used both, LiPo batteries are good but you need extra equipment, if you are starting from scratch we recommend AA batteries. Just remember they run out very quickly, so the best would be to use rechargeable batteries, like NiMh.
 
-###3.4 Prototype Design
+### 3.4 Prototype Design
 
 The whole product is made out of laser cut wood, mainly 4 mm thick, with only one layer being 1mm thick. You can laser cut these parts using services like Ponoko, or in your local FabLab. The first prototype was laser cut inside [FabLab Lugano](http://fablab.supsi.ch/), while the product development advanced in [FabLab Torino](http://fablabtorino.org/), where part of Primo development team still resides.
 
 Building Cubetto and the Interface Board is a laborious but very simple procedure, their shells are basically boxes. The real complexity lays in the Instruction Blocks. They are a double 4mm wood layer with magnets and resistors soldered inside.
 
-##4. Prototype Making
+## 4. Prototype Making
 
-###[Download Source Files](files/primo-prototype-laser.zip)
+### [Download Source Files](files/primo-prototype-laser.zip)
 
-###4.1 Interface Board
+### 4.1 Interface Board
 
 To make the interface board you have to laser cut two files: interface-board-4mm.dxf and interface-board-1mm.dxf: the first one is for 4mm plywood and the second one for 1mm plywood. As you can see from the files, the parts are numbered, to ease the assembly process. The numbers are stored on a different layer, so you can easily remove them before lasering. We recommend adjusting the hole for the push button, based on the size of the button you wish to use or have.
 
-First of all, you have to glue parts 3 and 4 together, use the holes in the corners to align them with screws while gluing and let it rest for a night. 
+First of all, you have to glue parts 3 and 4 together, use the holes in the corners to align them with screws while gluing and let it rest for a night.
 
 Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part that you just glued, they should be at least 30mm wide on each side. Once you finished, you can now glue all the remaining top layers of the interface board, this is the correct order:
 
-Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part that you just glued, they should be at least 30mm wide on each side. 
+Then take the copper tape, cut 32 pieces of 70mm each and put them inside the rectangular holes in the part that you just glued, they should be at least 30mm wide on each side.
 
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-1.jpg)
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-2.jpg)
@@ -235,8 +235,8 @@ Connect each cathode to the ground rail, using a 220Ω Resistor.
 
 ![10k scheme]({{ site.baseurl }}images/illustrations/board-7.jpg)
 
-The long leg of the LED, must be connected to a digital I/O pin on the Arduino Mega, these pins are numbered from 22 to 53. The LEDs must be connected in order, so that it will be much easier to access them later on in the code, in my prototype for example I started from pin number 30 up to 45 (there are 16 LEDs). 
-The starting point is not important, as long as they are in the correct sequential order. This means for example that if we start from pin 30, the first LED must be attached to pin 30, the second to pin 31, the third to pin 32 and so on until LED 16 to pin 45. 
+The long leg of the LED, must be connected to a digital I/O pin on the Arduino Mega, these pins are numbered from 22 to 53. The LEDs must be connected in order, so that it will be much easier to access them later on in the code, in my prototype for example I started from pin number 30 up to 45 (there are 16 LEDs).
+The starting point is not important, as long as they are in the correct sequential order. This means for example that if we start from pin 30, the first LED must be attached to pin 30, the second to pin 31, the third to pin 32 and so on until LED 16 to pin 45.
 
 The cables are soldered to a rack of double male headers, as the digital pins on the Arduino Mega are laid out in a double line. In this way it's easy to plug and remove the Arduino from the board.
 
@@ -251,7 +251,7 @@ Once all the LEDs are soldered, we have to solder our hand made connectors. Thes
 
 <p>
 Here I used some single male headers, as the analog pins are all on a single line.
-  
+
 </p>
 
 <p>
@@ -272,7 +272,7 @@ Same for the red button: after part 14 has been painted, put something soft like
 
 ![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
-###INSTRUCTION BLOCKS
+### INSTRUCTION BLOCKS
 
 This is one instruction block, exploded:
 
@@ -287,7 +287,7 @@ LEFT: 100K Ω<br>
 RIGHT: 220 Ω<br>
 FUNCTION: 10K Ω
 
-To make blocks, first you have to glue part 4 with part 3. 
+To make blocks, first you have to glue part 4 with part 3.
 
 After the glue has dried, you can start painting. See the illustration below to see what part should be colored:
 
@@ -303,11 +303,11 @@ Fix the magnet with a drop of hot glue and before the glue gets cold, put the ri
 
 Finish your block by gluing the last layer, part number 1, on the top, then repeat the entire process for every single block :)
 
-###CUBETTO
+### CUBETTO
 
 Electronics:
 
-The prototype for Cubetto can be built using an Arduino Uno or Leonardo, with a Proto Wireless Shield on top. The reason for the Proto Shield is because it has a small prototyping area, that is wide enough to put the motor driver, the connectors for the optical encoders, motors and power. 
+The prototype for Cubetto can be built using an Arduino Uno or Leonardo, with a Proto Wireless Shield on top. The reason for the Proto Shield is because it has a small prototyping area, that is wide enough to put the motor driver, the connectors for the optical encoders, motors and power.
 
 Cubetto has to spin 90 degrees left and right. A very inaccurate way is to use timing event, like "spin right for one second" and you can expect more or less the same result. "More or less" because it depends a lot from different factors, such as the floor, the battery power and so on. The way I solved this problem, is by detecting the amount of rotation from the wheel using two CNY70 optical encoders in combination with a sticker. The round sticker goes in the inner wheel and it's something like this:
 
@@ -346,7 +346,7 @@ Don't mount the motors for now, first you have to mount the ball casters.
 
 Now the CNY70. Solder the two opposite headers, that must be connected to 5V, together with a wire; then solder three wires to the remaining headers of the CNY70. At the end of these wires solder a row of three female headers. They will later be connected on to the headers of the proto shield.
 
-The two cny70 must be placed on the edge of the bottom layer, with the LED and the photoransistot horizontally aligned. To fix them you can use some hot glue (or other types of glue). 
+The two cny70 must be placed on the edge of the bottom layer, with the LED and the photoransistot horizontally aligned. To fix them you can use some hot glue (or other types of glue).
 
 See the picture to understand the location.
 
@@ -358,9 +358,9 @@ Now print the inner drawing with the black and white slices, glue them on a piec
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-10.jpg)
 
-Now you can put the wheels on the motors, if you used the Solarbotics wheels, you can fasten them with the screw provided, don't make it too tight. 
+Now you can put the wheels on the motors, if you used the Solarbotics wheels, you can fasten them with the screw provided, don't make it too tight.
 
-Glue three out of the four 'walls' of Cubetto, parts 5, 7 and 8. We are going to leave the back removable, just in case we want to modify something. 
+Glue three out of the four 'walls' of Cubetto, parts 5, 7 and 8. We are going to leave the back removable, just in case we want to modify something.
 
 Take the battery holder and solder the black and red cable to other 2 female connectors. The headers on the shield will go to VIN and ground. A switch that breaks the red wire is heavily suggested.
 
@@ -369,8 +369,8 @@ Take the battery holder and solder the black and red cable to other 2 female con
 Now you can place the Arduino + Proto shield on top of the motors, plug all the headers on the shield and you have finished making Cubetto.
 </div>
 
-##Arduino
+## Arduino
 
-###[Download Arduino Files](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
+### [Download Arduino Files](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
 
 Instructions in the sketch comments.

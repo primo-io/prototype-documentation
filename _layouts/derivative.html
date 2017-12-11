@@ -1,15 +1,15 @@
-{% include head.html %}    
+{% include head.html %}
 {% include nav.html %}
 <a id="edit" href="http://github.com/primo-io/prototype-documentation/blob/gh-pages/{{ page.path }}">
 	Edit this Document
 </a>
-<div id="container">    
-	<a id="logo" href="http://primo.io">    		
-		<img src="/images/assets/logo-derivatives.png">        			    			    		
-	</a>	    
-	
+<div id="container">
+	<a id="logo" href="http://primo.io">
+		<img src="{{ site.baseurl }}images/assets/logo-derivatives.png">        			    			    		
+	</a>
+
 	<h1>{{ page.title }}</h1>
-	
+
 	{{ content }}
 </div>
 {% include foot.html %}

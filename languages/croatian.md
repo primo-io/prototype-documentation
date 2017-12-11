@@ -8,7 +8,7 @@ category: language
 <br>
 
 <div id="content" markdown="1">
-##0. Što se nalazi u ovom dokumentu?
+## 0. Što se nalazi u ovom dokumentu?
 
 ![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
 U ovom dokumentu se nalaze prikupljene sve informacije i uputstva potrebna da biste izgradili Primo prototip. Više o samom projektu možete naći na stranicama [primo.io](http://primo.io).
@@ -28,7 +28,7 @@ If you want to translate this page in your language, you have multiple options:
 
 2. **medium, light automation** Create an account on [GitHub](http://github.com), then open the [repository of this page](https://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md) and click on 'EDIT', in the top menu bar:
 ![photo]({{ site.baseurl }}images/screenshots/edit-1.jpg)
-Then your page turns into a text editor, where you are able to modify the page source. The page is written in [markdown](http://daringfireball.net/projects/markdown/syntax), very easy to understand. 
+Then your page turns into a text editor, where you are able to modify the page source. The page is written in [markdown](http://daringfireball.net/projects/markdown/syntax), very easy to understand.
 ![photo]({{ site.baseurl }}images/screenshots/edit-2.jpg)
 You don't have to modify this code, but just copy and paste the whole text in your local text editor, then translate the textual parts in your language, without modifying the parenthesis and HTML parts. Save the text then mail it to us at [play@primo.io](mailto:play@primo.io)
 
@@ -36,7 +36,7 @@ You don't have to modify this code, but just copy and paste the whole text in yo
 If you are already familiar with git, you have to fork the repository, all the translations are located in the 'languages' folder. To translate the page, just copy it with the starting language ("english.md" for example) in the same folder, then change the file name with the final language (spanish.md). Change the page header values 'title' (title in your language) and 'language' (the destination language with Capital letter) then translate the rest of the document. Once finished, make a pull request to add your file to the folder, it will be automatically added to the menu.<br><br>
 The steps above, expanded:
 
-  1. Make a GitHub account 
+  1. Make a GitHub account
   2. Download the GitHub application ([Mac](http://mac.github.com/), [Windows](http://windows.github.com/))
   3. If it's the first time you use it, open it and input your GitHub login details
   4. Go to [this documentation repository](https://github.com/primo-io/prototype-documentation)
@@ -52,24 +52,24 @@ The steps above, expanded:
   ![photo]({{ site.baseurl }}images/screenshots/pull-1.jpg)
 
   14. Then click on "Create Pull Request"
-	
+
   ![photo]({{ site.baseurl }}images/screenshots/pull-2.jpg)
 
   15. Write a message for the pull request and that's it! Now we just have to approve the request.
 </div>
 <br>
 
-##1. Što je Primo?
+## 1. Što je Primo?
 ![primo play set]({{ site.baseurl }}images/photo/primo.jpg)
 
 Primo je opipljivo sučelje, dizajnirano s ciljem približavanja i upoznavanja mlađe djece (od 3 do 7 godina starosti) s logikom programiranja, bez potrebe za pismenošću. Cilj igre je navesti malog robota, koji se zove Cubetto, do njegove kuće. Da bi se ostvario cilj, djeca moraju programirati kretanje robota koristeći ograničen skup naredbi: "naprijed", "lijevo", "desno" i "funkcija". Dočim su prve tri naredbe prilično intuitivne, naredba "funkcija" poziva potprogram (podrutinu) - dodatnu liniju naredbi povezane u jednu naredbu.
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
-    </iframe> 
+    </iframe>
 </div>
 
-##2. Istraživanje
+## 2. Istraživanje
 
 Podučavanje djece programiranju je naširoko raspravljana tema. Poznat nam je umjeren broj rješenja koja pokušavaju ostvariti cilj za djecu iznad 8 godina starosti. Međutim, ne postoje brojna rješenja koja su pogodna za mlađu djecu, a uopće ne postoje ona koja ne zahtijevaju ekran ili potrebu za pismenošću. Zamjećujemo sve veći broj programa za tablete i računala koji također rade u kombinaciji sa stvarnim robotima, ali niti jedan od njih nije potpuno oslobođen pikselastog okružja kao što je to slučaj s Primo Play setom.
 
@@ -89,7 +89,7 @@ Drugi problem je bio dizajniranje pouzdanog načina raspoznavanja naredbi. Rješ
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
     </iframe>
-</div> 
+</div>
 
 Ideja je koristiti raznovrsne blokove umjesto naredbi. Procesor može razaznati blokove pomoću otpornika. U svojoj osnovi, sustav je djelitelj napona te analogni ulazi Arduino ploče mogu očitati vrijednosti otpornika. Metoda je vrlo jednostavna, ali i vrlo prikladna za prototip.
 
@@ -107,7 +107,7 @@ Dizajn oblika naredbi još se uvijek testira. Trenutni dizajn je prilično zadov
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">
-        
+
     </iframe>
 </div>
 
@@ -117,9 +117,9 @@ Maloj kutiji smo zatim dali ime, zajedno s osobnošću i nasmješenim lice, čin
 
 ![cubetto]({{ site.baseurl }}images/photo/cubetto.jpg)
 
-##3. Početak
+## 3. Početak
 
-###3.1 Osnove
+### 3.1 Osnove
 
 Primo se sastoji od tri dijela: upavljačke ploče, Cubetta i skupa naredbi. Djeca upravljaju Cubettom stavljajući blokove (naredbe) u rupe na upravljačkoj ploči, stvarajući pritom niz naredbi (program) koji zatim Cubetto izvrši.
 
@@ -129,9 +129,9 @@ Blokovi se umeću u rupe na upravljačkoj ploči, gdje se razluči vrijednost ot
 
 Mozak prototipa su dvije Arduino ploče; UNO (mogu poslužiti i Leonardo ili Duemilanove) za Cubetto i Mega za upravljačku ploču, gdje nam treba 16 analognih ulaza.
 
-###3.2 Elektronika
+### 3.2 Elektronika
 
-###Potreban alat
+### Potreban alat
 
 * lemilica
 * žica za lemljenje (tinol)
@@ -140,7 +140,7 @@ Mozak prototipa su dvije Arduino ploče; UNO (mogu poslužiti i Leonardo ili Due
 * ljepilo za drvo
 * bakrena traka široka 5mm
 
-###Materijal (cijene u eurima)
+### Materijal (cijene u eurima)
 
 Cubetto ~ 88 €
 
@@ -163,8 +163,8 @@ Upravljačka ploča ~ 88 € (puka slučajnost)
 * 16 5mm LED (crvene): 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Lite-On/LTL-4223/?Lite-On/LTL-4223/&qs=sGAEpiMZZMusoohG2hS%252b15J8d1kHl%252bvkJpzS4atZNEA=)
 * 16 220 Ω otpornika : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
 * 16 10 KΩ otpornika : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
-* 1 kontaktni prekidač : 1 € 
-* 50 jednorednih muških pin kontaktata  (male headers) : 1 € 
+* 1 kontaktni prekidač : 1 €
+* 50 jednorednih muških pin kontaktata  (male headers) : 1 €
 * 16 dvorednih muških pin kontakata (double male headers) : 0.50 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=294#.UxC_3fTV_bA)
 * 50 jednorednih ženskih pin kontakata (female headers) : 1 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=188#.UxDAAfTV_bA)
 * 16 magneta promjera 4mm i visine 3mm : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
@@ -177,21 +177,21 @@ Naredbe ~ 4 €
 * 4 x 10 KΩ otpornika : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
 * 16 magneta promjera 4mm i visine 3mm : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
 
-###3.3 Napajanje
+### 3.3 Napajanje
 
 Cubetto se napaja pomoću baterija, a upravljačka ploča može, ali i ne mora - već prema izboru. Za prototip možete koristiti LiPo baterije ili obične AA baterije, prema želji. Mi smo koristili obje, LiPo baterije su dobre, ali vam treba dodatna oprema. Ako počinjete "od nule" preporučamo vam AA baterije. Imajte na umu da se baterije potroše prilično brzo, tako da je puno bolje koristiti punjive baterije poput NiMh.
 
-###3.4 Dizajn prototipa
+### 3.4 Dizajn prototipa
 
 Cijeli proizvod je napravljen od laserski izezanog drveta (šperploče), uglavnom debljine 4 mm sa samo jednim slojem od 1mm. Laserski možete izrezati ove dijelove koristeći servis kao što je Ponoko, ili u lokanom FabLabu (nažalost u HR još uvijek ne postoji FabLab podružnica, ali postoje komercijalni servisi). Prvi prototip je bio laserski izrezan u [FabLabu Lugano](http://fablab.supsi.ch/), dok je daljnji razvoj nastavljen u [FabLabu Torino](http://fablabtorino.org/), gdje dio razvojnog tima još uvijek boravi.
 
 Pravljenje Cubetta i upravljačke ploče je dugotrajna ali vrlo jednostavna procedura, njihove ljuske su u osnovi kutije. Malo kompliciranije je pravljenje naredbenih blokova. Oni se sastoje od drvenih slojeva od 4mm s magnetima i otpornicima zalemljenim unutra.
 
-##4. Izgradnja prototipa
+## 4. Izgradnja prototipa
 
-###[Download Source Files](files/primo-prototype-laser.zip)
+### [Download Source Files](files/primo-prototype-laser.zip)
 
-###4.1 Upravljačka ploča
+### 4.1 Upravljačka ploča
 
 Za konstrukciju upravljačke ploče prvo je potrebno izrezati drvene dijelove iz dviju datoteka: interface-board-4mm.dxf i interface-board-1mm.dxf: prva je za dijelove od šperploče debljine 4mm, a druga za dijelove od šperploče debljine 1mm.
 Kao što se može vidjeti iz priloženih datoteka, dijelovi su označeni brojevima da bi se olakšalo slaganje. Brojevi su spremljeni u različitom sloju (layer) tako da se mogu jednostavno ukloniti prije samog laserskog rezanja. Preporučamo da podesite veličinu rupe za startni gumb, baziran na veličini gumba koji želite koristiti.
@@ -248,7 +248,7 @@ Nakon što završite lemljenje dioda, zalemite i ručno izrađene konektore. Oni
 
 <p>
 Ovdje smo koristili jednoredne kontakte zato što su analogni kontakti na Aruduinu posloženi u jednoj liniji.
-	
+
 </p>
 
 <p>
@@ -268,7 +268,7 @@ Zatim je potrebno malo podešavanja: nakon što je dio broj 12 obojan, možete g
 
 ![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
-###Naredbeni blokovi
+### Naredbeni blokovi
 
 Ovo je jedan blok, rastavljen u sastavne dijelove:
 
@@ -299,7 +299,7 @@ Učvrstite magnet s kapljicom vrućeg ljepila i prije nego se ljepilo ohladi pri
 
 Završite blok ljepljenjem posljednjeg sloja, označenog brojem 1 te ponovite proceduru za svaki naredbeni blok :)
 
-###CUBETTO
+### CUBETTO
 
 Elektronika:
 
@@ -358,7 +358,7 @@ Sada isprintajte nacrt s bijelim i crnim kriškama, zalijepite ih na komad karto
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-10.jpg)
 
-Sad možete staviti kotače na motore, ukoliko ste koristili Solarbotics kotače, možete ih pričvrstiti priloženim vijkom - ne zatežite vijak prejako. 
+Sad možete staviti kotače na motore, ukoliko ste koristili Solarbotics kotače, možete ih pričvrstiti priloženim vijkom - ne zatežite vijak prejako.
 
 Zalijepite tri od četiri zida Cubetta, dijelove označene s 5, 7 i 8. Ostavite stražnju stranu sobodnu, za slučaj da želite nešto promijeniti.
 
@@ -369,8 +369,8 @@ Uzmite kućište za baterije i zalemite dva ženska pin kontakta na crnu i crven
 Sad možete staviti Arduino i proto štit povrh motora, spojite sve konektore i završili ste pravljenje svog Cubetta.
 </div>
 
-##Arduino
+## Arduino
 
-###[Download Arduino dokumente](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
+### [Download Arduino dokumente](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
 
 Upute su na engleskom u komentarima crteža.
