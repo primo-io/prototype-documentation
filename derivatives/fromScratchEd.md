@@ -19,10 +19,10 @@ License: CC BY-NC-SA 3.0
 </div>
 <br>
 
-###Bill of materials
+### Bill of materials
 ([Tayda publishes discount codes on their Facebook page regularly!][5])
 
-####Cubetto
+#### Cubetto
 
 * 1 x Shrimp ([http://Shrimping.it)][6]: replacement of Arduino UNO (or Leonardo)
 * 1 x Stripboard ([Tayda][7]): replacement of Arduino Proto Wireless Shield
@@ -40,15 +40,15 @@ License: CC BY-NC-SA 3.0
 * 1 x Voltage regulator kit ([Ciseco][16]) (not shown in schematics below)
 * 1 x Switch (local store) (to cut the power)
 
-####Interface Board
+#### Interface Board
 
 * 2 x Shrimp ([http://Shrimping.it)][17]: replacement of Arduino Mega 2560
 * 2 x Stripboard ([Tayda][18]): replacement of Arduino Proto Wireless Shield
 * 1 x Active(!) XBBO - break out board for XBee shaped modules ([Ciseco][20]): replacement of Arduino Proto Wireless Shield
 * 1 x XRF wireless RF radio UART RS232 serial data module XBee shape ([Ciseco][19]): replacement of XBee
-* 16 x 5mm Red LED ([Tayda][21]) 
-* 16 x 220Ω Resistors ([Tayda][22]) 
-* 16 x 10KΩ Resistors ([Tayda][23]) 
+* 16 x 5mm Red LED ([Tayda][21])
+* 16 x 220Ω Resistors ([Tayda][22])
+* 16 x 10KΩ Resistors ([Tayda][23])
 * 1 x Push Button ([Tayda][24])
 * 16 x Magnets ø 4 h 4 ([Magnetenspecialist][25]): replacement of Magnets ø 4 h 3
 * 1 x Battery Holder ([Tayda][15])
@@ -57,7 +57,7 @@ License: CC BY-NC-SA 3.0
 * 2 x CD4052 ([Tayda][52]) (to add extra analog inputs)
 * 1 x Switch (local store) (to cut the power)
 
-####Instruction Blocks
+#### Instruction Blocks
 
 * 4 x 4.7KΩ Resistor ([Tayda][27])
 * 4 x 100KΩ Resistor ([Tayda][28])
@@ -65,12 +65,12 @@ License: CC BY-NC-SA 3.0
 * 4 x 10KΩ Resistor ([Tayda][30])
 * 16 x Magnets ø 4 h 4 ([Magnetenspecialist][31]): replacement of Magnets ø 4 h 3
 
-####Wood
+#### Wood
 
 * 6 x 60cm x 30cm x 4mm plywood (local store)
 * 1 x 50cm x 30cm x 1mm plywood (a.k.a. flexible plywood, bendy plywood, flexiply of airplane plywood) ([Yvonne's Hobby-corner][32])
 
-###The adventures (links to my blog)
+### The adventures (links to my blog)
 * [Day 1][33]: Getting the source files
 * [Day 2][34]: Ordering materials
 * [Day 3][35]: Editing lasercutter files
@@ -87,12 +87,12 @@ License: CC BY-NC-SA 3.0
 * [Schematics and software][47]
 * [Finished][48]: Why I made Primo, what I'm going to do with Primo and who I am (and why I think programming with young children is important)
 
-###Source files
+### Source files
 [Arduino files][49]
 
 [Lasercutter files][50]
 
-###Schematics
+### Schematics
 For the Interface Board I used two Shrimps connected with I2C (connect A4 at A4, A5 at A5, 5V at 5V and GND at GND).
 
 The primary Shrimp is connected to the block holes of the interface board, the secondary Shrimp is connected to the LED's.

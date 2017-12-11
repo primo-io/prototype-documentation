@@ -1,4 +1,4 @@
 name: Primo DIY Documentation
-pygments: true
+highlighter: pygments
 markdown: kramdown
-baseurl: http://docs.primo.io/
+baseurl: /prototype-documentation/

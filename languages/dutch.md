@@ -8,7 +8,7 @@ category: language
 <br>
 
 <div id="content" markdown="1">
-##0. Doel van dit document
+## 0. Doel van dit document
 
 ![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
 Dit document bevat alle informatie die nodig is om een Primo Prototype te maken.
@@ -16,7 +16,7 @@ Meer informatie over het project vind je op de [primo.io](http://primo.io)-websi
 
 <br>
 
-##1. Wat is Primo?
+## 1. Wat is Primo?
 
 ![primo play set]({{ site.baseurl }}images/photo/primo.jpg)
 
@@ -24,10 +24,10 @@ Primo is een tastbare interface, ontworpen om programmeerlogica te introduceren 
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
-    </iframe> 
+    </iframe>
 </div>
 
-##2. Onderzoek
+## 2. Onderzoek
 
 Kinderen leren programmeren is een wereldwijd besproken onderwerp. We zijn ons bewust van een bescheiden aantal oplossingen die dit proberen te bereiken voor kinderen van 8 jaar en ouder. Echter, de meeste van deze oplossingen zijn niet geschikt voor jonge kinderen. En geen enkele werken zonder een beeldscherm of zonder te hoeven lezen. Er verschijnt een groeiend aantal apps voor tablets en computers die ook werken in combinatie met fysieke robots, maar geen van deze zijn volledig vrij van het pixeldomein, zoals de Primo speelset dat wel is.
 
@@ -41,12 +41,12 @@ Het eerste prototype werd gemaakt in SUPSI Lugano door Matteo Loglio (medeoprich
 
 De eerste uitdaging werd opgelost door een [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) van David Cuartielles te gebruiken, één van de Arduino oprichters die een lezing gaf in SUPSI. De Oh_Oh robot is een open project, je kunt de bronbestanden vinden via bovenstaande link. Het is Arduino in een autovorm; alleen voor de draadloze communicatie werd een XBee toegevoegd.
 
-De tweede uitdaging was het ontwerpen van een betrouwbare manier om de blokken te onderscheiden. De oplossing was geïnspireerd door een [CIID](http://ciid.dk/)-project genaamd ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
+De tweede uitdaging was het ontwerpen van een betrouwbare manier om de blokken te onderscheiden. De oplossing was geïnspireerd door een [CIID](http://ciid.dk/)-project genaamd ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/).
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
     </iframe>
-</div> 
+</div>
 
 
 Het idee is om meerdere blokken te gebruiken, die door weerstandwaardes herkend worden door een bord. Het is een eenvoudige spanningsdeler, waarbij de analoge pinnen van de Arduino de weerstandwaardes uitlezen. Het is een simpele methode, maar zeer effectief voor een prototype.
@@ -65,7 +65,7 @@ Het ontwerp voor de vorm van de instructieblokken wordt nog steeds getest. Het h
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">
-        
+
     </iframe>
 </div>
 
@@ -75,9 +75,9 @@ Er werd een naam, persoonlijkheid en een glimlach gegeven aan het doosje, zodat 
 
 ![cubetto]({{ site.baseurl }}images/photo/cubetto.jpg)
 
-##3. Om te beginnen
+## 3. Om te beginnen
 
-###3.1 De basis
+### 3.1 De basis
 
 Primo bestaat uit drie delen: een interfacebord, Cubetto en een set instructieblokken. Door instructieblokken in het interfacebord te plaatsen, maken kinderen een instructieset (een programma) welke Cubette uitvoert.
 
@@ -87,9 +87,9 @@ De blokken worden in de gaten van het interfacebord geplaatst, waar de weerstand
 
 Het brein van het prototype is gemaakt met twee Arduino's, een UNO (een Leonardo of Duemilanove kan ook) voor Cubetto en een Mega voor het interfacebord, waar 16 analoge inputs nodig zijn.
 
-###3.2 Electronica
+### 3.2 Electronica
 
-###Benodige gereedschappen
+### Benodige gereedschappen
 
 * Soldeerbout
 * Soldeertin
@@ -98,7 +98,7 @@ Het brein van het prototype is gemaakt met twee Arduino's, een UNO (een Leonardo
 * Houtlijm
 * Kopertape (5mm breed)
 
-###Materialen (prijzen in Euro)
+### Materialen (prijzen in Euro)
 
 Cubetto ~ 88 €
 
@@ -121,8 +121,8 @@ Interfacebord ~ 88 € (puur toeval)
 * 16 x 5mm rode LED's : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Lite-On/LTL-4223/?Lite-On/LTL-4223/&qs=sGAEpiMZZMusoohG2hS%252b15J8d1kHl%252bvkJpzS4atZNEA=)
 * 16 x 220Ω-weerstand : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
 * 16 x 10KΩ-weerstand : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
-* 1 x knop : 1 € 
-* 50 x male headers : 1 € 
+* 1 x knop : 1 €
+* 50 x male headers : 1 €
 * 16 x dubbele male headers : 0.50 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=294#.UxC_3fTV_bA)
 * 50 x female headers : 1 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=188#.UxDAAfTV_bA)
 * 16 x magneten ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
@@ -135,21 +135,21 @@ Instructie blokken ~ 4 €
 * 4 x 10KΩ-weerstand : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
 * 16 magneten ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
 
-###3.3 Spanning
+### 3.3 Spanning
 
 Cubetto en (optioneel) het interfacebord worden gevoed door batterijen. Je kunt LiPo- of AA-batterijen gebruiken voor het prototype, die keuze is aan jou. Wij hebben beide gebruikt; LiPo-batterijen zijn erg goed, maar hebben extra benodigheden nodig. Als je vanaf nul begint, raden we AA-batterijen aan. Ze raken wel snel leeg; daarom kun je het beste oplaadbare batterijen gebruiken, zoals NiMh.
 
-###3.4 Ontwerp van het prototype
+### 3.4 Ontwerp van het prototype
 
 Het hele product is gemaakt van hout en uitgesneden met behulp van een lasercutter. Er is voornamelijk triplex van 4 mm gebruikt, terwijl voor één laag 1 mm dik hout (vliegtuigtriplex) gebruikt is. Je kunt deze onderdelen laten snijden door een dienst zoals Ponoko of in een FabLab bij je in de buurt. Het eerste prototype werd gemaakt in [FabLab Lugano](http://fablab.supsi.ch/). Het ontwerp werd verder ontwikkeld in [FabLab Torino](http://fablabtorino.org/), waar een deel van het Primo-ontwerpteam nog steeds zit.
 
 Het maken van Cubetto en het interfacebord is een bewerkelijk, maar erg simpel proces. Hun buitenkanten zijn in de basis dozen. De echte complexiteit ligt in de instructieblokken. Deze zijn gemaakt van een dubbele 4mm houten laag met een magneet en een gesoldeerde weerstand binnenin.
 
-##4. Het prototype maken
+## 4. Het prototype maken
 
-###[Download de lasercutter-bestanden](files/primo-prototype-laser.zip)
+### [Download de lasercutter-bestanden](files/primo-prototype-laser.zip)
 
-###4.1 Interfacebord
+### 4.1 Interfacebord
 
 Om het interfacebord te maken heb je twee bestanden nodig: interface-board-4mm.dxf en interface-board-1mm.dxf: het eerst is voor het triplex van 4 mm dik en de tweede voor het triplex van 1 mm dik. De onderdelen zijn genummerd, zodat je ze makkelijk kunt samenvoegen. De nummers zitten in een aparte laag in het bestand, dus je kunt ze makkelijk verwijderen voordat je gaat snijden. We raden je aan om het gat voor de knop aan te passen aan de grootte van de knop die je gaat gebruiken.
 
@@ -206,7 +206,7 @@ Zodra alle LED's zijn gesoldeerd, moeten we onze handgemaakte connector solderen
 
 <p>
 Hier heb ik enkele male headers gebruikt, omdat de analoge pinnen op één lijn staan.
-	
+
 </p>
 
 <p>
@@ -226,7 +226,7 @@ Hetzelfde geldt voor de rode knop: nadat deel 14 is geverfd, bevestig je iets za
 
 ![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
-###INSTRUCTIEBLOKKEN
+### INSTRUCTIEBLOKKEN
 
 Dit is één van de instructieblokken, in onderdelen:
 
@@ -258,7 +258,7 @@ Soldeer daarna de weerstand aan de beide stukken kopertape. Knip, na het soldere
 
 Maak je blok af door de laatste laag, deel nummer 1, erop te lijmen. Herhaal dan dit proces voor elk blok :)
 
-###CUBETTO
+### CUBETTO
 
 Electronica:
 
@@ -306,7 +306,7 @@ Nu de CNY70. Soldeer de twee tegenover elkaar gelegen headers (diagonaal) (die a
 
 ![image]({{ site.baseurl }}images/illustrations/cny70-header.jpg)
 
-De twee CNY70's moeten aan de rand van de grondplaat vastgemaakt worden, met de LED en de fototransistor horizontaal. Je kunt lijm gebruiken om ze vast te maken. 
+De twee CNY70's moeten aan de rand van de grondplaat vastgemaakt worden, met de LED en de fototransistor horizontaal. Je kunt lijm gebruiken om ze vast te maken.
 
 Op de foto zie je de exacte locatie.
 
@@ -331,8 +331,8 @@ Pak de batterijhouder en soldeer de zwarte en rode draad aan 2 female headers. D
 Nu kun je de Arduino + Protoshield op de motoren plaatsen, alle headers aansluiten op het shield en je bent klaar met het maken van Cubetto.
 </div>
 
-##Arduino
+## Arduino
 
-###[Download de Arduino-bestanden](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
+### [Download de Arduino-bestanden](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
 
 De instructies staan als commentaar in de sketches.

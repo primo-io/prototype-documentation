@@ -8,7 +8,7 @@ category: language
 <br>
 
 <div id="content" markdown="1">
-##0. C'est quoi ce document ?
+## 0. C'est quoi ce document ?
 
 ![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
 Ce document rassemble et organise toutes les informations nécessaires pour construire un prototype Primo.
@@ -29,7 +29,7 @@ Si vous voulez traduire cette page dans votre langue, vous avez plusieurs possib
 
 2. **moyen, légère automatisation ** Créez un compte sur [GitHub](http://github.com), ouvrez ensuite le [dépôt de cette page](https://github.com/primo-io/prototype-documentation/blob/gh-pages/index.md) et cliquez sur 'EDIT', dans la barre de menu du haut :
 ![photo]({{ site.baseurl }}images/screenshots/edit-1.jpg)
-Votre page bascule alors dans un éditeur de texte où vous pouvez modifier la source de la page. La page est écrite en [markdown](http://daringfireball.net/projects/markdown/syntax), très facile à comprendre. 
+Votre page bascule alors dans un éditeur de texte où vous pouvez modifier la source de la page. La page est écrite en [markdown](http://daringfireball.net/projects/markdown/syntax), très facile à comprendre.
 ![photo]({{ site.baseurl }}images/screenshots/edit-2.jpg)
 Vous n'avez pas à modifier ce code mais copiez et collez simplement l'ensemble du texte dans votre éditeur de texte en local et traduisez ensuite la partie textuelle dans votre langue sans modifier les parties entre parenthèses et en HTML. Enregistrez le texte puis envoyez-le nous à l'adresse [play@primo.io](mailto:play@primo.io)
 
@@ -42,7 +42,7 @@ Voici les étapes ci-dessus en détail :
   3. Si c'est la première fois que vous l'utilisez, ouvrez-la et entrez vos paramètres d'identification
   4. Allez dans [le dépôt de documentation](https://github.com/primo-io/prototype-documentation)
   5. Cliquez sur le bouton "Fork" dans le coin en haut à droite afin de créer une branche de ce dépôt dans votre compte.
-  6. Allez sur votre compte GitHub, ouvrez la page de la branche du dépôt et cliquez sur le bouton "Clone in Desktop" situé sur la barre latérale à droite. L'application GitHub va s'ouvrir automatiquement en demandant où enregistrer le dépôt local. 
+  6. Allez sur votre compte GitHub, ouvrez la page de la branche du dépôt et cliquez sur le bouton "Clone in Desktop" situé sur la barre latérale à droite. L'application GitHub va s'ouvrir automatiquement en demandant où enregistrer le dépôt local.
   7. Après avoir sélectionné le chemin du répertoire sur votre ordinateur, cliquez sur "clone".  
   8. Après avoir téléchargé les fichiers, accédez au répertoire local où le dépôt a été téléchargé.
   9. Ouvrez le répertoire 'languages' où se situent toutes les traductions. Sélectionnez la langue de départ ("english.md" par exemple) puis copiez le fichier dans le même répertoire et renommez-le avec votre langue finale ("spanish.md" par exemple).
@@ -53,14 +53,14 @@ Voici les étapes ci-dessus en détail :
   ![photo]({{ site.baseurl }}images/screenshots/pull-1.jpg)
 
   14. Ensuite cliquez sur "Create Pull Request"
-	
+
   ![photo]({{ site.baseurl }}images/screenshots/pull-2.jpg)
 
   15. Ecrivez un message pour la demande de soumission et c'est tout ! A présent nous avons juste à approuver la demande.
 </div>
 <br>
 
-##1. C'est quoi Primo ?
+## 1. C'est quoi Primo ?
 
 ![primo play set]({{ site.baseurl }}images/photo/primo.jpg)
 
@@ -68,10 +68,10 @@ Primo est une interface concrète conçue pour introduire la logique programmati
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
-    </iframe> 
+    </iframe>
 </div>
 
-##2. Recherche
+## 2. Recherche
 
 Apprendre la programmation à des enfants est un sujet largement débattu. Nous sommes conscients qu'il existe un certain nombre de solutions qui tentent d'y parvenir pour des enfants à partir de 8 ans. Cependant, il y en a peu qui soient adaptées à des enfants plus jeunes et encore moins qui fonctionnent sans écran ou sans savoir lire ou écrire. Nous voyons un nombre croissant d'applications pour tablettes et ordinateurs qui fonctionnent de pair avec des robots physiques mais aucun n'est véritablement libéré du monde du pixel comme peu l'être l'ensemble de jeu Primo.
 
@@ -85,18 +85,18 @@ Le premier prototype a été réalisé à SUPSI Lugano par Matteo Loglio (co-fon
 
 La première difficulté a été résolue en utilisant le [panneau Oh_Oh](http://david.cuartielles.com/w/Maquila2/Ohoh) de David Cuartielles, un des fondateurs de Arduino qui a tenu une conférence à SUPSI. Le robot Oh_Oh est un projet libre, vous pouvez trouver les fichiers sources en suivant le lien ci-dessus. C'est essentiellement une carte Arduino en forme de voiture sur laquelle une carte XBee a été ajoutée pour la communication radio.
 
-La deuxième difficulté était d'imaginer une manière fiable de détecter les blocs. Pour la solution on s'est inspiré d'un projet [CIID](http://ciid.dk/) appelé ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
+La deuxième difficulté était d'imaginer une manière fiable de détecter les blocs. Pour la solution on s'est inspiré d'un projet [CIID](http://ciid.dk/) appelé ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/).
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
     </iframe>
-</div> 
+</div>
 
 L'idée est d'utiliser divers blocs qui peuvent être reconnus par le panneau en utilisant des résistances. C'est un diviseur de tension élémentaire, les entrées analogiques d'un Arduino pouvant lire les valeurs des résistances. C'est une méthode très simple mais assez efficace pour un prototype.
 
 En matière de design, certains aspects ont eu besoin d'être testés ; Le design actuel est le résultat de plusieurs essais.
 
-Le chemin en 'serpent' ou 'zig-zag' des séquences d'instruction a été choisi pour éviter les pré-concepts de lecture et d'écriture. 
+Le chemin en 'serpent' ou 'zig-zag' des séquences d'instruction a été choisi pour éviter les pré-concepts de lecture et d'écriture.
 
 ![left to right]({{ site.baseurl }}images/illustrations/left-to-right.jpg)
 
@@ -108,7 +108,7 @@ Le design pour la forme des blocs d'instruction est toujours en cours de test. L
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">
-        
+
     </iframe>
 </div>
 
@@ -118,9 +118,9 @@ Un nom a été donné à cette petite boite, ainsi qu'une personnalité et une v
 
 ![cubetto]({{ site.baseurl }}images/photo/cubetto.jpg)
 
-##3. Pour commencer
+## 3. Pour commencer
 
-###3.1 Les bases
+### 3.1 Les bases
 
 Primo est composé de trois parties : un panneau de contrôle, Cubetto et un jeu de blocs d'instruction. Les enfants interagissent avec le panneau de contrôle en plaçant des blocs d'instruction dans les trous pour créer une séquence (un programme) que Cubetto exécute.
 
@@ -130,9 +130,9 @@ Les blocs sont insérés dans les trous du panneau de contrôle où la valeur de
 
 Le cerveau du prototype est composé de deux circuits Arduino, un Uno (un Leonardo ou un Duemilanove fera aussi l'affaire) pour Cubetto et un Mega pour le panneau de contrôle où 16 entrées analogiques sont nécessaires.
 
-###3.2 Electronique
+### 3.2 Electronique
 
-###Les outils nécessaires
+### Les outils nécessaires
 
 * Fer à souder
 * Soudure
@@ -141,7 +141,7 @@ Le cerveau du prototype est composé de deux circuits Arduino, un Uno (un Leonar
 * Colle à bois
 * Ruban en cuivre de 5mm de large
 
-###Matériel (prix en euro, hors taxe)
+### Matériel (prix en euro, hors taxe)
 
 Cubetto ~ 88 €
 
@@ -164,8 +164,8 @@ Panneau de contrôle ~ 88 € (pure coincidence)
 * 16 LED rouge 5 mm : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Lite-On/LTL-4223/?Lite-On/LTL-4223/&qs=sGAEpiMZZMusoohG2hS%252b15J8d1kHl%252bvkJpzS4atZNEA=)
 * 16 Résistances 220 Ω : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
 * 16 Résistances 10 KΩ : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
-* 1 Bouton poussoir : 1 € 
-* 50 Têtes mâles : 1 € 
+* 1 Bouton poussoir : 1 €
+* 50 Têtes mâles : 1 €
 * 16 Têtes doubles mâles : 0.50 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=294#.UxC_3fTV_bA)
 * 50 Têtes femelles : 1 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=188#.UxDAAfTV_bA)
 * 16 Aimants ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
@@ -178,21 +178,21 @@ Blocs d'instruction ~ 4 €
 * Résistance 4 x 10 KΩ : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
 * 16 Aimants ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
 
-###3.3 Energie
+### 3.3 Energie
 
 Cubetto et (éventuellement) le panneau de contrôle sont alimentés par des piles. Pour le prototype vous pouvez utiliser une batterie Li-Po ou des piles AA courantes, c'est comme vous le souhaitez. Nous avons utilisé les deux, les batteries Li-Po sont bien mais nécessitent un équipement supplémentaire, si vous démarrez à partir de rien nous vous conseillons les piles AA. Gardez simplement à l'esprit qu'elles se déchargent assez vite donc le mieux serait d'utiliser des piles rechargeables telles que les piles NiMH.
 
-###3.4 Design du prototype
+### 3.4 Design du prototype
 
 Le produit est entière constitué de bois découpé au laser, principalement de 4 mm d'épaisseur, avec seulement une couche de 1 mm d'épaisseur. Vous pouvez effectuer la découpe au laser en utilisant des services tels que Ponoko ou dans votre FabLab local. Le premier prototype a été découpé au laser au [FabLab Lugano](http://fablab.supsi.ch/) alors que le développement du produit s'est déroulé au [FabLab Torino](http://fablabtorino.org/) où une partie de l'équipe de développement de Primo réside toujours.
 
 Construire Cubetto et le panneau de contrôle est un travail laborieux mais très simple, leur coque étant globalement des boites. La vrai difficulté réside dans les blocs d'instruction : il s'agit de deux couches en bois de 4 mm avec un aimant et une résistance soudés à l'intérieur.
 
-##4. Fabrication du prototype
+## 4. Fabrication du prototype
 
-###[Télécharger les fichiers source](files/primo-prototype-laser.zip)
+### [Télécharger les fichiers source](files/primo-prototype-laser.zip)
 
-###4.1 Le Panneau de contrôle
+### 4.1 Le Panneau de contrôle
 
 Pour fabriquer le panneau de contrôle vous devez effectuer la découpe au laser de deux fichiers : interface-board-4mm.dxf et interface-board-1mm.dxf. Le premier est pour le contreplaqué de 4 mm et le deuxième pour le contreplaqué de 1 mm. Comme vous pouvez le voir dans les fichiers, les parties sont numérotées pour faciliter l'assemblage. Les numéros sont conservés sur une autre couche, de cette façon vous pouvez les effacer avant la découpe. Nous vous recommandons d'ajuster le trou du bouton poussoir en fonction de la taille du bouton que vous souhaiter utiliser ou obtenir.
 
@@ -242,7 +242,7 @@ Les câbles sont soudés à une rangée de têtes mâles doubles, puisque les br
 
 ![rack]({{ site.baseurl }}images/photo/diy-docs-4.jpg)
 
-Une fois que toutes les LEDs sont soudées nous devons souder nos connecteurs faits-main. Ceux-ci doivent être câblés aux broches analogiques de l'Arduino Mega afin de lire les différentes valeurs des résistances. De la même manière que les LEDs ils doivent être connectés dans l'ordre, en partant de la A0 pour le trou 1 à la A15 pour le trou 16. Le fil doit démarrer du même point où nous avons soudé précédemment la résistance de 10 KΩ. Voir l'illustration : 
+Une fois que toutes les LEDs sont soudées nous devons souder nos connecteurs faits-main. Ceux-ci doivent être câblés aux broches analogiques de l'Arduino Mega afin de lire les différentes valeurs des résistances. De la même manière que les LEDs ils doivent être connectés dans l'ordre, en partant de la A0 pour le trou 1 à la A15 pour le trou 16. Le fil doit démarrer du même point où nous avons soudé précédemment la résistance de 10 KΩ. Voir l'illustration :
 
 ![analog input board connections]({{ site.baseurl }}images/illustrations/board-8.jpg)
 
@@ -271,7 +271,7 @@ Idem pour le bouton rouge : une fois la partie 14 peinte, mettez quelque chose d
 
 ![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
-###LES BLOCS D'INSTRUCTION
+### LES BLOCS D'INSTRUCTION
 
 Voici un bloc d'instruction, en vue éclatée:
 
@@ -300,9 +300,9 @@ Après cela, vous devez poser l'aimant dans le trou. Ce faisant, VERIFIEZ BIEN Q
 
 Fixez l'aimant avec une goutte de colle chaude et avant qu'elle ne refroidisse placez la bonne résistance dessus, avec les pieds couchés sur le ruban de cuivre. Ensuite, la résistance doit être soudée sur les deux morceaux. Après la soudure, coupez ce qui dépasse des pieds et collez la partie 2 par dessus la résistance.
 
-Terminez votre bloc en collant la dernière couche, partie numéro 1, sur le dessus, puis répétez la procédure complète pour chaque bloc :) 
+Terminez votre bloc en collant la dernière couche, partie numéro 1, sur le dessus, puis répétez la procédure complète pour chaque bloc :)
 
-###CUBETTO
+### CUBETTO
 
 Electronique:
 
@@ -316,11 +316,11 @@ L'autocollant est divisé en tranches noires et blanches car le CNY70 est capabl
 
 ![photo]({{ site.baseurl }}images/illustrations/cny70-physycs.jpg)
 
-La zone de prototypage du Wireless Proto Shield est l'endroit où le pilote du moteur et d'autres connecteurs pour les autres parties sont soudées. Pour cela, utilisez simplement des têtes mâles comme connecteurs et des têtes femelles d'autre part. 
+La zone de prototypage du Wireless Proto Shield est l'endroit où le pilote du moteur et d'autres connecteurs pour les autres parties sont soudées. Pour cela, utilisez simplement des têtes mâles comme connecteurs et des têtes femelles d'autre part.
 
 ![photo]({{ site.baseurl }}images/illustrations/wireless-shield-connections.jpg)
 
-Pour cela, j'ai simplement utilisé des têtes mâles comme connecteurs et des têtes femelles d'autre part. 
+Pour cela, j'ai simplement utilisé des têtes mâles comme connecteurs et des têtes femelles d'autre part.
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-12.jpg)
 
@@ -364,15 +364,15 @@ A présent vous pouvez installer les roues et les moteurs. Si vous utilisez les 
 
 Collez trois des quatre côtés de Cubetto, partie 5, 7 et 8. Nous allons laisser l'arrière amovible, juste au cas où nous voudrions modifier quelque chose plus tard.
 
-Prenez le support à pile et soudez les cables rouge et noir à 2 autres connecteurs femelles. 
+Prenez le support à pile et soudez les cables rouge et noir à 2 autres connecteurs femelles.
 
 ![photo]({{ site.baseurl }}images/photo/diy-docs-13.jpg)
 
 Maintenant vous pouvez placer l'Arduino + Proto Shield par dessus les moteurs, branchez les têtes sur le shield et vous avez terminé de construire Cubetto.
 </div>
 
-##Arduino
+## Arduino
 
-###[Téléchargez les fichiers Arduino](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
+### [Téléchargez les fichiers Arduino](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
 
 Les instructions sont dans les commentaires du croquis.

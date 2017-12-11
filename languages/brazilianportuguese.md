@@ -8,7 +8,7 @@ category: language
 <br>
 
 <div id="content" markdown="1">
-##0. O que é esse documento
+## 0. O que é esse documento
 
 ![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
 Este documento reúne todas as informações necessárias para construir um protótipo do Primo.
@@ -54,14 +54,14 @@ Segue abaixo um passo-a-passo:
   ![photo]({{ site.baseurl }}images/screenshots/pull-1.jpg)
 
   14. Clique em "Create Pull Request"
-	
+
   ![photo]({{ site.baseurl }}images/screenshots/pull-2.jpg)
 
   15. Escreva uma mensagem para a sua requisição e é só isso! Agora nós apenas precisamos aprová-la.
 </div>
 <br>
 
-##1. O que é o Primo
+## 1. O que é o Primo
 
 ![primo play set]({{ site.baseurl }}images/photo/primo.jpg)
 
@@ -69,10 +69,10 @@ Primo é uma interface física projetada para introduzir a lógica de programaç
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/82620072" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">        
-    </iframe> 
+    </iframe>
 </div>
 
-##2. Pesquisa
+## 2. Pesquisa
 
 O ensino de programação para crianças é um campo já amplamente debatido. Nós já conhecemos algumas soluções que possuem esse mesmo objetivo, mas para crianças acima de 8 anos. Entretanto, não existem muitas soluções adaptadas para crianças mais novas e não existe nenhuma que trabalha sem a necessidade de telas e de pré-alfabetização. Vemos um número crescente de aplicativos para tablets e computadores que também trabalham em conjunto com robôs, mas nenhum deles é completamente livre do domínio do pixel como é o nosso conjunto Primo.
 
@@ -85,12 +85,12 @@ O conceito por detrás do Primo é muito inspirado pelo trabalho de Seymour Pape
 O primeiro protótipo do Primo foi realizado no SUPSI Lugano, por Matteo Loglio (co-fundador do Primo e designer de interação), durante o [MAInD - Master of Advanced Studies in Interaction Design](http://www.maind.supsi.ch/). A formação de Matteo é em design do produto e depois de aprender o básico sobre Arduino e sua programação, suficientes para a criação do protótipo, ele começou a procurar por soluções técnicas que eram acessíveis para um novato, com o intuito de desenvolver um produto como o Primo. Existiam dois problemas principais: a execução de um carro-robô desde o zero e uma interface que pudesse reconhecer facilmente diferentes instruções.
 O primeiro problema foi resolvido com o uso de uma placa [Oh_Oh board](http://david.cuartielles.com/w/Maquila2/Ohoh) de  David Cuartielles, um dos fundadores do Arduino, que havia dado uma palestra no SUPSI. O Oh_Oh robot é um projeto Open Source - de código aberto - e você pode acessar os arquivos fonte no link acima. É basicamente um Arduino em forma de carro, apenas com um Xbee adicionado para a comunicação via radio.
 
-A segunda questão era projetar uma maneira confiável de detectar os blocos de instrução. A solução foi inspirada por um projeto do [CIID](http://ciid.dk/) chamado ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/). 
+A segunda questão era projetar uma maneira confiável de detectar os blocos de instrução. A solução foi inspirada por um projeto do [CIID](http://ciid.dk/) chamado ["Barcode Piano"](http://ciid.dk/education/portfolio/idp11/courses/physical-computing/projects/barcode-piano/).
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/19704918" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">    
     </iframe>
-</div> 
+</div>
 
 A idéia era usar blocos bem simples, que poderiam ser reconhecidos pela placa usando resistores. É uma operação básica de divisão de voltagem, com os pinos analógicos do Arduino lendo os valores dos resistores. É um método bem simples mas bastante eficiente para um protótipo.
 
@@ -108,7 +108,7 @@ O desenho do formato dos blocos de instrução ainda está sendo testado. O desi
 
 <div class="videoWrapper">
 	<iframe src="//player.vimeo.com/video/50570097" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"  allowfullscreen="true">
-        
+
     </iframe>
 </div>
 
@@ -118,9 +118,9 @@ Demos um nome para a caixinha, junto com uma carinha sorridente, fazendo-o mais 
 
 ![cubetto]({{ site.baseurl }}images/photo/cubetto.jpg)
 
-##3. Começando
+## 3. Começando
 
-###3.1 O básico
+### 3.1 O básico
 
 Primo é composto por três partes: a Mesa de Interface, o Cubetto e um conjunto de Blocos de Instrução. As crianças interagem com a Mesa colocando os Blocos de Instrução nos orifícios para criar uma seqüência (Um programa) que o Cubetto vai executar.
 
@@ -130,9 +130,9 @@ Os Blocos são inseridos nos orifícios da Mesa de Interface, onde o valor do re
 
 O cérebro do protótipo é feito com duas placas Arduino, uma UNO (uma Leonardo ou uma Duemilanove também funcionam) para o Cubetto e uma Mega para a Mesa de Interface, onde são necessárias 16 entradas analógicas.
 
-###3.2 Eletrônica
+### 3.2 Eletrônica
 
-###Ferramentas Necessárias
+### Ferramentas Necessárias
 
 * Ferro de solda
 * Solda
@@ -141,7 +141,7 @@ O cérebro do protótipo é feito com duas placas Arduino, uma UNO (uma Leonardo
 * Cola de madeira
 * Fita de cobre com 5mm de largura
 
-###Materiais (preços em euro)
+### Materiais (preços em euro)
 
 Cubetto ~ 88 €
 
@@ -164,8 +164,8 @@ Mesa de Interface ~ 88 € (pura coincidência)
 * 16 LEDs 5mm Vermelho : 1 € - [Mouser](http://uk.mouser.com/ProductDetail/Lite-On/LTL-4223/?Lite-On/LTL-4223/&qs=sGAEpiMZZMusoohG2hS%252b15J8d1kHl%252bvkJpzS4atZNEA=)
 * 16 Resistores 220 Ω  : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-220-RC/?qs=sGAEpiMZZMu61qfTUdNhG%2f1uGo5nxyCVqn6ChOCvUEE%3d)
 * 16 Resistores 10K Ω : 0.16 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
-* 1 Chave tipo Push Button NA sem trava : 1 € 
-* 50 Conectores macho simples : 1 € 
+* 1 Chave tipo Push Button NA sem trava : 1 €
+* 50 Conectores macho simples : 1 €
 * 16 Conectores macho duplos : 0.50 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=294#.UxC_3fTV_bA)
 * 50 Conectores fêmea : 1 € - [Arduino Store](http://store.arduino.cc/index.php?main_page=product_info&cPath=6_32&products_id=188#.UxDAAfTV_bA)
 * 16 Imãs ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
@@ -178,27 +178,27 @@ Blocos de Instrução ~ 4 €
 * 4 x Resistor 10K Ω : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
 * 16 Imãs ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
 
-###3.3 Energia
+### 3.3 Energia
 
 O Cubetto e (opcionalmente) a Mesa de Interface, são alimentados à bateria. Para o protótipo você pode usar uma bateria LiPo (Lítio-Polímero) ou pilhas AA normais, fica a seu critério. Nós já usamos ambas, as baterias LiPo são boas, mas você precisará de equipamento extra. Se você está começando o seu protótipo do zero, recomendamos as pilhas AA. Apenas lembre-se que elas acabam muito rápido, então o melhor seria usar as pilhas recarregáveis, como as de NiMh.
 
-###3.4 Projeto do Protótipo
+### 3.4 Projeto do Protótipo
 
 Todo o produto é feito com madeira cortada a laser, com espessuras de 4mm (a maioria) e de 1mm (apenas uma camada). Você pode cortar essas partes usando serviços de terceiros, como a Ponoko, ou no seu Fab Lab local. O primeiro protótipo foi cortado dentro do [FabLab Lugano](http://fablab.supsi.ch/), enquanto que o produto já desenvolvido foi feito no [FabLab Torino](http://fablabtorino.org/), onde parte da equipe de desenvolvimento do Primo ainda reside.
 
 Construir o Cubetto e a Mesa de Interface é um procedimento trabalhoso, mas muito simples, pois suas superficies são basicamente caixas. O trabalho mais complexo está nos Blocos de Instrução. Eles são um sanduíche de duas camadas de 4mm de madeira com imãs e resistores soldados internamente.
 
-##4. Fazendo o Protótipo
+## 4. Fazendo o Protótipo
 
-###[Download dos arquivos fonte](files/primo-prototype-laser.zip)
+### [Download dos arquivos fonte](files/primo-prototype-laser.zip)
 
-###4.1 Mesa de Interface
+### 4.1 Mesa de Interface
 
 Para fazer a mesa de Interface você tem que cortar a laser esses dois arquivos: interface-board-4mm.dxf e interface-board-1mm.dxf: o primeiro é para a madeira tipo compensado de 4mm e o segundo para o de 1mm. Como você pode ver nos arquivos, as partes estão todas numeradas para facilitar o processo de montagem. Os números foram desenhados em uma camada diferente, para que você possa removê-los facilmente antes do corte a laser. Nós recomendamos que você faça o ajuste do orifício para o interruptor do tipo push-button baseado no modelo que você encontrou ou no que já tenha.
 
 Em primeiro lugar, você tem que colar entre si as partes 3 e 4, usando os furos nos cantos para alinhá-las com parafusos enquanto as cola. Depois, deixe-as descansando por uma noite.
 
-Pegue então a fita de cobre, corte 32 pedaços com 70mm cada e passe-os dentro dos orifícios retangulares das partes que você acabou de colar, deixando ao menos 30mm de cada lado (em cima e em baixo). 
+Pegue então a fita de cobre, corte 32 pedaços com 70mm cada e passe-os dentro dos orifícios retangulares das partes que você acabou de colar, deixando ao menos 30mm de cada lado (em cima e em baixo).
 
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-1.jpg)
 ![copper connectors]({{ site.baseurl }}images/illustrations/board-2.jpg)
@@ -225,7 +225,7 @@ No final desse processo, você deve ter algo assim:
 
 ![10k scheme]({{ site.baseurl }}images/illustrations/board-6.jpg)
 
-Agora é a hora de colocarmos os LEDs; Espete um LED vermelho em cada um dos 16 orifícios, então use uma gota de cola quente para fixá-los na madeira. Uma vez que a cola esfriou, é a hora de conectá-los. Lembre-se que os LEDs possuem polaridade: a perna mais comprida é o ânodo e a mais curta o cátodo. 
+Agora é a hora de colocarmos os LEDs; Espete um LED vermelho em cada um dos 16 orifícios, então use uma gota de cola quente para fixá-los na madeira. Uma vez que a cola esfriou, é a hora de conectá-los. Lembre-se que os LEDs possuem polaridade: a perna mais comprida é o ânodo e a mais curta o cátodo.
 
 ![10k]({{ site.baseurl }}images/photo/diy-docs-6.jpg)
 
@@ -249,7 +249,7 @@ Uma vez que todos os LEDs estejam soldados, nós temos que começar a soldar os 
 
 <p>
 Aqui eu usei alguns conectores macho simples, já que os pinos de entrada e saída analógicos estão dispostos em apenas uma fileira.
-	
+
 </p>
 
 <p>
@@ -270,7 +270,7 @@ O mesmo vale para o botão vermelho: depois de pintar a parte 14, coloque algo m
 
 ![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
-###BLOCOS DE INSTRUÇÃO
+### BLOCOS DE INSTRUÇÃO
 
 Este é um bloco de instrução, em vista explodida:
 
@@ -301,11 +301,11 @@ Fixe o imã com uma gota de cola quente e, antes da cola esfriar, coloque o resi
 
 Termine seu bloco colando a última camada, a parte número 1, no topo, e repita todo o processo para cada Bloco de Instrução :)
 
-###CUBETTO
+### CUBETTO
 
 Eletrônica:
 
-O protótipo do Cubetto pode ser construído usando um Arduino Uno ou Leonardo, com um Módulo Wireless agregado. A razão do uso desse tipo de módulo é que ele tem uma superfície relativamente pequena, mas que é suficiente para colocarmos os drivers dos motores, os conectores para os codificadores ópticos, os motores e a alimentação. 
+O protótipo do Cubetto pode ser construído usando um Arduino Uno ou Leonardo, com um Módulo Wireless agregado. A razão do uso desse tipo de módulo é que ele tem uma superfície relativamente pequena, mas que é suficiente para colocarmos os drivers dos motores, os conectores para os codificadores ópticos, os motores e a alimentação.
 
 O Cubetto deve girar 90 graus para a esquerda e para a direita. Uma maneira não muito precisa de fazer isso seria usando uma contagem de tempo, fazendo algo como “gire a direita por um segundo”. É de se esperar que o resultado seja mais ou menos sempre o mesmo. “Mais ou menos” porque isso vai depender de uma porção de fatores distintos, como o piso, a carga da bateria e assim por diante. A maneira que resolvemos esse problema é detectando a quantidade de rotação da roda usando dois sensores ópticos CNY70 combinados com um adesivo. O adesivo redondo é aplicado por dentro da roda, como nessa foto:
 
@@ -315,7 +315,7 @@ O adesivo tem um padrão geométrico de listas pretas e brancas, porque o CNY70 
 
 ![photo]({{ site.baseurl }}images/illustrations/cny70-physycs.jpg)
 
-A área útil disponível no Módulo Wireless é onde os drivers dos motores e outros conectores das demais peças serão soldados. 
+A área útil disponível no Módulo Wireless é onde os drivers dos motores e outros conectores das demais peças serão soldados.
 
 ![photo]({{ site.baseurl }}images/illustrations/wireless-shield-connections.jpg)
 
@@ -370,8 +370,8 @@ Pegue o suporte das baterias e solde os cabos preto e vermelho a outros dois con
 Agora você pode colocar o conjunto Arduino + Módulo Wireless por cima dos motores, plugar todos os conectores na placa e no Módulo e você terminou de fazer o Cubetto!
 </div>
 
-##Arduino
+## Arduino
 
-###[Download dos arquivos Arduino](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
+### [Download dos arquivos Arduino](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
 
 As instruções estão contidas nos próprios comentários dentro do código de programação (Sketch).
